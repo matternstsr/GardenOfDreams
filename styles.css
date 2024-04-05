@@ -1,0 +1,8 @@
+.header {
+    background-image: url("images/pic_1.jpg");
+    max-width: 100%;
+    height: auto;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
