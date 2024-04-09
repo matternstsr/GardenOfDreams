@@ -1,89 +1,93 @@
 *, *::before, *::after {
-    box-sizing: border-box !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-  }
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
 
 /* Background Images Main Page */
 
 #backgroundPic {
-    max-width: 100%;
-    height: auto;
-    background-position-x: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: background-image 0.5s ease;
-  }
+  max-width: 100%;
+  height: auto;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease;
+}
 
 /* Header Section */
 
+header {
+margin-bottom: 75px !important;
+}
+
 header h1 {
-    font-size: 90px !important;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-  }
+  font-size: 90px !important;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
 
 .search {
-  font-size: 25px !important;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  align-self: center;
-  margin-left: 20px !important;
+font-size: 25px !important;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+align-self: center;
+margin-left: 20px !important;
 }
 
 .about {
-  font-size: 25px !important;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  align-self: center;
-  margin-right: 20px !important;
+font-size: 25px !important;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+align-self: center;
+margin-right: 20px !important;
 }
 
 /* Main Section */
 
-    /* Dropdown */
+  /* Dropdown */
 
 .dropdown button {
-  min-width: 15% !important;
+min-width: 15% !important;
 }
 
 .dropdown-menu {
-  min-width: 15% !important;
-  max-height: 200px !important;
-  overflow: auto !important;
+min-width: 15% !important;
+max-height: 200px !important;
+overflow: auto !important;
 }
 
-    /* Carousel */
+  /* Carousel */
 
 .stateName {
-  font-size: 25px !important;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+font-size: 25px !important;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 }
 
 /* Footer Section */
 
 footer h1 {
-  font-size: 50px !important;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+font-size: 50px !important;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
 }
 
 /* Test */
 
 .card {
-  width: 200px !important;
-  height: 250px !important;
+width: 200px !important;
+height: 250px !important;
 }
 
 .card-img-top {
-  width: inherit !important;
-  height: 110px !important;
+width: inherit !important;
+height: 110px !important;
 }
 
 .card-body {
-  width: inherit;
-  height: 140px;
-  background-color: white;
+width: inherit;
+height: 140px;
+background-color: white;
 }
