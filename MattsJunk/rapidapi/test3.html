@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+// GtGYw3ccK_U_fusGrUxPgG5XTkDTpmjHv73-WDIejiE
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Explorer</title>
+</head>
+<body>
+    <h1>Plant Explorer</h1>
+    <div>
+        <label for="searchInput">Search by Name:</label>
+        <input type="text" id="searchInput">
+        <button onclick="searchPlants()">Search</button>
+    </div>
+    <div id="plant-list"></div>
+
+    <script>
+        async function fetchPlants(searchParams) {
+            const url = new URL('https://plants10.p.rapidapi.com/plants');
+            Object.keys(searchParams).forEach(key => url.searchParams.append(key, searchParams[key]));
+            
+            try {
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'X-RapidAPI-Key': 'b8a5eb0b05mshc8a16a1d011542ep156953jsn216ef51bf7ec',
+                        'X-RapidAPI-Host': 'plants10.p.rapidapi.com'
+                    }
+                });
+                const data = await response.json();
+                return data.data;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                return [];
+            }
+        }
+
+        async function fetchPlantDetails(plantId) {
+            const url = new URL('https://plants10.p.rapidapi.com/plants/details');
+            url.searchParams.append('id', plantId);
+            
+            try {
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'X-RapidAPI-Key': 'b8a5eb0b05mshc8a16a1d011542ep156953jsn216ef51bf7ec',
+                        'X-RapidAPI-Host': 'plants10.p.rapidapi.com'
+                    }
+                });
+                const data = await response.json();
+                return data.data[0]; // Return details of the first plant
+            } catch (error) {
+                console.error('Error fetching plant details:', error);
+                return null;
+            }
+        }
+
+        async function displayPlants(plantData) {
+          const plantListElement = document.getElementById('plant-list');
+          plantListElement.innerHTML = ''; // Clear previous data
+          
+          plantData.forEach(async plant => {
+              const plantDetails = await fetchPlantDetails(plant.id);
+              if (plantDetails) {
+                  const plantHTML = `
+                      <div>
+                          <h2>${plant.common_name || plant.scientific_name}</h2>
+                          <p>Details:</p>
+                          <pre>${JSON.stringify(plantDetails, null, 2)}</pre>
+                      </div>
+                  `;
+                  plantListElement.insertAdjacentHTML('beforeend', plantHTML);
+              }
+          });
+      }
+      
+
+        async function searchPlants() {
+            const searchInput = document.getElementById('searchInput').value.trim();
+            const searchParams = {
+                common_name: searchInput,
+                limit: '100' // Adjust limit as needed
+            };
+            const plantData = await fetchPlants(searchParams);
+            displayPlants(plantData);
+        }
+
+        // Fetch and display initial plant data
+        window.onload = async () => {
+            const initialParams = {
+                limit: '100' // Initial limit for plant data
+            };
+            const initialData = await fetchPlants(initialParams);
+            displayPlants(initialData);
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Attributes</title>
+</head>
+<body>
+    <h1>Plant Attributes</h1>
+    <div id="plant-list"></div>
+
+    <script>
+        // Function to map FIPS code to state name
+        function getStates(fipsCode) {
+            const stateMap = {
+                US01: 'ALABAMA',
+                US02: 'ALASKA',
+                US04: 'ARIZONA',
+                US05: 'ARKANSAS',
+                US06: 'CALIFORNIA',
+                US08: 'COLORADO',
+                US09: 'CONNECTICUT',
+                US10: 'DELAWARE',
+                US11: 'DISTRICT OF COLUMBIA',
+                US12: 'FLORIDA',
+                US13: 'GEORGIA',
+                US15: 'HAWAII',
+                US16: 'IDAHO',
+                US17: 'ILLINOIS',
+                US18: 'INDIANA',
+                US19: 'IOWA',
+                US20: 'KANSAS',
+                US21: 'KENTUCKY',
+                US22: 'LOUISIANA',
+                US23: 'MAINE',
+                US24: 'MARYLAND',
+                US25: 'MASSACHUSETTS',
+                US26: 'MICHIGAN',
+                US27: 'MINNESOTA',
+                US28: 'MISSISSIPPI',
+                US29: 'MISSOURI',
+                US30: 'MONTANA',
+                US31: 'NEBRASKA',
+                US32: 'NEVADA',
+                US33: 'NEW HAMPSHIRE',
+                US34: 'NEW JERSEY',
+                US35: 'NEW MEXICO',
+                US36: 'NEW YORK',
+                US37: 'NORTH CAROLINA',
+                US38: 'NORTH DAKOTA',
+                US39: 'OHIO',
+                US40: 'OKLAHOMA',
+                US41: 'OREGON',
+                US42: 'PENNSYLVANIA',
+                US44: 'RHODE ISLAND',
+                US45: 'SOUTH CAROLINA',
+                US46: 'SOUTH DAKOTA',
+                US47: 'TENNESSEE',
+                US48: 'TEXAS',
+                US49: 'UTAH',
+                US50: 'VERMONT',
+                US51: 'VIRGINIA',
+                US53: 'WASHINGTON',
+                US54: 'WEST VIRGINIA',
+                US55: 'WISCONSIN',
+                US56: 'WYOMING',
+                US60: 'AMERICAN SAMOA',
+                US66: 'GUAM',
+                US69: 'NORTHERN MARIANA ISLANDS',
+                US72: 'PUERTO RICO',
+                US74: 'U.S. MINOR OUTLYING ISLANDS',
+                US78: 'VIRGIN ISLANDS'
+            };
+
+            return stateMap[fipsCode] || 'Unknown';
+        }
+
+        fetch('https://plants10.p.rapidapi.com/plants/states', {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': 'b8a5eb0b05mshc8a16a1d011542ep156953jsn216ef51bf7ec',
+                'X-RapidAPI-Host': 'plants10.p.rapidapi.com'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            displayDataOnHTML(data.data);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+        
+        function displayDataOnHTML(plantData) {
+            const plantListElement = document.getElementById('plant-list');
+        
+            const plantHTML = plantData.map(plant => {
+                // Filter out undefined attributes
+                const attributes = Object.entries(plant)
+                    .filter(([key, value]) => value !== null && value !== undefined)
+                    .map(([key, value]) => `<li>${key}: ${key === 'fips_code' ? getStates(value) : value}</li>`)
+                    .join('');
+
+                return `
+                    <div>
+                        <h2>${plant.common_name || plant.scientific_name}</h2>
+                        <ul>
+                            ${attributes}
+                        </ul>
+                    </div>
+                `;
+            }).join('');
+        
+            plantListElement.innerHTML = plantHTML;
+        }
+    </script>
+</body>
+</html>
