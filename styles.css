@@ -50,6 +50,7 @@ margin-right: 20px !important;
 
 .dropdown button {
 min-width: 15% !important;
+margin-bottom: 240px !important;
 }
 
 .dropdown-menu {
@@ -60,10 +61,20 @@ overflow: auto !important;
 
   /* Carousel */
 
+.plants_carousel .container {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .stateName {
-font-size: 25px !important;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
+  font-size: 25px !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  opacity: 100% !important;
+}
+
+.bullet {
+  font-size: 20px;
 }
 
 /* Footer Section */
@@ -89,5 +100,4 @@ height: 110px !important;
 .card-body {
 width: inherit;
 height: 140px;
-background-color: white;
 }
