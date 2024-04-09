@@ -50,6 +50,8 @@ header h1 {
 
 .dropdown-menu {
   min-width: 15% !important;
+  max-height: 200px !important;
+  overflow: auto !important;
 }
 
     /* Carousel */
