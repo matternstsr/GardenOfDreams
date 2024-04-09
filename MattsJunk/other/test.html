@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Identification</title>
+</head>
+<body>
+    <h1>Plant Identification</h1>
+    
+    <label for="climate">Climate:</label>
+    <select id="climate">
+        <option value="zone_max">Zone Max</option>
+        <option value="zone_min">Zone Min</option>
+        <option value="absolute_min_temp">Absolute Min Temperature</option>
+        <option value="light">Light</option>
+        <option value="light_secondary">Secondary Light</option>
+        <option value="humidity">Humidity</option>
+        <option value="difficulty">Difficulty</option>
+        <option value="poison_type">Poison Type</option>
+        <option value="dormancy">Dormancy</option>
+    </select>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" value="Bengal rose">
+    
+    <label for="latin">Latin Name:</label>
+    <input type="text" id="latin" value="Rosa chinensis">
+    
+    <label for="invitation">Invitation:</label>
+    <textarea id="invitation">Rosa chinensis, known commonly as the China rose or Chinese rose, is a member of the genus Rosa native to Southwest China in Guizhou, Hubei, and Sichuan Provinces. The first publication of Rosa chinensis was in 1768 by Nikolaus Joseph von Jacquin.</textarea>
+    
+    <label for="water">Water Schedule:</label>
+    <input type="number" id="water" value="6" min="0">
+    
+    <label for="fertilizer">Fertilizer Schedule:</label>
+    <input type="number" id="fertilizer" value="30" min="0">
+    
+    <button onclick="submitData()">Submit</button>
+    
+    <script>
+        function submitData() {
+            var climate = document.getElementById("climate").value;
+            var name = document.getElementById("name").value;
+            var latin = document.getElementById("latin").value;
+            var invitation = document.getElementById("invitation").value;
+            var water = document.getElementById("water").value;
+            var fertilizer = document.getElementById("fertilizer").value;
+            
+            var data = {
+                success: true,
+                plants: {
+                    climate: {
+                        [climate]: null
+                    },
+                    name: name,
+                    latin: latin,
+                    invitation: invitation
+                },
+                care_schedule: { 
+                    water: water,
+                    fertilizer: fertilizer
+                }
+            };
+            
+            // Send data to server or do something with it
+            console.log(data);
+        }
+    </script>
+</body>
+</html>
