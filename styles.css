@@ -29,11 +29,11 @@ header h1 {
 }
 
 .search {
-font-size: 25px !important;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
-align-self: center;
-margin-left: 20px !important;
+  font-size: 25px !important;
+  opacity: 0% !important;
+  align-self: center;
+  margin-left: 20px !important;
+  z-index: -3;
 }
 
 .about {
@@ -41,7 +41,6 @@ font-size: 25px !important;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
 align-self: center;
-margin-right: 20px !important;
 }
 
 /* Main Section */
@@ -80,9 +79,13 @@ overflow: auto !important;
 /* Footer Section */
 
 footer h1 {
-font-size: 50px !important;
--webkit-text-stroke-width: 2px;
+font-size: 20px !important;
+-webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
+}
+
+.established {
+  font-size: 12px;
 }
 
 /* Test */
