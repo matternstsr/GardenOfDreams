@@ -9,36 +9,55 @@
     <h1>Plant Identification</h1>
     
     <label for="climate">Climate:</label>
-    <select id="climate">
-        <option value="zone_max">Zone Max</option>
-        <option value="zone_min">Zone Min</option>
-        <option value="absolute_min_temp">Absolute Min Temperature</option>
-        <option value="light">Light</option>
-        <option value="light_secondary">Secondary Light</option>
-        <option value="humidity">Humidity</option>
-        <option value="difficulty">Difficulty</option>
-        <option value="poison_type">Poison Type</option>
-        <option value="dormancy">Dormancy</option>
-    </select>
+    <select id="climate"></select>
     
     <label for="name">Name:</label>
-    <input type="text" id="name" value="Bengal rose">
+    <input type="text" id="name">
     
     <label for="latin">Latin Name:</label>
-    <input type="text" id="latin" value="Rosa chinensis">
+    <input type="text" id="latin">
     
     <label for="invitation">Invitation:</label>
-    <textarea id="invitation">Rosa chinensis, known commonly as the China rose or Chinese rose, is a member of the genus Rosa native to Southwest China in Guizhou, Hubei, and Sichuan Provinces. The first publication of Rosa chinensis was in 1768 by Nikolaus Joseph von Jacquin.</textarea>
+    <textarea id="invitation"></textarea>
     
     <label for="water">Water Schedule:</label>
-    <input type="number" id="water" value="6" min="0">
+    <input type="number" id="water" min="0">
     
     <label for="fertilizer">Fertilizer Schedule:</label>
-    <input type="number" id="fertilizer" value="30" min="0">
+    <input type="number" id="fertilizer" min="0">
     
     <button onclick="submitData()">Submit</button>
     
     <script>
+        // Function to fetch data from API
+        function fetchData() {
+            fetch("https://api.plantcaregarden.com/v1/plant/identify", {
+                method: 'POST',
+                headers: {
+                    'accessKey': 'f94f823e958c18ce4c80b0f080b1945ad7c450382bb3447d40d88b7fb41d0b6f'
+                },
+                body: new FormData()
+            })
+            .then(response => response.json())
+            .then(data => {
+                const climateSelect = document.getElementById("climate");
+                const climateOptions = data.plants.climate;
+                
+                for (const key in climateOptions) {
+                    if (climateOptions[key] !== null) {
+                        const option = document.createElement("option");
+                        option.value = key;
+                        option.textContent = key;
+                        climateSelect.appendChild(option);
+                    }
+                }
+            })
+            .catch(error => console.error('Error fetching data:', error));
+        }
+
+        // Call fetchData function when the page loads
+        window.onload = fetchData;
+
         function submitData() {
             var climate = document.getElementById("climate").value;
             var name = document.getElementById("name").value;
