@@ -36,47 +36,47 @@
           "Description": "Cogongrass is an invasive grass species that forms dense stands, outcompeting native vegetation.",
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Mechanical Removal"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Cogongrass.jpg"
         },
         "Pigweed": {
           "Description": "Pigweed is a broadleaf weed that can reduce crop yields and produce allergenic pollen.",
           "Native": "it is not",
           "ControlMethods": ["Cultural Practices", "Herbicides"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Pigweed.jpg"
         },
         "Kudzu": {
           "Description": "Kudzu is a fast-growing vine that smothers trees and other vegetation, leading to habitat loss.",
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Mechanical Removal", "Biological Control"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Kudzu.jpg"
         },
         "Bermudagrass": {
           "Description": "Bermudagrass is a persistent weed that spreads rapidly and can be difficult to eradicate.",
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Cultural Practices"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Bermudagrass.jpg"
         }
       },
       "pests": {
         "Emerald Ash Borer": {
           "Description": "Emerald Ash Borers are invasive beetles that infest and kill ash trees.",
           "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Emerald Ash Borer.jpg"
         },
         "Kudzu Bug": {
           "Description": "Kudzu Bugs are stink bugs that feed on kudzu and soybean plants, causing crop damage.",
           "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Kudzu Bug.jpg"
         },
         "Japanese Beetle": {
           "Description": "Japanese Beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops.",
           "ControlMethods": ["Insecticides", "Traps"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Japanese Beetle.jpg"
         },
         "Southern Pine Beetle": {
           "Description": "Southern Pine Beetles are bark beetles that attack and kill pine trees, causing significant damage to forests.",
           "ControlMethods": ["Sanitation", "Chemical Control"],
-          "image": "alabama_state_flower.jpg"
+          "image": "Southern Pine Beetle.jpg"
         }
       },
       "crops": {
@@ -86,7 +86,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Cotton.jpg"
         },
         "Soybeans": {
           "Description": "Soybeans are legumes cultivated for their high protein content and various industrial uses.",
@@ -94,7 +94,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "v.jpg"
         },
         "Peanuts": {
           "Description": "Peanuts, also known as groundnuts, are nutritious legumes grown for their edible seeds.",
@@ -102,7 +102,7 @@
           "Native": "it is not",
           "SoilType": "Sandy loam",
           "WaterNeeded": "Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Peanuts.jpg"
         },
         "Corn": {
           "Description": "Corn, or maize, is a staple cereal crop used for food, animal feed, and industrial purposes.",
@@ -110,7 +110,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Corn.jpg"
         }
       },
       "flowers": {
@@ -120,7 +120,7 @@
           "Native": "it is",
           "SoilType": "Acidic, well-drained soil",
           "WaterNeeded": "High",
-          "image": "alabama_state_flower.jpg"
+          "image": "Azaleas.jpg"
         },
         "Black-eyed Susan": {
           "Description": "Black-eyed Susans are wildflowers known for their daisy-like blooms and hardy nature.",
@@ -128,7 +128,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Low to Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Black-eyed Susan.jpg"
         },
         "Butterfly Weed": {
           "Description": "Butterfly weed, a type of milkweed native to Alabama, is a favorite among gardeners for its bright orange flowers and ability to attract butterflies.",
@@ -136,7 +136,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Low to Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Butterfly Weed.jpg"
         },
         "Coreopsis": {
           "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Alabama's sunny gardens.",
@@ -144,7 +144,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Coreopsis.jpg"
         },
         "Goldenrod": {
           "Description": "Goldenrod, a native wildflower, is often wrongly blamed for causing hay fever. Its pollen is too heavy to be wind-dispersed and is primarily pollinated by insects.",
@@ -152,7 +152,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Low to Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Goldenrod.jpg"
         }
       },
       "trees": {
@@ -162,7 +162,7 @@
           "Native": "it is not",
           "SoilType": "Deep, well-drained soil",
           "WaterNeeded": "Moderate to High",
-          "image": "alabama_state_flower.jpg"
+          "image": "Pecan.jpg"
         },
         "Southern Magnolia": {
           "Description": "Southern Magnolias are iconic evergreen trees admired for their large, fragrant flowers and glossy foliage.",
@@ -170,7 +170,7 @@
           "Native": "it is",
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate to High",
-          "image": "alabama_state_flower.jpg"
+          "image": "Southern Magnolia.jpg"
         },
         "Longleaf Pine": {
           "Description": "Longleaf Pines are native conifers known for their long needles and role in supporting diverse ecosystems.",
@@ -178,7 +178,7 @@
           "Native": "it is",
           "SoilType": "Sandy or loamy soil",
           "WaterNeeded": "Low to Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "Longleaf Pine.jpg"
         },
         "Live Oak": {
           "Description": "Live Oaks are majestic evergreen trees with broad canopies, valued for their beauty and longevity.",
@@ -186,7 +186,7 @@
           "Native": "it is",
           "SoilType": "Well-drained, acidic soil",
           "WaterNeeded": "Low to Moderate",
-          "image": "alabama_state_flower.jpg"
+          "image": "LiveOak.jpg"
         },
         "commonFlowers": {
           "Azalea": {

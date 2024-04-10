@@ -6,7 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>State Plants Database</title>
         <style>
-            /* Add your CSS styling here */
+            .stateWildFlowers {
+                border: 2px solid black;
+                padding: 10px; /* Optional: Add padding for better visual appearance */
+            }
+            .stateCrops {
+                border: 2px solid black;
+                padding: 10px; /* Optional: Add padding for better visual appearance */
+            }
+            .stateWeeds {
+                border: 2px solid black;
+                padding: 10px; /* Optional: Add padding for better visual appearance */
+            }
+            .stateTrees {
+                border: 2px solid black;
+                padding: 10px; /* Optional: Add padding for better visual appearance */
+            }
+            .statePests {
+                border: 2px solid black;
+                padding: 10px; /* Optional: Add padding for better visual appearance */
+            }
+            .img {
+                object-fit: scale-down; /* Maintain aspect ratio and cover the entire area */
+                position: absolute;
+                top: 0;
+                left: 0;
+              }
         </style>
     </head>
     <body>
@@ -74,6 +99,8 @@
                         <p><strong>State Crop:</strong> ${item.stateCrop.join(", ")}</p>
                         <p><strong>Common Flowers:</strong> ${item.commonFlowers.join(", ")}</p>
                         <!-- Add more fields as needed -->
+                        </div>
+                        <img src="images/resultsImages/stateFlowers/${item.image}" alt="${stateName} Image">
                         <div class="stateWildFlowers">
                             <h3>State Wild Flowers:</h3>
                             ${Object.keys(item.flowers).map(flowerName => `
@@ -98,7 +125,7 @@
                                     <p><strong>Season:</strong> ${item.crops[cropName].Season}</p>
                                     <p><strong>Soil Type:</strong> ${item.crops[cropName].SoilType}</p>
                                     <p><strong>Water Needed:</strong> ${item.crops[cropName].WaterNeeded}</p>
-                                    <img src="images/resultsImages/crops/${item.image}.jpg" alt="${cropName} Image">
+                                    <img src="images/resultsImages/crops/${cropName}.jpg" alt="${cropName} Image">
                                 </div>
                             `).join("")}
                         </div>
@@ -110,7 +137,7 @@
                                     <p><strong>Description:</strong> ${item.weeds[weedName].Description}</p>
                                     <p><strong>Native:</strong> ${item.weeds[weedName].Native ? 'it is' : 'it is not'}</p>
                                     <p><strong>Control Methods:</strong> ${item.weeds[weedName].ControlMethods.join(", ")}</p>
-                                    <img src="images/resultsImages/stateFlowers/${item.image}.jpg" alt="${weedName} Image">
+                                    <img src="images/resultsImages/weeds/${weedName}.jpg" alt="${weedName} Image">
                                 </div>
                             `).join("")}
                         </div>
@@ -124,7 +151,7 @@
                                     <p><strong>Season:</strong> ${item.trees[treeName].Season}</p>
                                     <p><strong>Soil Type:</strong> ${item.trees[treeName].SoilType}</p>
                                     <p><strong>Water Needed:</strong> ${item.trees[treeName].WaterNeeded}</p>
-                                    <img src="images/resultsImages/trees/${item.image}.jpg" alt="${treeName} Image">
+                                    <img src="images/resultsImages/trees/${treeName}.jpg" alt="${treeName} Image">
                                 </div>
                             `).join("")}
                         </div>
@@ -136,18 +163,16 @@
                                     <p><strong>Description:</strong> ${item.pests[pestName].Description}</p>
                                     <p><strong>Native:</strong> ${item.pests[pestName].Native ? 'it is' : 'it is not'}</p>
                                     <p><strong>Control Methods:</strong> ${item.pests[pestName].ControlMethods.join(", ")}</p>
-                                    <img src="images/resultsImages/pests/${item.image}.jpg" alt="${pestName} Image">
+                                    <img src="images/resultsImages/pests/${pestName}.jpg" alt="${pestName} Image">
                                 </div>
                             `).join("")}
                         </div>
-                        <img src="images/resultsImages/stateFlowers/${item.image}" alt="${stateName} Image">
                         <div class="gardening-facts">
                             <h3>Gardening Facts:</h3>
                             <ul>
                                 ${item.gardeningFacts.map(fact => `<li>${fact}</li>`).join("")}
                             </ul>
                         </div>
-                    </div>
                 `;
                 resultsDiv.innerHTML += resultHTML;
             }
