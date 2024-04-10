@@ -30,7 +30,20 @@
           "Alabama's coastal regions offer unique gardening opportunities, with plants adapted to salt spray and sandy soils thriving in beachfront gardens.",
           "Alabama's diverse landscapes, from mountains to coastal plains, provide a range of microclimates suitable for growing a wide variety of plants.",
           "The state's network of botanical gardens and arboretums showcase Alabama's native flora and provide inspiration for home gardeners."
-      ]
+      ],
+      "weeds": [
+        "Cogongrass (Imperata cylindrica)",
+        "Pigweed (Amaranthus spp.)",
+        "Kudzu (Pueraria montana)",
+        "Bermudagrass (Cynodon dactylon)"
+      ],
+      "pests": [
+        "Emerald Ash Borer (Agrilus planipennis)",
+        "Kudzu Bug (Megacopta cribraria)",
+        "Japanese Beetle (Popillia japonica)",
+        "Southern Pine Beetle (Dendroctonus frontalis)"
+      ],
+      
   },
   {
       "state": "ALASKA",
@@ -64,6 +77,12 @@
           "Alaska's gardening traditions are influenced by Indigenous cultures, with practices like companion planting and seed saving being passed down through generations.",
           "The short but intense growing season in Alaska requires careful planning and attention to soil health and fertility.",
           "Despite the challenges, gardening in Alaska offers unique rewards, including stunning landscapes, fresh air, and the satisfaction of growing your own food."
+      ],
+      "Weeds": [
+        "Horsetail (Equisetum arvense)",
+        "Fireweed (Chamerion angustifolium)",
+        "Dandelion (Taraxacum officinale)",
+        "Wild Iris (Iris setosa)"
       ]
   },
   {
@@ -97,6 +116,12 @@
           "The state's botanical gardens and arboretums showcase Arizona's native plants and offer educational programs for gardeners of all ages.",
           "In urban areas like Phoenix and Tucson, community gardens provide residents with access to fresh produce and green space.",
           "Despite the challenges of gardening in the desert, Arizona's gardeners are passionate about creating beautiful and sustainable landscapes that thrive in arid conditions."
+      ],
+      "Weeds": [
+        "Russian Thistle (Salsola tragus)",
+        "Palmer Amaranth (Amaranthus palmeri)",
+        "Buffelgrass (Pennisetum ciliare)",
+        "Brome Grass (Bromus spp.)"
       ]
   },
   {

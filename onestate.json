@@ -1,0 +1,173 @@
+{
+  "states": {
+    "ALABAMA": {
+      "commonName": "Yellow Jessamine",
+      "scientificName": "Gelsemium sempervirens",
+      "image": "alabama_state_flower.jpg",
+      "stateFlower": "Camellia",
+      "statePlant": "Longleaf Pine",
+      "stateTree": "Southern Longleaf Pine",
+      "stateCrop": ["Cotton", "Soybeans", "Peanuts", "Corn", "Wheat"],
+      "commonFlowers": ["Azalea", "Black-eyed Susan", "Butterfly Weed", "Coreopsis", "Goldenrod"],
+      "gardeningFacts": [
+        "Alabama's climate is favorable for growing a variety of plants, including both tropical and temperate species.",
+        "The state's rich soil and ample rainfall support a thriving agricultural industry, with crops like cotton, soybeans, and peanuts being major contributors to the economy.",
+        "Longleaf pine forests are an essential part of Alabama's ecosystem, providing habitat for diverse plant and animal species.",
+        "Camellias, the state flower, are popular ornamental plants known for their beautiful flowers and glossy evergreen foliage.",
+        "Alabama's native wildflowers, such as black-eyed Susans and goldenrod, add vibrant colors to the landscape and attract pollinators.",
+        "Gardening enthusiasts in Alabama often cultivate azaleas, which thrive in the state's acidic soil and mild winters.",
+        "Butterfly weed, a type of milkweed native to Alabama, is a favorite among gardeners for its bright orange flowers and ability to attract butterflies.",
+        "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Alabama's sunny gardens.",
+        "Alabama gardeners can enjoy a long growing season, with mild temperatures in spring and fall and warm summers ideal for heat-loving crops.",
+        "Goldenrod, a native wildflower, is often wrongly blamed for causing hay fever. Its pollen is too heavy to be wind-dispersed and is primarily pollinated by insects.",
+        "Alabama's agricultural diversity allows for the production of a wide range of crops, from traditional staples like corn and wheat to specialty crops like pecans and peaches.",
+        "Alabama's state tree, the southern longleaf pine, was once a dominant species in the state's forests and is now a symbol of conservation efforts to restore its habitat.",
+        "Gardening in Alabama can be challenging due to the state's variable climate, with occasional droughts, heavy rains, and temperature extremes.",
+        "Alabama's rich cultural heritage includes traditional gardening practices passed down through generations, such as planting by the phases of the moon and companion planting.",
+        "The state's agricultural extension services provide valuable resources and support to gardeners, offering advice on soil testing, pest management, and crop selection.",
+        "Alabama's mild winters allow for year-round gardening activities, with cool-season crops like kale and broccoli thriving in the cooler months.",
+        "Gardeners in Alabama often use raised beds and container gardening to overcome challenges such as poor soil quality and limited space.",
+        "Alabama's coastal regions offer unique gardening opportunities, with plants adapted to salt spray and sandy soils thriving in beachfront gardens.",
+        "Alabama's diverse landscapes, from mountains to coastal plains, provide a range of microclimates suitable for growing a wide variety of plants.",
+        "The state's network of botanical gardens and arboretums showcase Alabama's native flora and provide inspiration for home gardeners."
+      ],
+      "weeds": {
+        "Cogongrass": {
+          "Description": "Cogongrass is an invasive grass species that forms dense stands, outcompeting native vegetation.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"]
+        },
+        "Pigweed": {
+          "Description": "Pigweed is a broadleaf weed that can reduce crop yields and produce allergenic pollen.",
+          "Native": "it is not",
+          "ControlMethods": ["Cultural Practices", "Herbicides"]
+        },
+        "Kudzu": {
+          "Description": "Kudzu is a fast-growing vine that smothers trees and other vegetation, leading to habitat loss.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal", "Biological Control"]
+        },
+        "Bermudagrass": {
+          "Description": "Bermudagrass is a persistent weed that spreads rapidly and can be difficult to eradicate.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Cultural Practices"]
+        }
+      },
+      "pests": {
+        "Emerald Ash Borer": {
+          "Description": "Emerald Ash Borers are invasive beetles that infest and kill ash trees.",
+          "ControlMethods": ["Insecticides", "Biological Control"]
+        },
+        "Kudzu Bug": {
+          "Description": "Kudzu Bugs are stink bugs that feed on kudzu and soybean plants, causing crop damage.",
+          "ControlMethods": ["Insecticides", "Biological Control"]
+        },
+        "Japanese Beetle": {
+          "Description": "Japanese Beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops.",
+          "ControlMethods": ["Insecticides", "Traps"]
+        },
+        "Southern Pine Beetle": {
+          "Description": "Southern Pine Beetles are bark beetles that attack and kill pine trees, causing significant damage to forests.",
+          "ControlMethods": ["Sanitation", "Chemical Control"]
+        }
+      },
+      "crops": {
+        "Cotton": {
+          "Description": "Cotton is a major cash crop grown for its fluffy fibers, which are used in textile production.",
+          "Season": "April to October",
+          "Native": "it is not",
+          "SoilType": "Well-drained loam",
+          "WaterNeeded": "Moderate"
+        },
+        "Soybeans": {
+          "Description": "Soybeans are legumes cultivated for their high protein content and various industrial uses.",
+          "Season": "May to October",
+          "Native": "it is not",
+          "SoilType": "Well-drained loam",
+          "WaterNeeded": "Moderate"
+        },
+        "Peanuts": {
+          "Description": "Peanuts, also known as groundnuts, are nutritious legumes grown for their edible seeds.",
+          "Season": "May to October",
+          "Native": "it is not",
+          "SoilType": "Sandy loam",
+          "WaterNeeded": "Moderate"
+        },
+        "Corn": {
+          "Description": "Corn, or maize, is a staple cereal crop used for food, animal feed, and industrial purposes.",
+          "Season": "March to October",
+          "Native": "it is not",
+          "SoilType": "Well-drained loam",
+          "WaterNeeded": "Moderate"
+        }
+      },
+      "flowers": {
+        "Azaleas": {
+          "Description": "Azaleas are flowering shrubs prized for their colorful blooms and ornamental value.",
+          "Season": "March to May",
+          "Native": "it is",
+          "SoilType": "Acidic, well-drained soil",
+          "WaterNeeded": "High"
+        },
+        "Black-eyed Susan": {
+          "Description": "Black-eyed Susans are wildflowers known for their daisy-like blooms and hardy nature.",
+          "Season": "June to September",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate"
+        },
+        "Butterfly Weed": {
+          "Description": "Butterfly weed, a type of milkweed native to Alabama, is a favorite among gardeners for its bright orange flowers and ability to attract butterflies.",
+          "Season": "June to August",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate"
+        },
+        "Coreopsis": {
+          "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Alabama's sunny gardens.",
+          "Season": "May to July",
+          "Native": "it is not",
+          "SoilType": "Well-drained loam",
+          "WaterNeeded": "Moderate"
+        },
+        "Goldenrod": {
+          "Description": "Goldenrod, a native wildflower, is often wrongly blamed for causing hay fever. Its pollen is too heavy to be wind-dispersed and is primarily pollinated by insects.",
+          "Season": "June to August",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate"
+        }
+      },
+      "trees": {
+        "Pecan": {
+          "Description": "Pecan trees produce delicious nuts prized for their rich flavor and versatility in cooking.",
+          "Season": "September to November",
+          "Native": "it is not",
+          "SoilType": "Deep, well-drained soil",
+          "WaterNeeded": "Moderate to High"
+        },
+        "Southern Magnolia": {
+          "Description": "Southern Magnolias are iconic evergreen trees admired for their large, fragrant flowers and glossy foliage.",
+          "Season": "April to June",
+          "Native": "it is",
+          "SoilType": "Moist, well-drained soil",
+          "WaterNeeded": "Moderate to High"
+        },
+        "Longleaf Pine": {
+          "Description": "Longleaf Pines are native conifers known for their long needles and role in supporting diverse ecosystems.",
+          "Season": "October to February",
+          "Native": "it is",
+          "SoilType": "Sandy or loamy soil",
+          "WaterNeeded": "Low to Moderate"
+        },
+        "Live Oak": {
+          "Description": "Live Oaks are majestic evergreen trees with broad canopies, valued for their beauty and longevity.",
+          "Season": "March to May",
+          "Native": "it is",
+          "SoilType": "Well-drained, acidic soil",
+          "WaterNeeded": "Low to Moderate"
+        }
+      }
+    }
+  }  
+}
