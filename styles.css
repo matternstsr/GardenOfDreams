@@ -48,12 +48,14 @@ align-self: center;
   /* Dropdown */
 
 .dropdown button {
-  min-width: 15% !important;
+  width: 15% !important;
+  min-width: 225px !important;
   margin-bottom: 240px !important;
 }
 
 .dropdown-menu {
-  min-width: 15% !important;
+  width: 15% !important;
+  min-width: 225px !important;
   max-height: 200px !important;
   overflow: auto !important;
   scrollbar-width: none;
@@ -61,6 +63,7 @@ align-self: center;
 }
 
 .dropdown-item {
+  min-width: 15% !important;
   background: rgb(0, 0, 0) !important;
 }
 
