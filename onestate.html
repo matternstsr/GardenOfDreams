@@ -74,15 +74,31 @@
                         <p><strong>State Crop:</strong> ${item.stateCrop.join(", ")}</p>
                         <p><strong>Common Flowers:</strong> ${item.commonFlowers.join(", ")}</p>
                         <!-- Add more fields as needed -->
-                        <div class="statePests">
-                            <h3>State Pests:</h3>
-                            ${Object.keys(item.pests).map(pestName => `
-                                <div class="pest">
-                                    <p><strong>Name:</strong> ${pestName}</p>
-                                    <p><strong>Description:</strong> ${item.pests[pestName].Description}</p>
-                                    <p><strong>Native:</strong> ${item.pests[pestName].Native ? 'it is' : 'it is not'}</p>
-                                    <p><strong>Control Methods:</strong> ${item.pests[pestName].ControlMethods.join(", ")}</p>
-                                    <img src="images/resultsImages/stateFlowers/${item.image}" alt="${stateName} Image">
+                        <div class="stateWildFlowers">
+                            <h3>State Wild Flowers:</h3>
+                            ${Object.keys(item.flowers).map(flowerName => `
+                                <div class="flower">
+                                    <p><strong>Name:</strong> ${flowerName}</p>
+                                    <p><strong>Description:</strong> ${item.flowers[flowerName].Description}</p>
+                                    <p><strong>Native:</strong> ${item.flowers[flowerName].Native ? 'it is' : 'it is not'}</p>
+                                    <p><strong>Season:</strong> ${item.flowers[flowerName].Season}</p>
+                                    <p><strong>Soil Type:</strong> ${item.flowers[flowerName].SoilType}</p>
+                                    <p><strong>Water Needed:</strong> ${item.flowers[flowerName].WaterNeeded}</p>
+                                    <img src="images/resultsImages/wildflowers/${item.image}" alt="${stateName} Image">
+                                </div>
+                            `).join("")}
+                        </div>
+                        <div class="stateCrops">
+                            <h3>State Crops:</h3>
+                            ${Object.keys(item.crops).map(cropName => `
+                                <div class="crop">
+                                    <p><strong>Name:</strong> ${cropName}</p>
+                                    <p><strong>Description:</strong> ${item.crops[cropName].Description}</p>
+                                    <p><strong>Native:</strong> ${item.crops[cropName].Native ? 'it is' : 'it is not'}</p>
+                                    <p><strong>Season:</strong> ${item.crops[cropName].Season}</p>
+                                    <p><strong>Soil Type:</strong> ${item.crops[cropName].SoilType}</p>
+                                    <p><strong>Water Needed:</strong> ${item.crops[cropName].WaterNeeded}</p>
+                                    <img src="images/resultsImages/crops/${item.image}" alt="${stateName} Image">
                                 </div>
                             `).join("")}
                         </div>
@@ -98,34 +114,6 @@
                                 </div>
                             `).join("")}
                         </div>
-                        <div class="stateCrops">
-                            <h3>State Crops:</h3>
-                            ${Object.keys(item.crops).map(cropName => `
-                                <div class="crop">
-                                    <p><strong>Name:</strong> ${cropName}</p>
-                                    <p><strong>Description:</strong> ${item.crops[cropName].Description}</p>
-                                    <p><strong>Native:</strong> ${item.crops[cropName].Native ? 'it is' : 'it is not'}</p>
-                                    <p><strong>Season:</strong> ${item.crops[cropName].Season}</p>
-                                    <p><strong>Soil Type:</strong> ${item.crops[cropName].SoilType}</p>
-                                    <p><strong>Water Needed:</strong> ${item.crops[cropName].WaterNeeded}</p>
-                                    <img src="images/resultsImages/stateFlowers/${item.image}" alt="${stateName} Image">
-                                </div>
-                            `).join("")}
-                        </div>
-                        <div class="stateWildFlowers">
-                            <h3>State Wild Flowers:</h3>
-                            ${Object.keys(item.flowers).map(flowerName => `
-                                <div class="flower">
-                                    <p><strong>Name:</strong> ${flowerName}</p>
-                                    <p><strong>Description:</strong> ${item.flowers[flowerName].Description}</p>
-                                    <p><strong>Native:</strong> ${item.flowers[flowerName].Native ? 'it is' : 'it is not'}</p>
-                                    <p><strong>Season:</strong> ${item.flowers[flowerName].Season}</p>
-                                    <p><strong>Soil Type:</strong> ${item.flowers[flowerName].SoilType}</p>
-                                    <p><strong>Water Needed:</strong> ${item.flowers[flowerName].WaterNeeded}</p>
-                                    <img src="images/resultsImages/stateFlowers/${item.image}" alt="${stateName} Image">
-                                </div>
-                            `).join("")}
-                        </div>
                         <div class="stateTrees">
                             <h3>State Trees:</h3>
                             ${Object.keys(item.trees).map(treeName => `
@@ -136,7 +124,19 @@
                                     <p><strong>Season:</strong> ${item.trees[treeName].Season}</p>
                                     <p><strong>Soil Type:</strong> ${item.trees[treeName].SoilType}</p>
                                     <p><strong>Water Needed:</strong> ${item.trees[treeName].WaterNeeded}</p>
-                                    <img src="images/resultsImages/stateFlowers/${item.image}" alt="${stateName} Image">
+                                    <img src="images/resultsImages/trees/${item.image}" alt="${stateName} Image">
+                                </div>
+                            `).join("")}
+                        </div>
+                        <div class="statePests">
+                            <h3>State Pests:</h3>
+                            ${Object.keys(item.pests).map(pestName => `
+                                <div class="pest">
+                                    <p><strong>Name:</strong> ${pestName}</p>
+                                    <p><strong>Description:</strong> ${item.pests[pestName].Description}</p>
+                                    <p><strong>Native:</strong> ${item.pests[pestName].Native ? 'it is' : 'it is not'}</p>
+                                    <p><strong>Control Methods:</strong> ${item.pests[pestName].ControlMethods.join(", ")}</p>
+                                    <img src="images/resultsImages/pests/${item.image}" alt="${stateName} Image">
                                 </div>
                             `).join("")}
                         </div>
