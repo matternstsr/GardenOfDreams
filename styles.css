@@ -48,14 +48,24 @@ align-self: center;
   /* Dropdown */
 
 .dropdown button {
-min-width: 15% !important;
-margin-bottom: 240px !important;
+  min-width: 15% !important;
+  margin-bottom: 240px !important;
 }
 
 .dropdown-menu {
-min-width: 15% !important;
-max-height: 200px !important;
-overflow: auto !important;
+  min-width: 15% !important;
+  max-height: 200px !important;
+  overflow: auto !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dropdown-item {
+  background: rgb(0, 0, 0) !important;
+}
+
+.dropdown-item:hover {
+  background: green !important;
 }
 
   /* Carousel */
@@ -63,6 +73,26 @@ overflow: auto !important;
 .plants_carousel .container {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.plants_carousel button.slick-next.slick-arrow {
+  content: url('images/leaf.svg') !important;
+  display: flex !important;
+  transform: rotateY(180deg) rotateX(180deg);
+  width: 50px !important;
+  height: 50px !important;
+  right: -50px;
+}
+
+.plants_carousel button.slick-prev.slick-arrow {
+  content: url('images/leaf.svg') !important;
+  display: flex !important;
+  transform: rotateX(180deg);
+  width: 50px !important;
+  height: 50px !important;
+  left: -50px;
 }
 
 .stateName {
@@ -80,8 +110,6 @@ overflow: auto !important;
 
 footer h1 {
 font-size: 20px !important;
-/* -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black; */
 }
 
 .established {
@@ -91,16 +119,16 @@ font-size: 20px !important;
 /* Test */
 
 .card {
-width: 200px !important;
-height: 250px !important;
+  width: 200px !important;
+  height: 250px !important;
 }
 
 .card-img-top {
-width: inherit !important;
-height: 110px !important;
+  width: inherit !important;
+  height: 110px !important;
 }
 
 .card-body {
-width: inherit;
-height: 140px;
+  width: inherit;
+  height: 140px;
 }
