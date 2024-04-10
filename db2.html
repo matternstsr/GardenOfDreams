@@ -70,15 +70,22 @@
                             <p><strong>Scientific Name:</strong> ${item.scientificName}</p>
                             <p><strong>State Flower:</strong> ${item.stateFlower}</p>
                             <p><strong>State Tree:</strong> ${item.stateTree}</p>
-                            <p><strong>State Crop:</strong> ${item.stateCrop}</p>
+                            <p><strong>State Crop:</strong> ${item.stateCrop.join(", ")}</p>
                             <p><strong>Common Flowers:</strong> ${item.commonFlowers.join(", ")}</p>
                             <img src="images/resultsImages/stateFlowers/${item.image}" alt="${item.state} Image">
+                            <div class="gardening-facts">
+                                <h3>Gardening Facts:</h3>
+                                <ul>
+                                    ${item.gardeningFacts.map(fact => `<li>${fact}</li>`).join("")}
+                                </ul>
+                            </div>
                         </div>
                     `;
                     resultsDiv.innerHTML += resultHTML;
                 });
             }
         }
+        
 
         // Dynamically populate the select dropdown
         document.addEventListener("DOMContentLoaded", function () {
