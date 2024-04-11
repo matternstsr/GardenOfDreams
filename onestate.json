@@ -1284,6 +1284,779 @@
           "image": "American_Elm.jpg"
         }
       }
+    },
+    "DELAWARE": {
+      "state": "DELAWARE",
+      "commonName": "Peach Blossom",
+      "scientificName": "Prunus persica",
+      "image": "delaware_state_flower.jpg",
+      "stateFlower": "Peach Blossom",
+      "statePlant": "Peach Blossom",
+      "stateTree": "American Holly",
+      "stateCrop": ["Peaches", "Corn", "Soybeans", "Wheat"],
+      "commonFlowers": ["Dogwood", "Black-eyed Susan", "Goldenrod", "Coreopsis", "Aster"],
+      "gardeningFacts": [
+        "Delaware's temperate climate and fertile soil support a diverse range of plants, making it a favorable location for gardening and agriculture.",
+        "Peach blossoms, the state flower, herald the arrival of spring with their delicate pink flowers, signaling the beginning of the growing season for many crops.",
+        "American holly, the state tree, is a versatile evergreen tree known for its glossy foliage and bright red berries, which are popular for holiday decorations.",
+        "Delaware's agricultural industry plays a significant role in the state's economy, with crops like peaches, corn, soybeans, and wheat being major contributors.",
+        "Gardening enthusiasts in Delaware can enjoy a long growing season, with mild temperatures in spring and fall and warm summers ideal for heat-loving plants.",
+        "Dogwood trees, with their showy white or pink flowers, are a favorite ornamental tree in Delaware's landscapes, adding beauty to gardens and parks.",
+        "Black-eyed Susans, goldenrod, coreopsis, and asters are among the native wildflowers that thrive in Delaware's meadows and gardens, attracting pollinators and adding color to the landscape.",
+        "Delaware gardeners often cultivate a variety of vegetables, herbs, and fruits in their home gardens, taking advantage of the state's favorable growing conditions.",
+        "Container gardening is popular in urban areas of Delaware, allowing residents to grow plants on balconies, patios, and rooftops.",
+        "Community gardens provide opportunities for Delaware residents to grow fresh produce, socialize with neighbors, and participate in local food initiatives.",
+        "Delaware's coastal regions offer unique gardening opportunities, with plants adapted to salt spray and sandy soils thriving in seaside gardens.",
+        "The state's agricultural extension services provide valuable resources and support to gardeners, offering advice on soil testing, pest management, and plant selection.",
+        "Delaware's rich history and cultural heritage are reflected in its gardens, with historic estates and botanical gardens showcasing traditional and contemporary gardening practices.",
+        "Rain gardens and native plant landscaping are becoming increasingly popular in Delaware, helping to conserve water, reduce stormwater runoff, and support local wildlife.",
+        "Delaware's network of parks, arboretums, and botanical gardens offer opportunities for outdoor recreation, education, and inspiration for gardeners of all ages."
+      ],
+      "weeds": {
+        "Japanese Honeysuckle": {
+          "Description": "Japanese honeysuckle is an invasive vine that smothers native vegetation, disrupts ecosystems, and reduces biodiversity.",
+          "Native": "it is not",
+          "ControlMethods": ["Mechanical Removal", "Herbicides"],
+          "image": "Japanese_Honeysuckle.jpg"
+        },
+        "Mile-a-Minute Weed": {
+          "Description": "Mile-a-minute weed is an invasive vine that grows rapidly, forming dense mats that crowd out native plants and disrupt ecosystems.",
+          "Native": "it is not",
+          "ControlMethods": ["Mechanical Removal", "Herbicides"],
+          "image": "Mile_a_Minute_Weed.jpg"
+        },
+        "Japanese Stiltgrass": {
+          "Description": "Japanese stiltgrass is an invasive grass species that spreads rapidly, displacing native plants and degrading natural habitats.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Hand Pulling"],
+          "image": "Japanese_Stiltgrass.jpg"
+        },
+        "Purple Loosestrife": {
+          "Description": "Purple loosestrife is an invasive perennial herb that forms dense stands, displacing native wetland vegetation and reducing biodiversity.",
+          "Native": "it is not",
+          "ControlMethods": ["Biological Control", "Herbicides"],
+          "image": "Purple_Loosestrife.jpg"
+        }
+      },
+      "pests": {
+        "Brown Marmorated Stink Bug": {
+          "Description": "Brown marmorated stink bugs are invasive pests that feed on a wide range of plants, including fruits, vegetables, and ornamentals, causing damage to crops and landscapes.",
+          "ControlMethods": ["Insecticides", "Exclusion"],
+          "image": "Brown_Marmorated_Stink_Bug.jpg"
+        },
+        "Emerald Ash Borer": {
+          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, causing significant damage to urban and forested landscapes.",
+          "ControlMethods": ["Insecticides", "Biological Control"],
+          "image": "Emerald_Ash_Borer.jpg"
+        },
+        "Japanese Beetle": {
+          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals, fruits, and vegetables, causing significant damage to crops and landscapes.",
+          "ControlMethods": ["Insecticides", "Traps"],
+          "image": "Japanese_Beetle.jpg"
+        },
+        "Spotted Lanternfly": {
+          "Description": "Spotted lanternflies are invasive insects that feed on a variety of plants, including grapevines, fruit trees, and ornamentals, causing damage to crops and landscapes.",
+          "ControlMethods": ["Insecticides", "Traps"],
+          "image": "Spotted_Lanternfly.jpg"
+        }
+      },
+      "crops": {
+        "Peaches": {
+          "Description": "Peaches are delicious stone fruits grown for their sweet, juicy flesh, with Delaware being known for its flavorful peaches harvested in the summer months.",
+          "Season": "June to August",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Peaches.jpg"
+        },
+        "Corn": {
+          "Description": "Corn, or maize, is a staple cereal crop grown for food, animal feed, and industrial purposes, with Delaware's fertile soils supporting its cultivation.",
+          "Season": "June to September",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Corn.jpg"
+        },
+        "Soybeans": {
+          "Description": "Soybeans are legumes cultivated for their high protein content and various industrial uses, with Delaware being a significant producer of soybeans.",
+          "Season": "July to October",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Soybeans.jpg"
+        },
+        "Wheat": {
+          "Description": "Wheat is a versatile cereal grain used for making flour, bread, pasta, and other food products, with Delaware's mild winters supporting its cultivation as a winter crop.",
+          "Season": "April to June",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Wheat.jpg"
+        }
+      },
+      "flowers": {
+        "Dogwood": {
+          "Description": "Dogwoods are small flowering trees or shrubs known for their showy spring blossoms, with Delaware's landscapes adorned with their white or pink flowers in early spring.",
+          "Season": "April to May",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Dogwood.jpg"
+        },
+        "Black-eyed Susan": {
+          "Description": "Black-eyed Susans are native wildflowers with daisy-like blooms that brighten Delaware's meadows and gardens from summer to fall.",
+          "Season": "June to September",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate",
+          "image": "Black-eyed_Susan.jpg"
+        },
+        "Goldenrod": {
+          "Description": "Goldenrod is a native wildflower with tall spikes of golden-yellow flowers that bloom in late summer and fall, providing nectar for pollinators and adding color to Delaware's landscapes.",
+          "Season": "August to October",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate",
+          "image": "Goldenrod.jpg"
+        },
+        "Coreopsis": {
+          "Description": "Coreopsis, also known as tickseed, is a native wildflower with bright yellow or orange blooms that thrive in Delaware's sunny meadows and gardens.",
+          "Season": "June to August",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate",
+          "image": "Coreopsis.jpg"
+        },
+        "Aster": {
+          "Description": "Asters are late-blooming wildflowers with daisy-like flowers in shades of blue, purple, pink, or white, adding color to Delaware's landscapes in late summer and fall.",
+          "Season": "August to October",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate",
+          "image": "Aster.jpg"
+        }
+      },
+      "trees": {
+        "American Holly": {
+          "Description": "American holly is a native evergreen tree known for its glossy green leaves and bright red berries, which are popular for holiday decorations and provide food for wildlife.",
+          "Season": "Varies",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "American_Holly.jpg"
+        },
+        "Eastern Redbud": {
+          "Description": "Eastern redbuds are small deciduous trees with striking pink or purple flowers that bloom in early spring, adding color to Delaware's woodlands and landscapes.",
+          "Season": "March to April",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Eastern_Redbud.jpg"
+        },
+        "American Elm": {
+          "Description": "American elms are tall deciduous trees with arching branches and elliptical leaves, once common in Delaware's landscapes before the devastation caused by Dutch elm disease.",
+          "Season": "Varies",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "American_Elm.jpg"
+        },
+        "Tulip Poplar": {
+          "Description": "Tulip poplars are large deciduous trees with tulip-shaped flowers that bloom in late spring, attracting pollinators and adding beauty to Delaware's forests and landscapes.",
+          "Season": "May to June",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Tulip_Poplar.jpg"
+        }
+      }
+    },
+    "FLORIDA": {
+      "state": "FLORIDA",
+      "commonName": "Orange Blossom",
+      "scientificName": "Citrus sinensis",
+      "image": "florida_state_flower.jpg",
+      "stateFlower": "Orange Blossom",
+      "statePlant": "Orange Blossom",
+      "stateTree": "Sabal Palm",
+      "stateCrop": ["Citrus Fruits", "Sugarcane", "Tomatoes", "Strawberries"],
+      "commonFlowers": ["Hibiscus", "Bougainvillea", "Bird of Paradise", "Plumeria", "Ixora"],
+      "gardeningFacts": [
+        "Florida's warm and sunny climate supports a wide variety of plants, making it an ideal location for gardening and horticulture.",
+        "Orange blossoms, the state flower, are fragrant white flowers that herald the arrival of spring and are associated with Florida's citrus industry.",
+        "Sabal palms, the state tree, are native to Florida and can be found throughout the state's landscapes, providing habitat for wildlife and adding a tropical touch to gardens.",
+        "Florida's agricultural industry is diverse, with citrus fruits, sugarcane, tomatoes, and strawberries being major crops grown for both domestic consumption and export.",
+        "Gardening enthusiasts in Florida can enjoy year-round gardening activities, with mild winters and long, warm growing seasons ideal for a wide range of plants.",
+        "Hibiscus, with its showy flowers in vibrant colors, is a popular ornamental plant in Florida's gardens and landscapes, adding tropical flair to outdoor spaces.",
+        "Bougainvillea, with its colorful bracts and vining habit, is commonly grown as a decorative plant in Florida's gardens, patios, and balconies.",
+        "Bird of paradise, known for its striking flowers resembling a bird in flight, thrives in Florida's warm and humid climate, adding drama to tropical landscapes.",
+        "Plumeria, with its fragrant flowers in shades of white, pink, yellow, and red, is a favorite among gardeners in Florida, particularly in coastal areas.",
+        "Ixora, with its clusters of colorful flowers and glossy foliage, is often used as a hedge or specimen plant in Florida's landscapes, attracting butterflies and hummingbirds.",
+        "Florida's diverse ecosystems, including wetlands, coastal areas, and subtropical forests, provide opportunities for gardening with native plants and creating wildlife-friendly habitats.",
+        "Container gardening is popular in Florida, allowing residents to grow plants on balconies, patios, and small urban spaces, even in areas with limited soil or sunlight.",
+        "Florida-friendly landscaping practices promote water conservation, biodiversity, and environmentally friendly gardening techniques, such as using native plants and minimizing the use of pesticides.",
+        "Community gardens provide opportunities for Florida residents to grow fresh produce, connect with nature, and build community bonds, especially in urban and suburban areas.",
+        "The state's botanical gardens, arboretums, and nature centers offer educational programs, workshops, and events to inspire and educate gardeners of all ages and skill levels.",
+        "Florida's gardening traditions are influenced by diverse cultural backgrounds, including Native American, Spanish, Caribbean, and Southern heritage, resulting in a rich tapestry of gardening styles and practices."
+      ],
+      "weeds": {
+        "Cogongrass": {
+          "Description": "Cogongrass is an invasive grass species that forms dense stands, outcompeting native vegetation and disrupting ecosystems.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Cogongrass.jpg"
+        },
+        "Brazilian Pepper": {
+          "Description": "Brazilian pepper, also known as Florida holly or Christmas berry, is an invasive shrub that displaces native vegetation and reduces biodiversity in Florida's natural areas.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Brazilian_Pepper.jpg"
+        },
+        "Air Potato": {
+          "Description": "Air potato is an invasive vine that climbs trees and structures, smothering native vegetation and disrupting natural ecosystems in Florida.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Air_Potato.jpg"
+        },
+        "Japanese Climbing Fern": {
+          "Description": "Japanese climbing fern is an invasive vine that forms dense mats, covering trees and understory vegetation, and altering fire regimes in Florida's forests.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Japanese_Climbing_Fern.jpg"
+        }
+      },
+      "pests": {
+        "Citrus Greening Disease": {
+          "Description": "Citrus greening disease, also known as huanglongbing, is a devastating bacterial disease that affects citrus trees, causing decline and eventual death, posing a serious threat to Florida's citrus industry.",
+          "ControlMethods": ["Vector Control", "Cultural Practices"],
+          "image": "Citrus_Greening_Disease.jpg"
+        },
+        "Asian Citrus Psyllid": {
+          "Description": "Asian citrus psyllids are small insects that vector citrus greening disease, feeding on citrus leaves and transmitting the bacteria that cause the disease, posing a significant threat to Florida's citrus industry.",
+          "ControlMethods": ["Insecticides", "Biological Control"],
+          "image": "Asian_Citrus_Psyllid.jpg"
+        },
+        "Whitefly": {
+          "Description": "Whiteflies are tiny insects that feed on plant sap, causing damage to a wide range of crops and ornamental plants in Florida, including citrus, vegetables, and ornamentals.",
+          "ControlMethods": ["Insecticides", "Biological Control"],
+          "image": "Whitefly.jpg"
+        },
+        "Fungus Gnats": {
+          "Description": "Fungus gnats are small flies that feed on decaying organic matter and fungus, often infesting potting soil and causing damage to young plants and seedlings in Florida's gardens.",
+          "ControlMethods": ["Biological Control", "Cultural Practices"],
+          "image": "Fungus_Gnats.jpg"
+        }
+      },
+      "crops": {
+        "Citrus Fruits": {
+          "Description": "Citrus fruits, including oranges, grapefruits, and tangerines, are iconic crops of Florida, grown for their juicy flesh and aromatic peels, with the state being one of the leading producers of citrus in the United States.",
+          "Season": "November to May",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Citrus_Fruits.jpg"
+        },
+        "Sugarcane": {
+          "Description": "Sugarcane is a tropical grass cultivated for its sweet sap, which is processed into sugar and other products, with Florida being one of the major sugarcane-producing states in the country.",
+          "Season": "September to March",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Sugarcane.jpg"
+        },
+        "Tomatoes": {
+          "Description": "Tomatoes are versatile fruit-vegetables grown commercially and in home gardens across Florida, with the state's warm climate supporting year-round production of fresh, flavorful tomatoes.",
+          "Season": "September to May",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Tomatoes.jpg"
+        },
+        "Strawberries": {
+          "Description": "Strawberries are perennial fruits grown as annuals in Florida, with the state being a leading producer of winter strawberries for the national market, thanks to its mild winters and sandy soils.",
+          "Season": "December to April",
+          "Native": "it is not",
+          "SoilType": "Sandy soil",
+          "WaterNeeded": "Moderate",
+          "image": "Strawberries.jpg"
+        }
+      },
+      "flowers": {
+        "Hibiscus": {
+          "Description": "Hibiscus, with its large, colorful flowers and glossy foliage, is a popular ornamental plant in Florida, adding tropical beauty to gardens, landscapes, and patios.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Hibiscus.jpg"
+        },
+        "Bougainvillea": {
+          "Description": "Bougainvillea is a tropical vine or shrub prized for its vibrant bracts in shades of pink, purple, red, orange, and white, adding color and drama to Florida's landscapes.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate",
+          "image": "Bougainvillea.jpg"
+        },
+        "Bird of Paradise": {
+          "Description": "Bird of paradise, with its exotic, bird-like flowers and large, banana-like leaves, is a striking addition to tropical landscapes and gardens in Florida.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Bird_of_Paradise.jpg"
+        },
+        "Plumeria": {
+          "Description": "Plumeria, also known as frangipani, is a tropical tree or shrub with fragrant flowers in shades of white, pink, yellow, and red, adding beauty and fragrance to Florida's gardens and landscapes.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Plumeria.jpg"
+        },
+        "Ixora": {
+          "Description": "Ixora is a tropical shrub with clusters of colorful flowers in shades of red, orange, yellow, and pink, commonly used as a hedge or specimen plant in Florida's landscapes.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Ixora.jpg"
+        }
+      },
+      "trees": {
+        "Sabal Palm": {
+          "Description": "Sabal palm, also known as cabbage palm, is a native palm species that is the state tree of Florida, commonly found in wetlands, coastal areas, and landscapes throughout the state.",
+          "Season": "Year-round",
+          "Native": "it is",
+          "SoilType": "Moist, well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Sabal_Palm.jpg"
+        },
+        "Live Oak": {
+          "Description": "Live oak is a native evergreen tree with broad, spreading branches and glossy leaves, valued for its beauty, shade, and wildlife habitat in Florida's landscapes.",
+          "Season": "Year-round",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Live_Oak.jpg"
+        },
+        "Crape Myrtle": {
+          "Description": "Crape myrtle is a deciduous tree or shrub known for its colorful, long-lasting blooms in shades of pink, purple, red, and white, adding beauty to Florida's landscapes throughout the summer.",
+          "Season": "Summer",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Crape_Myrtle.jpg"
+        },
+        "Magnolia": {
+          "Description": "Magnolia is a large genus of trees and shrubs known for their fragrant flowers and glossy leaves, with several species, including the Southern magnolia, cultivated in Florida for their ornamental value.",
+          "Season": "Spring to Summer",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Magnolia.jpg"
+        }
+      }
+    },
+    "GEORGIA": {
+      "state": "GEORGIA",
+      "commonName": "Cherokee Rose",
+      "scientificName": "Rosa laevigata",
+      "image": "georgia_state_flower.jpg",
+      "stateFlower": "Cherokee Rose",
+      "statePlant": "Cherokee Rose",
+      "stateTree": "Live Oak",
+      "stateCrop": ["Peanuts", "Peaches", "Pecans", "Blueberries", "Cotton"],
+      "commonFlowers": ["Azaleas", "Dogwood", "Magnolia", "Hydrangea", "Black-eyed Susan"],
+      "gardeningFacts": [
+        "Georgia's diverse climate and fertile soils support a wide range of gardening activities, from growing fruits and vegetables to cultivating ornamental plants and flowers.",
+        "The Cherokee rose, named after the Cherokee Native American tribe, is the state flower of Georgia, symbolizing the state's beauty and resilience.",
+        "Live oaks, with their massive spreading canopies and evergreen foliage, are a common sight in Georgia's landscapes, providing shade and beauty to parks, streets, and gardens.",
+        "Georgia's agricultural industry is diverse, with peanuts, peaches, pecans, blueberries, and cotton being major crops grown for both domestic consumption and export.",
+        "Gardening enthusiasts in Georgia can enjoy a long growing season, with mild winters and warm summers, ideal for a variety of crops and plants.",
+        "Azaleas, with their vibrant blooms in shades of pink, red, purple, and white, are a hallmark of Georgia's spring landscape, celebrated during the annual Azalea Festival in Valdosta.",
+        "Dogwoods, with their showy white or pink blossoms in early spring, are a beloved native tree in Georgia, often found in woodlands, gardens, and urban landscapes.",
+        "Magnolias, with their large, fragrant flowers and glossy evergreen leaves, are iconic trees in Georgia's landscapes, adding beauty and charm to gardens and parks.",
+        "Hydrangeas, with their large clusters of colorful flowers, thrive in Georgia's acidic soils and partial shade, providing beauty to gardens and landscapes throughout the summer.",
+        "Black-eyed Susans, with their cheerful yellow or orange blooms, are native wildflowers that brighten Georgia's meadows and roadsides, attracting pollinators and wildlife.",
+        "Georgia's gardening traditions are influenced by its rich cultural heritage, including Native American, European, and African American gardening practices, resulting in a diverse and vibrant gardening community.",
+        "Community gardens play an important role in Georgia's urban areas, providing access to fresh produce, promoting sustainable gardening practices, and fostering community engagement and social connections.",
+        "The University of Georgia Cooperative Extension provides valuable resources and educational programs to gardeners across the state, offering advice on plant selection, pest management, and gardening techniques.",
+        "Georgia's botanical gardens, arboretums, and public parks showcase the state's native flora and provide inspiration and education for gardeners of all ages and skill levels.",
+        "Water conservation is important in Georgia's gardens, with many gardeners using techniques such as drip irrigation, mulching, and xeriscaping to minimize water usage and maintain healthy landscapes.",
+        "Georgia's mild climate allows for year-round gardening activities, with cool-season crops like lettuce and kale thriving in the fall and winter, and warm-season crops like tomatoes and peppers flourishing in the spring and summer."
+      ],
+      "weeds": {
+        "Kudzu": {
+          "Description": "Kudzu is a fast-growing vine that smothers trees and other vegetation, leading to habitat loss and ecological disruption in Georgia's landscapes.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal", "Biological Control"],
+          "image": "Kudzu.jpg"
+        },
+        "Cogongrass": {
+          "Description": "Cogongrass is an invasive grass species that forms dense stands, outcompeting native vegetation and reducing biodiversity in Georgia's ecosystems.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Cogongrass.jpg"
+        },
+        "Japanese Honeysuckle": {
+          "Description": "Japanese honeysuckle is an invasive vine that spreads rapidly, smothering native plants and disrupting natural habitats in Georgia's forests and landscapes.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Japanese_Honeysuckle.jpg"
+        },
+        "Chinese Privet": {
+          "Description": "Chinese privet is an invasive shrub that forms dense thickets, displacing native vegetation and degrading wildlife habitat in Georgia's woodlands and natural areas.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Chinese_Privet.jpg"
+        }
+      },
+      "pests": {
+        "Whitefly": {
+          "Description": "Whiteflies are tiny insects that feed on plant sap, causing damage to a wide range of crops and ornamental plants in Georgia, including vegetables, citrus, and ornamentals.",
+          "ControlMethods": ["Insecticides", "Biological Control"],
+          "image": "Whitefly.jpg"
+        },
+        "Fire Ants": {
+          "Description": "Fire ants are aggressive stinging ants that build large mounds in Georgia's lawns, gardens, and landscapes, posing a nuisance and health risk to humans and animals.",
+          "ControlMethods": ["Baits", "Insecticides"],
+          "image": "Fire_Ants.jpg"
+        },
+        "Tomato Hornworm": {
+          "Description": "Tomato hornworms are large caterpillars that feed on tomato plants and other solanaceous crops in Georgia, causing defoliation and damage to fruits.",
+          "ControlMethods": ["Handpicking", "Bt (Bacillus thuringiensis)"],
+          "image": "Tomato_Hornworm.jpg"
+        },
+        "Squash Vine Borer": {
+          "Description": "Squash vine borers are moth larvae that bore into squash and pumpkin stems, causing wilting and death of plants in Georgia's vegetable gardens.",
+          "ControlMethods": ["Cultural Practices", "Insecticides"],
+          "image": "Squash_Vine_Borer.jpg"
+        }
+      },
+      "crops": {
+        "Peanuts": {
+          "Description": "Peanuts, also known as groundnuts, are nutritious legumes grown for their edible seeds, with Georgia being one of the top peanut-producing states in the United States.",
+          "Season": "April to September",
+          "Native": "it is not",
+          "SoilType": "Sandy loam",
+          "WaterNeeded": "Moderate",
+          "image": "Peanuts.jpg"
+        },
+        "Peaches": {
+          "Description": "Peaches are juicy stone fruits grown for their sweet, aromatic flesh, with Georgia being known as the Peach State and producing a significant portion of the nation's peaches.",
+          "Season": "May to August",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Peaches.jpg"
+        },
+        "Pecans": {
+          "Description": "Pecans are delicious nuts native to North America, prized for their rich flavor and versatility in cooking, with Georgia being one of the top pecan-producing states in the country.",
+          "Season": "October to December",
+          "Native": "it is",
+          "SoilType": "Deep, well-drained soil",
+          "WaterNeeded": "Moderate to High",
+          "image": "Pecans.jpg"
+        },
+        "Blueberries": {
+          "Description": "Blueberries are nutritious berries known for their sweet flavor and antioxidant properties, with Georgia being a major producer of both cultivated and wild blueberries.",
+          "Season": "May to July",
+          "Native": "it is not",
+          "SoilType": "Acidic, well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Blueberries.jpg"
+        },
+        "Cotton": {
+          "Description": "Cotton is a major cash crop grown for its fluffy fibers, which are used in textile production, with Georgia being one of the top cotton-producing states in the United States.",
+          "Season": "May to September",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Cotton.jpg"
+        }
+      },
+      "flowers": {
+        "Azaleas": {
+          "Description": "Azaleas are flowering shrubs prized for their colorful blooms and ornamental value, with many varieties cultivated in Georgia's gardens and landscapes.",
+          "Season": "Spring",
+          "Native": "it is not",
+          "SoilType": "Acidic, well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Azaleas.jpg"
+        },
+        "Dogwood": {
+          "Description": "Dogwoods are native trees or shrubs known for their showy white or pink blossoms in early spring, with the flowering dogwood being the state tree of Georgia.",
+          "Season": "Spring",
+          "Native": "it is",
+          "SoilType": "Moist, well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Dogwood.jpg"
+        },
+        "Magnolia": {
+          "Description": "Magnolias are iconic trees or shrubs known for their large, fragrant flowers and glossy evergreen leaves, with several species cultivated in Georgia's gardens and landscapes.",
+          "Season": "Spring to Summer",
+          "Native": "it is not",
+          "SoilType": "Moist, well-drained soil",
+          "WaterNeeded": "Moderate to High",
+          "image": "Magnolia.jpg"
+        },
+        "Hydrangea": {
+          "Description": "Hydrangeas are deciduous shrubs prized for their large clusters of colorful flowers, with many cultivars grown in Georgia's gardens and landscapes.",
+          "Season": "Summer",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Hydrangea.jpg"
+        },
+        "Black-eyed Susan": {
+          "Description": "Black-eyed Susans are native wildflowers with bright yellow or orange blooms that add color and charm to Georgia's meadows and roadsides.",
+          "Season": "Summer to Fall",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Low to Moderate",
+          "image": "Black-eyed_Susan.jpg"
+        }
+      },
+      "trees": {
+        "Live Oak": {
+          "Description": "Live oak is a native evergreen tree with broad, spreading branches and glossy leaves, valued for its beauty, shade, and wildlife habitat in Georgia's landscapes.",
+          "Season": "Year-round",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Live_Oak.jpg"
+        },
+        "Pecan": {
+          "Description": "Pecan trees produce delicious nuts prized for their rich flavor and versatility in cooking, with Georgia being one of the top pecan-producing states in the United States.",
+          "Season": "Fall",
+          "Native": "it is",
+          "SoilType": "Deep, well-drained soil",
+          "WaterNeeded": "Moderate to High",
+          "image": "Pecan.jpg"
+        },
+        "Dogwood": {
+          "Description": "Dogwoods are native trees or shrubs known for their showy white or pink blossoms in early spring, with the flowering dogwood being the state tree of Georgia.",
+          "Season": "Spring",
+          "Native": "it is",
+          "SoilType": "Moist, well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Dogwood.jpg"
+        },
+        "Magnolia": {
+          "Description": "Magnolias are iconic trees or shrubs known for their large, fragrant flowers and glossy evergreen leaves, with several species cultivated in Georgia's gardens and landscapes.",
+          "Season": "Spring to Summer",
+          "Native": "it is not",
+          "SoilType": "Moist, well-drained soil",
+          "WaterNeeded": "Moderate to High",
+          "image": "Magnolia.jpg"
+        },
+        "Cherokee Rose": {
+          "Description": "The Cherokee rose, with its large, white, fragrant flowers, is the state flower of Georgia and symbolizes the state's beauty and resilience.",
+          "Season": "Spring",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Cherokee_Rose.jpg"
+        }
+      }
+    },
+    "HAWAII": {
+      "state": "HAWAII",
+      "commonName": "Hibiscus",
+      "scientificName": "Hibiscus brackenridgei",
+      "image": "hawaii_state_flower.jpg",
+      "stateFlower": "Yellow Hibiscus",
+      "statePlant": "Hawaiian Red Hibiscus",
+      "stateTree": "Kukui",
+      "stateCrop": ["Coffee", "Macadamia Nuts", "Pineapple", "Sugarcane", "Bananas"],
+      "commonFlowers": ["Plumeria", "Bird of Paradise", "Orchids", "Ginger", "Anthurium"],
+      "gardeningFacts": [
+        "Hawaii's tropical climate and fertile volcanic soil create ideal conditions for gardening, with a diverse range of plants thriving in the islands' landscapes.",
+        "The yellow hibiscus, also known as the pua aloalo, is the state flower of Hawaii, symbolizing the beauty and spirit of the islands.",
+        "Kukui, or candlenut tree, is the state tree of Hawaii and holds cultural significance in Hawaiian traditions, providing food, oil, and wood for various purposes.",
+        "Hawaii's agricultural industry includes crops such as coffee, macadamia nuts, pineapple, sugarcane, and bananas, which contribute to the state's economy and culinary heritage.",
+        "Plumeria, with its fragrant flowers in shades of white, yellow, pink, and red, is a popular ornamental plant in Hawaii, commonly seen in gardens, leis, and floral arrangements.",
+        "Bird of paradise, with its striking orange and blue flowers resembling the plumage of a tropical bird, adds a touch of exotic beauty to Hawaii's landscapes and gardens.",
+        "Orchids, with their diverse colors, shapes, and sizes, thrive in Hawaii's warm and humid climate, making the islands a paradise for orchid enthusiasts and growers.",
+        "Ginger, with its aromatic flowers and edible rhizomes, is grown in Hawaii for both ornamental and culinary purposes, adding flavor and beauty to gardens and landscapes.",
+        "Anthurium, with its glossy leaves and colorful, heart-shaped flowers, is a popular tropical plant in Hawaii, often used in floral arrangements and landscaping.",
+        "Gardening in Hawaii offers year-round opportunities, with mild temperatures and consistent rainfall providing favorable conditions for growing a wide variety of plants.",
+        "Native Hawaiian plants, such as ohia lehua and maile, play important roles in the islands' ecosystems and cultural traditions, with efforts underway to conserve and protect them.",
+        "Hawaii's unique microclimates, influenced by elevation, rainfall, and proximity to the ocean, create diverse growing conditions, allowing for a wide range of plants to thrive.",
+        "The University of Hawaii's College of Tropical Agriculture and Human Resources provides valuable research and educational resources to gardeners and farmers, offering guidance on plant selection, pest management, and sustainable practices.",
+        "Water conservation is essential in Hawaii's gardens, with techniques such as drip irrigation, rainwater harvesting, and mulching helping to conserve precious water resources.",
+        "Community gardens and farmers' markets are popular in Hawaii, fostering community connections, promoting local food production, and preserving agricultural traditions.",
+        "Hawaii's rich cultural heritage, blending Hawaiian, Asian, and Western influences, is reflected in its gardening practices, culinary traditions, and landscape design.",
+        "Gardening in Hawaii offers not only the opportunity to grow beautiful plants but also to connect with nature, foster community, and celebrate the Aloha spirit."
+      ],
+      "weeds": {
+        "Kahili Ginger": {
+          "Description": "Kahili ginger is an invasive plant species that forms dense thickets, displacing native vegetation and disrupting natural habitats in Hawaii's forests and landscapes.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Kahili_Ginger.jpg"
+        },
+        "Koster's Curse": {
+          "Description": "Koster's curse is an invasive shrub that spreads rapidly, crowding out native plants and reducing biodiversity in Hawaii's ecosystems.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Kosters_Curse.jpg"
+        },
+        "Himalayan Ginger": {
+          "Description": "Himalayan ginger is an aggressive invasive plant that forms dense colonies, displacing native vegetation and altering natural habitats in Hawaii's landscapes.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Himalayan_Ginger.jpg"
+        },
+        "Australian Tree Fern": {
+          "Description": "Australian tree fern is an invasive fern species that spreads rapidly, displacing native ferns and disrupting natural ecosystems in Hawaii's forests and landscapes.",
+          "Native": "it is not",
+          "ControlMethods": ["Herbicides", "Mechanical Removal"],
+          "image": "Australian_Tree_Fern.jpg"
+        }
+      },
+      "pests": {
+        "Coqui Frog": {
+          "Description": "Coqui frogs are invasive amphibians that reproduce rapidly, disrupting Hawaii's ecosystems and creating noise pollution with their loud mating calls.",
+          "ControlMethods": ["Habitat Modification", "Mechanical Removal"],
+          "image": "Coqui_Frog.jpg"
+        },
+        "Coffee Berry Borer": {
+          "Description": "Coffee berry borers are destructive pests that infest coffee plants, reducing yields and impacting Hawaii's coffee industry.",
+          "ControlMethods": ["Biological Control", "Cultural Practices"],
+          "image": "Coffee_Berry_Borer.jpg"
+        },
+        "African Snails": {
+          "Description": "African snails are invasive gastropods that damage crops, gardens, and natural habitats in Hawaii, posing a threat to agriculture and native species.",
+          "ControlMethods": ["Manual Removal", "Baits"],
+          "image": "African_Snails.jpg"
+        },
+        "Pineapple Mealybug": {
+          "Description": "Pineapple mealybugs are pests that feed on pineapple plants, causing damage to fruit quality and reducing yields in Hawaii's pineapple fields.",
+          "ControlMethods": ["Insecticides", "Biological Control"],
+          "image": "Pineapple_Mealybug.jpg"
+        }
+      },
+      "crops": {
+        "Coffee": {
+          "Description": "Coffee is a popular cash crop grown in Hawaii, known for its high-quality beans and unique flavors resulting from the islands' volcanic soils and microclimates.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained, acidic soil",
+          "WaterNeeded": "Moderate",
+          "image": "Coffee.jpg"
+        },
+        "Macadamia Nuts": {
+          "Description": "Macadamia nuts are nutritious tree nuts grown in Hawaii, prized for their rich flavor and crunchy texture, with the islands being one of the world's leading producers of macadamias.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Macadamia_Nuts.jpg"
+        },
+        "Pineapple": {
+          "Description": "Pineapple is a tropical fruit cultivated in Hawaii, known for its sweet flavor and juicy flesh, with the islands producing a significant portion of the world's pineapple supply.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Pineapple.jpg"
+        },
+        "Sugarcane": {
+          "Description": "Sugarcane is a tall grass plant grown for its sweet juice, which is used to produce sugar, molasses, and rum, with Hawaii having a long history of sugarcane cultivation.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Sugarcane.jpg"
+        },
+        "Bananas": {
+          "Description": "Bananas are tropical fruits grown in Hawaii, prized for their sweet flavor and nutritional value, with various cultivars cultivated throughout the islands.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Bananas.jpg"
+        }
+      },
+      "flowers": {
+        "Plumeria": {
+          "Description": "Plumeria, also known as frangipani, is a fragrant flowering tree or shrub with colorful, star-shaped flowers, commonly used in leis and floral arrangements in Hawaii.",
+          "Season": "Spring to Fall",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Plumeria.jpg"
+        },
+        "Bird of Paradise": {
+          "Description": "Bird of paradise is a striking tropical plant with large, vividly colored flowers resembling the plumage of a bird, adding exotic beauty to Hawaii's gardens and landscapes.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Bird_of_Paradise.jpg"
+        },
+        "Orchids": {
+          "Description": "Orchids are diverse and colorful flowering plants that thrive in Hawaii's warm and humid climate, with numerous species and hybrids cultivated for their beauty.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Orchids.jpg"
+        },
+        "Ginger": {
+          "Description": "Ginger is a flowering plant cultivated in Hawaii for its aromatic rhizomes, which are used as a spice in cooking and for their medicinal properties.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Ginger.jpg"
+        },
+        "Anthurium": {
+          "Description": "Anthurium, also known as flamingo flower, is a tropical plant prized for its glossy foliage and vibrant, heart-shaped flowers, commonly used in floral arrangements in Hawaii.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Anthurium.jpg"
+        }
+      },
+      "trees": {
+        "Kukui": {
+          "Description": "Kukui, or candlenut tree, is a native tree species in Hawaii with cultural significance, known for its oily nuts, which were traditionally used as candles, food, and medicine.",
+          "Season": "Year-round",
+          "Native": "it is",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Kukui.jpg"
+        },
+        "Coconut Palm": {
+          "Description": "Coconut palm is a tropical tree cultivated in Hawaii for its versatile nuts, which are used for food, drink, and fiber, with the tree symbolizing the tropical paradise of the islands.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Coconut_Palm.jpg"
+        },
+        "Monkeypod": {
+          "Description": "Monkeypod, also known as rain tree, is a fast-growing shade tree with spreading branches and compound leaves, valued for its ornamental and environmental benefits in Hawaii's landscapes.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate to High",
+          "image": "Monkeypod.jpg"
+        },
+        "Banyan": {
+          "Description": "Banyan is a fig tree species with aerial roots that grow from its branches to the ground, creating a unique and majestic canopy, often seen in Hawaii's parks and landscapes.",
+          "Season": "Year-round",
+          "Native": "it is not",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "High",
+          "image": "Banyan.jpg"
+        }
+      }
     }
   }
 }
+
