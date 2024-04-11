@@ -41,6 +41,7 @@ $(document).ready(function() {
         }
 
         for (const stateName in statesObject) {
+          const stateFlower = statesObject[stateName].stateFlower;
           const commonName = statesObject[stateName].commonName;
           const scientificName = statesObject[stateName].scientificName;
           const imageSrc = `images/${statesObject[stateName].image}`;
@@ -50,7 +51,7 @@ $(document).ready(function() {
               <div class="card">
                 <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
                 <div class="card-body text-white rounded-bottom">
-                  <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${statesObject[stateName].stateFlower}</p>
+                  <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${stateFlower}</p>
                   <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>${commonName}</p>
                   <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${scientificName}</p>
                 </div>
@@ -62,6 +63,17 @@ $(document).ready(function() {
         }
   
         startCarousel();
+
+        const dropdownItemClick = document.querySelectorAll('.dropdown-item');
+        dropdownItemClick.forEach(item => {
+          item.addEventListener('click', function(event) {
+            const stateName = document.querySelector('.stateName'); 
+            const dropdownText = this.textContent;
+            const alteredText = dropdownText.charAt(0).toUpperCase() + dropdownText.slice(1).toLowerCase();
+            stateName.textContent = alteredText;
+          });
+        });
+
       } else {
         console.error("Error: Empty data or error fetching data");
       }
