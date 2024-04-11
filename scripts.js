@@ -59,10 +59,6 @@ $(document).ready(function() {
           `;
   
           plantCarouselDiv.innerHTML += plantCard;
-          plantCarouselDiv.innerHTML += plantCard;
-          plantCarouselDiv.innerHTML += plantCard;
-          plantCarouselDiv.innerHTML += plantCard;
-          plantCarouselDiv.innerHTML += plantCard;
         }
   
         startCarousel();
