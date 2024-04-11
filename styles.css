@@ -123,15 +123,15 @@ font-size: 20px !important;
 
 .card {
   width: 200px !important;
-  height: 250px !important;
+  height: 400px !important;
 }
 
 .card-img-top {
   width: inherit !important;
-  height: 110px !important;
+  height: 200px !important;
 }
 
 .card-body {
   width: inherit;
-  height: 140px;
+  height: 200px;
 }
