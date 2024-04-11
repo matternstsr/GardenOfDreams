@@ -5,6 +5,10 @@
   border: 0 !important;
 }
 
+main {
+  min-height: 542px !important;
+}
+
 /* Background Images Main Page */
 
 #backgroundPic {
@@ -52,7 +56,7 @@ align-self: center;
 .dropdown button {
   width: 15% !important;
   min-width: 225px !important;
-  margin-bottom: 240px !important;
+  margin-bottom: 210px !important;
 }
 
 .dropdown-menu {
@@ -69,18 +73,20 @@ align-self: center;
   background: rgb(0, 0, 0) !important;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .dropdown-item:hover {
   background: green !important;
 }
 
   /* Carousel */
 
-.plants_carousel .container {
+/* .plants_carousel .container {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-}
-
-
+} */
 
 .plants_carousel button.slick-next.slick-arrow {
   content: url('images/leaf.svg') !important;
@@ -101,8 +107,8 @@ align-self: center;
 }
 
 .stateName {
-  font-size: 25px !important;
-  -webkit-text-stroke-width: 1px;
+  font-size: 35px !important;
+  -webkit-text-stroke-width: 1.25px;
   -webkit-text-stroke-color: black;
   opacity: 100% !important;
 }
@@ -112,6 +118,11 @@ align-self: center;
 }
 
 /* Footer Section */
+
+footer {
+  background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5);
+}
 
 footer h1 {
 font-size: 20px !important;
@@ -133,12 +144,14 @@ font-size: 20px !important;
   height: 200px !important;
 }
 
-.card-body {
+.cardColor {
   width: inherit;
   height: 200px;
   background: black;
 }
 
-.card-body:hover {
+.card:hover {
+  .cardColor {
   background: green;
+  }
 }

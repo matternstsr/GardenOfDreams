@@ -25,7 +25,10 @@ $(document).ready(function() {
 //DropDown
   
   const ddMenuDiv = document.getElementById("ddMenu");
-  const plantCarouselDiv = document.getElementById("plantCarousel");
+  const plantCarousel = document.getElementById("plantCarousel");
+  let currentState = null;
+  let carouselStarted = false;
+  // console.log(carouselStarted);
   
   fetch("onestate.json")
     .then(response => response.json())
@@ -40,17 +43,23 @@ $(document).ready(function() {
           ddMenuDiv.innerHTML += dropdownItem;
         }
 
-        for (const stateName in statesObject) {
-          const stateFlower = statesObject[stateName].stateFlower;
-          const commonName = statesObject[stateName].commonName;
-          const scientificName = statesObject[stateName].scientificName;
-          const imageSrc = `images/${statesObject[stateName].image}`;
-
+        function generateCards(stateName) {
+          const stateData = statesObject[stateName];
+          if (!stateData) {
+            console.error(`Error: No data found for state ${stateName}`);
+            return;
+          }
+          
+          const stateFlower = stateData.stateFlower;
+          const commonName = stateData.commonName;
+          const scientificName = stateData.scientificName;
+          const imageSrc = `images/${stateData.image}`;
+        
           const plantCard = `
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+            <div class="${stateName} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
               <div class="card">
                 <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
-                <div class="card-body text-white rounded-bottom">
+                <div class="card-body cardColor text-white rounded-bottom">
                   <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${stateFlower}</p>
                   <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>${commonName}</p>
                   <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${scientificName}</p>
@@ -58,22 +67,51 @@ $(document).ready(function() {
               </div>
             </div>
           `;
-  
-          plantCarouselDiv.innerHTML += plantCard;
+
+          console.log('Before if:', carouselStarted);
+          if (carouselStarted === false) {
+            startCarousel();
+            carouselStarted = true;
+          }
+          console.log('After if:', carouselStarted);
+          
+          $(plantCarousel).slick('slickAdd', plantCard);
+          $(plantCarousel).slick('slickAdd', plantCard);
+          $(plantCarousel).slick('slickAdd', plantCard);
+          $(plantCarousel).slick('slickAdd', plantCard);
+          $(plantCarousel).slick('slickAdd', plantCard);
         }
-  
-        startCarousel();
 
-        const dropdownItemClick = document.querySelectorAll('.dropdown-item');
-        dropdownItemClick.forEach(item => {
-          item.addEventListener('click', function(event) {
-            const stateName = document.querySelector('.stateName'); 
-            const dropdownText = this.textContent;
-            const alteredText = dropdownText.charAt(0).toUpperCase() + dropdownText.slice(1).toLowerCase();
-            stateName.textContent = alteredText;
+        function handleDropdownItemClick() {
+          const dropdownItemClick = document.querySelectorAll('.dropdown-item');
+          dropdownItemClick.forEach(item => {
+            item.addEventListener('click', function() {
+              const dropdownState = this.textContent;
+              const alteredText = dropdownState.charAt(0).toUpperCase() + dropdownState.slice(1).toLowerCase();
+              const stateName = document.querySelector('.stateName'); 
+              stateName.textContent = alteredText;
+
+              if (currentState !== null) {
+                removeCards(currentState);
+              }
+
+              generateCards(dropdownState);
+              currentState = dropdownState;
+              document.getElementById('plants_carousel').classList.remove('hidden');
+              document.getElementById('plants_carousel').style.display = 'flex';
+            });
           });
-        });
+        }
 
+        function removeCards(stateName) {
+          const removeStateCards = document.querySelectorAll(`.${stateName}`);
+
+          removeStateCards.forEach(card => {
+            card.remove();
+          });
+        }
+
+      handleDropdownItemClick();
       } else {
         console.error("Error: Empty data or error fetching data");
       }
@@ -83,6 +121,7 @@ $(document).ready(function() {
 //Cards
 
 // States Carousel
+
   function startCarousel() {
     $('#plantCarousel').slick({
       slidesToShow: 4,
