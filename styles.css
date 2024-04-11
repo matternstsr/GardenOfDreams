@@ -20,6 +20,8 @@
 
 header {
 margin-bottom: 75px !important;
+/* background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); */
 }
 
 header h1 {
@@ -134,4 +136,9 @@ font-size: 20px !important;
 .card-body {
   width: inherit;
   height: 200px;
+  background: black;
+}
+
+.card-body:hover {
+  background: green;
 }

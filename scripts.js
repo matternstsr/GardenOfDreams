@@ -49,7 +49,7 @@ $(document).ready(function() {
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
               <div class="card">
                 <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
-                <div class="card-body bg-white rounded-bottom">
+                <div class="card-body text-white rounded-bottom">
                   <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${statesObject[stateName].stateFlower}</p>
                   <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>${commonName}</p>
                   <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${scientificName}</p>
