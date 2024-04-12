@@ -35,6 +35,12 @@ main h1 {
   -webkit-text-stroke-color: black;
 }
 
+main .hook_text {
+  font-size: 25px !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 .login {
   font-size: 20px !important;
   align-self: center;
@@ -91,11 +97,6 @@ background: rgba(0, 0, 0, 0);
 }
 
   /* Carousel */
-
-/* .plants_carousel .container {
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-} */
 
 .plants_carousel button.slick-next.slick-arrow {
   content: url('images/leaf.svg') !important;
