@@ -188,56 +188,6 @@
           "SoilType": "Well-drained, acidic soil",
           "WaterNeeded": "Low to Moderate",
           "image": "LiveOak.jpg"
-        },
-        "commonFlowers": {
-          "Azalea": {
-            "Description": "Azaleas are flowering shrubs prized for their colorful blooms and ornamental value.",
-            "Season": "March to May",
-            "Native": "it is",
-            "SoilType": "Acidic, well-drained soil",
-            "WaterNeeded": "High",
-            "image": "azalea.jpg"
-          },
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are wildflowers known for their daisy-like blooms and hardy nature.",
-            "Season": "June to September",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Butterfly Weed": {
-            "Description": "Butterfly weed, a type of milkweed native to Alabama, is a favorite among gardeners for its bright orange flowers and ability to attract butterflies.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "butterfly_weed.jpg"
-          },
-          "Coreopsis": {
-            "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Alabama's sunny gardens.",
-            "Season": "May to July",
-            "Native": "it is not",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "coreopsis.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod, a native wildflower, is often wrongly blamed for causing hay fever. Its pollen is too heavy to be wind-dispersed and is primarily pollinated by insects.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
