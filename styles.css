@@ -148,6 +148,9 @@ font-size: 20px !important;
   width: inherit;
   height: 200px;
   background: black;
+  overflow: auto !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .card:hover {
