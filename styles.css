@@ -24,7 +24,7 @@ main {
 
 header {
   min-height: 40px !important;
-  margin-bottom: 75px !important;
+  margin-bottom: 30px !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
 }
@@ -37,7 +37,7 @@ main h1 {
 
 main .hook_text {
   font-size: 25px !important;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.25px;
   -webkit-text-stroke-color: black;
 }
 
@@ -47,6 +47,7 @@ main .hook_text {
   margin-left: 20px !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0);
+  outline: none !important;
 }
 
 .login:hover {
@@ -58,6 +59,7 @@ font-size: 20px !important;
 align-self: center;
 background: rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0);
+outline: none !important;
 }
 
 .about:hover {
@@ -131,11 +133,11 @@ background: rgba(0, 0, 0, 0);
 
 footer {
   background: rgb(0, 0, 0);
-background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 footer h1 {
-font-size: 20px !important;
+  font-size: 22px !important;
 }
 
 .established {
