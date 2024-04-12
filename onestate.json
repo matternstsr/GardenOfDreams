@@ -2308,7 +2308,7 @@
         }
       },
       "pests": {
-        "Japanese Beetle": {
+        "JapaneseBeetle": {
           "Description": "Japanese beetles are destructive pests in Illinois, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
           "ControlMethods": ["Insecticides", "Traps"],
           "image": "Japanese_Beetle.jpg"
@@ -2506,7 +2506,7 @@
         }
       },
       "pests": {
-        "Japanese Beetle": {
+        "JapaneseBeetle": {
           "Description": "Japanese beetles are destructive pests in Indiana, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
           "ControlMethods": ["Insecticides", "Traps"],
           "image": "Japanese_Beetle.jpg"
