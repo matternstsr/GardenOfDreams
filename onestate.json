@@ -9930,8 +9930,8 @@
         }
       }
     },
-    "NORTHERN MARIANA ISLANDS": {
-      "territory": "NORTHERN MARIANA ISLANDS",
+    "MARIANA ISLANDS": {
+      "territory": "MARIANA ISLANDS",
       "commonName": "Flame Tree",
       "scientificName": "Delonix regia",
       "image": "resultsImages/stateFlowers/northern_mariana_islands_state_flower.jpg",
@@ -9941,23 +9941,22 @@
       "stateCrop": [],
       "commonFlowers": ["Hibiscus", "Plumeria", "Bougainvillea"],
       "gardeningFacts": [
-        "The Northern Mariana Islands' tropical climate supports a diverse range of plants, including many tropical and subtropical species that thrive in the territory's warm and humid conditions.",
-        "The flame tree, Northern Mariana Islands' state flower, is a striking ornamental tree with vibrant red flowers that bloom in profusion, adding color and beauty to the islands' landscapes.",
-        "Mariana agate, designated as both the state plant and state tree, is a native species with cultural significance in the Northern Mariana Islands, valued for its beauty and resilience in coastal environments.",
-        "Gardening in the Northern Mariana Islands often involves traditional practices such as intercropping, composting, and rainwater harvesting, reflecting the territory's rich cultural heritage and sustainable land use practices.",
-        "Native and introduced plants such as hibiscus, plumeria, and bougainvillea are popular in the Northern Mariana Islands' gardens and landscapes, where they provide habitat for wildlife and contribute to ecosystem health.",
-        "Community gardens and agricultural cooperatives play an important role in food security and self-sufficiency in the Northern Mariana Islands, promoting local food production and sustainability.",
-        "Landscaping with drought-tolerant and salt-tolerant plants helps conserve water and mitigate coastal erosion in the Northern Mariana Islands' gardens and public spaces, supporting ecological balance and resilience."
+        "The Mariana Islands' tropical climate supports a diverse range of plants, including many tropical and subtropical species that thrive in the territory's warm and humid conditions.",
+        "The flame tree, Mariana Islands' state flower, is a striking ornamental tree with vibrant red flowers that bloom in profusion, adding color and beauty to the islands' landscapes.",
+        "Mariana agate, designated as both the state plant and state tree, is a native species with cultural significance in the Mariana Islands, valued for its beauty and resilience in coastal environments.",
+        "Native and introduced plants such as hibiscus, plumeria, and bougainvillea are popular in the Mariana Islands' gardens and landscapes, where they provide habitat for wildlife and contribute to ecosystem health.",
+        "Community gardens and agricultural cooperatives play an important role in food security and self-sufficiency in the Mariana Islands, promoting local food production and sustainability.",
+        "Landscaping with drought-tolerant and salt-tolerant plants helps conserve water and mitigate coastal erosion in the Mariana Islands' gardens and public spaces, supporting ecological balance and resilience."
       ],
       "weeds": {
         "Guinea Grass": {
-          "Description": "Guinea grass is an invasive grass species that forms dense mats, displacing native vegetation and reducing biodiversity in the Northern Mariana Islands' natural areas and gardens.",
+          "Description": "Guinea grass is an invasive grass species that forms dense mats, displacing native vegetation and reducing biodiversity in the Mariana Islands' natural areas and gardens.",
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Manual Removal"],
           "image": "Guinea_Grass.jpg"
         },
         "Cogon Grass": {
-          "Description": "Cogon grass is an invasive grass species that forms dense, fire-prone stands, displacing native vegetation and reducing habitat for wildlife in the Northern Mariana Islands' natural areas and gardens.",
+          "Description": "Cogon grass is an invasive grass species that forms dense, fire-prone stands, displacing native vegetation and reducing habitat for wildlife in the Mariana Islands' natural areas and gardens.",
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Manual Removal"],
           "image": "Cogon_Grass.jpg"
@@ -9965,19 +9964,19 @@
       },
       "pests": {
         "Coconut Rhinoceros Beetle": {
-          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to the Northern Mariana Islands' coconut industry and ecosystems.",
+          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to the Mariana Islands' coconut industry and ecosystems.",
           "ControlMethods": ["Traps", "Biological Control"],
           "image": "Coconut_Rhinoceros_Beetle.jpg"
         },
         "Brown Tree Snake": {
-          "Description": "Brown tree snakes are invasive predators that prey on native birds and reptiles in the Northern Mariana Islands, where they have caused significant declines in native species populations and disrupted ecosystems.",
+          "Description": "Brown tree snakes are invasive predators that prey on native birds and reptiles in the Mariana Islands, where they have caused significant declines in native species populations and disrupted ecosystems.",
           "ControlMethods": ["Traps", "Barrier Fencing"],
           "image": "Brown_Tree_Snake.jpg"
         }
       },
       "flowers": {
         "Hibiscus": {
-          "Description": "Hibiscus is a genus of flowering plants with showy flowers in various colors, commonly grown in gardens and landscapes throughout the Northern Mariana Islands, where they add beauty and tropical flair.",
+          "Description": "Hibiscus is a genus of flowering plants with showy flowers in various colors, commonly grown in gardens and landscapes throughout the Mariana Islands, where they add beauty and tropical flair.",
           "Season": "Year-round",
           "Native": "it is not",
           "SoilType": "Well-drained soil",
@@ -9985,7 +9984,7 @@
           "image": "Hibiscus.jpg"
         },
         "Plumeria": {
-          "Description": "Plumeria is a tropical flowering tree with fragrant, colorful flowers that are used in leis and other traditional ceremonies in the Northern Mariana Islands, symbolizing beauty, love, and friendship.",
+          "Description": "Plumeria is a tropical flowering tree with fragrant, colorful flowers that are used in leis and other traditional ceremonies in the Mariana Islands, symbolizing beauty, love, and friendship.",
           "Season": "Year-round",
           "Native": "it is not",
           "SoilType": "Well-drained soil",
@@ -9993,7 +9992,7 @@
           "image": "Plumeria.jpg"
         },
         "Bougainvillea": {
-          "Description": "Bougainvillea is a genus of flowering plants with papery bracts in vibrant colors, commonly grown as ornamental shrubs in the Northern Mariana Islands, where they add color and beauty to gardens and landscapes.",
+          "Description": "Bougainvillea is a genus of flowering plants with papery bracts in vibrant colors, commonly grown as ornamental shrubs in the Mariana Islands, where they add color and beauty to gardens and landscapes.",
           "Season": "Year-round",
           "Native": "it is not",
           "SoilType": "Well-drained soil",
@@ -10003,7 +10002,7 @@
       },
       "trees": {
         "Mariana Agate": {
-          "Description": "Mariana agate is a native tree species with cultural significance in the Northern Mariana Islands, valued for its beauty and resilience in coastal environments, where it provides habitat for wildlife and contributes to ecosystem health.",
+          "Description": "Mariana agate is a native tree species with cultural significance in the Mariana Islands, valued for its beauty and resilience in coastal environments, where it provides habitat for wildlife and contributes to ecosystem health.",
           "Season": "N/A",
           "Native": "it is",
           "SoilType": "Well-drained soil",
@@ -10011,7 +10010,7 @@
           "image": "Mariana_Agate.jpg"
         },
         "Coconut Palm": {
-          "Description": "Coconut palms are iconic trees of tropical regions, including the Northern Mariana Islands, where they provide food, shade, and cultural significance, and play an important role in the territory's coastal landscapes.",
+          "Description": "Coconut palms are iconic trees of tropical regions, including the Mariana Islands, where they provide food, shade, and cultural significance, and play an important role in the territory's coastal landscapes.",
           "Season": "N/A",
           "Native": "it is",
           "SoilType": "Well-drained soil",
@@ -10212,103 +10211,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Low to Moderate",
           "image": "Sea_Grape.jpg"
-        }
-      }
-    },
-    "COMMONWEALTH OF THE NORTHERN MARIANA ISLANDS": {
-      "territory": "COMMONWEALTH OF THE NORTHERN MARIANA ISLANDS",
-      "commonName": "Breadfruit",
-      "scientificName": "Artocarpus altilis",
-      "image": "resultsImages/stateFlowers/cnmi_state_flower.jpg",
-      "stateFlower": "Plumeria",
-      "statePlant": "Breadfruit",
-      "stateTree": "Breadfruit",
-      "stateCrop": [],
-      "commonFlowers": ["Hibiscus", "Bougainvillea", "Plumeria", "Ixora"],
-      "gardeningFacts": [
-        "The Commonwealth of the Northern Mariana Islands' tropical climate supports a diverse range of plants, including many tropical and subtropical species that thrive in the territory's warm and humid conditions.",
-        "Breadfruit, designated as both the state plant and state tree, is a staple food crop in the Commonwealth of the Northern Mariana Islands, valued for its starchy fruits and cultural significance.",
-        "Gardening in the Commonwealth of the Northern Mariana Islands often involves traditional practices such as intercropping, mulching, and rainwater harvesting, reflecting the territory's rich cultural heritage and sustainable land use practices.",
-        "Native and introduced plants such as hibiscus, bougainvillea, plumeria, and ixora are popular in the Commonwealth of the Northern Mariana Islands' gardens and landscapes, where they provide habitat for wildlife and contribute to ecosystem health.",
-        "Community gardens and agricultural cooperatives play an important role in food security and self-sufficiency in the Commonwealth of the Northern Mariana Islands, promoting local food production and sustainability.",
-        "Landscaping with drought-tolerant and salt-tolerant plants helps conserve water and mitigate coastal erosion in the Commonwealth of the Northern Mariana Islands' gardens and public spaces, supporting ecological balance and resilience."
-      ],
-      "weeds": {
-        "Guinea Grass": {
-          "Description": "Guinea grass is an invasive grass species that forms dense mats, displacing native vegetation and reducing biodiversity in the Commonwealth of the Northern Mariana Islands' natural areas and gardens.",
-          "Native": "it is not",
-          "ControlMethods": ["Herbicides", "Manual Removal"],
-          "image": "Guinea_Grass.jpg"
-        },
-        "Cogon Grass": {
-          "Description": "Cogon grass is an invasive grass species that forms dense, fire-prone stands, displacing native vegetation and reducing habitat for wildlife in the Commonwealth of the Northern Mariana Islands' natural areas and gardens.",
-          "Native": "it is not",
-          "ControlMethods": ["Herbicides", "Manual Removal"],
-          "image": "Cogon_Grass.jpg"
-        }
-      },
-      "pests": {
-        "Coconut Rhinoceros Beetle": {
-          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to the Commonwealth of the Northern Mariana Islands' coconut industry and ecosystems.",
-          "ControlMethods": ["Traps", "Biological Control"],
-          "image": "Coconut_Rhinoceros_Beetle.jpg"
-        },
-        "Brown Tree Snake": {
-          "Description": "Brown tree snakes are invasive predators that prey on native birds and reptiles in the Commonwealth of the Northern Mariana Islands, where they have caused significant declines in native species populations and disrupted ecosystems.",
-          "ControlMethods": ["Traps", "Barrier Fencing"],
-          "image": "Brown_Tree_Snake.jpg"
-        }
-      },
-      "flowers": {
-        "Hibiscus": {
-          "Description": "Hibiscus is a genus of flowering plants with showy flowers in various colors, commonly grown in gardens and landscapes throughout the Commonwealth of the Northern Mariana Islands, where they add beauty and tropical flair.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "Well-drained soil",
-          "WaterNeeded": "Moderate",
-          "image": "Hibiscus.jpg"
-        },
-        "Bougainvillea": {
-          "Description": "Bougainvillea is a genus of flowering plants with papery bracts in vibrant colors, commonly grown as ornamental shrubs in the Commonwealth of the Northern Mariana Islands, where they add color and beauty to gardens and landscapes.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "Well-drained soil",
-          "WaterNeeded": "Low to Moderate",
-          "image": "Bougainvillea.jpg"
-        },
-        "Plumeria": {
-          "Description": "Plumeria is a tropical flowering tree with fragrant, colorful flowers that are used in leis and other traditional ceremonies in the Commonwealth of the Northern Mariana Islands, symbolizing beauty, love, and friendship.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "Well-drained soil",
-          "WaterNeeded": "Low to Moderate",
-          "image": "Plumeria.jpg"
-        },
-        "Ixora": {
-          "Description": "Ixora is a genus of flowering plants with clusters of small, colorful flowers, commonly grown as ornamental shrubs in the Commonwealth of the Northern Mariana Islands, where they add color and beauty to gardens and landscapes.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "Well-drained soil",
-          "WaterNeeded": "Moderate",
-          "image": "Ixora.jpg"
-        }
-      },
-      "trees": {
-        "Breadfruit": {
-          "Description": "Breadfruit is a tropical tree with large, lobed leaves and starchy fruits that are used as a staple food in the Commonwealth of the Northern Mariana Islands and other Pacific islands, where they are traditionally roasted, baked, or fried.",
-          "Season": "N/A",
-          "Native": "it is",
-          "SoilType": "Well-drained soil",
-          "WaterNeeded": "Moderate to High",
-          "image": "Breadfruit.jpg"
-        },
-        "Coconut Palm": {
-          "Description": "Coconut palms are iconic trees of tropical regions, including the Commonwealth of the Northern Mariana Islands, where they provide food, shade, and cultural significance, and play an important role in the territory's coastal landscapes.",
-          "Season": "N/A",
-          "Native": "it is",
-          "SoilType": "Well-drained soil",
-          "WaterNeeded": "Moderate to High",
-          "image": "Coconut_Palm.jpg"
         }
       }
     }
