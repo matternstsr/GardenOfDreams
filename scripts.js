@@ -55,7 +55,7 @@ $(document).ready(function() {
           const scientificName = stateData.scientificName;
           const imageSrc = `images/${stateData.image}`;
         
-          const plantCard = `
+          let plantCard = `
             <div class="${stateName} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
               <div class="card">
                 <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
@@ -68,6 +68,100 @@ $(document).ready(function() {
             </div>
           `;
 
+          if (stateData.flowers) {
+            const flowers = stateData.flowers;
+        
+            Object.keys(flowers).forEach(flowerName => {
+              const flower = flowers[flowerName];
+              const flowerSeason = flower.Season;
+              const flowerWaterNeeded = flower.WaterNeeded;
+              const flowerImage = flower.image;
+        
+              plantCard += `
+                <div class="${stateName} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="card">
+                    <img src="images/resultsImages/wildflowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
+                    <div class="card-body cardColor text-white rounded-bottom">
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${flowerName}</p>
+                      <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${flowerSeason}</p>
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
+                    </div>
+                  </div>
+                </div>
+              `;
+            });
+          }
+
+          if (stateData.trees) {
+            const trees = stateData.trees;
+        
+            Object.keys(trees).forEach(treeName => {
+              const tree = trees[treeName];
+              const treeSeason = tree.Season;
+              const treeWaterNeeded = tree.WaterNeeded;
+              const treeImage = tree.image;
+        
+              plantCard += `
+                <div class="${stateName} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="card">
+                    <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
+                    <div class="card-body cardColor text-white rounded-bottom">
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${treeName}</p>
+                      <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${treeSeason}</p>
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
+                    </div>
+                  </div>
+                </div>
+              `;
+            });
+          }
+
+          if (stateData.crops) {
+            const crops = stateData.crops;
+        
+            Object.keys(crops).forEach(cropName => {
+              const crop = crops[cropName];
+              const cropSeason = crop.Season;
+              const cropWaterNeeded = crop.WaterNeeded;
+              const cropImage = crop.image;
+
+              plantCard += `
+                <div class="${stateName} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="card">
+                    <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
+                    <div class="card-body cardColor text-white rounded-bottom">
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${cropName}</p>
+                      <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${cropSeason}</p>
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Water Needed: ${cropWaterNeeded}</p>
+                    </div>
+                  </div>
+                </div>
+              `;
+            });
+          }
+
+          if (stateData.weeds) {
+            const weeds = stateData.weeds;
+        
+            Object.keys(weeds).forEach(weedName => {
+              const weed = weeds[weedName];
+              const weedDescription = weed.Description;
+              const weedImage = weed.image;
+
+              plantCard += `
+                <div class="${stateName} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="card">
+                    <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
+                    <div class="card-body cardColor text-white rounded-bottom">
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${weedName}</p>
+                      <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Description: ${weedDescription}</p>
+                    </div>
+                  </div>
+                </div>
+              `;
+            });
+          }
+
           console.log('Before if:', carouselStarted);
           if (carouselStarted === false) {
             startCarousel();
@@ -75,10 +169,6 @@ $(document).ready(function() {
           }
           console.log('After if:', carouselStarted);
           
-          $(plantCarousel).slick('slickAdd', plantCard);
-          $(plantCarousel).slick('slickAdd', plantCard);
-          $(plantCarousel).slick('slickAdd', plantCard);
-          $(plantCarousel).slick('slickAdd', plantCard);
           $(plantCarousel).slick('slickAdd', plantCard);
         }
 
