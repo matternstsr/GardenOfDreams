@@ -197,7 +197,7 @@ footer h1 {
 }
 
 #pageBackground {
-  height: 80vh !important;
+  min-height: 80vh !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.8);
   overflow: auto !important;
