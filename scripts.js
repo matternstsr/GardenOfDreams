@@ -83,7 +83,7 @@ $(document).ready(function() {
                   <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
-                        <img src="images/resultsImages/wildflowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
+                        <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
                         <div class="card-body cardColor text-white rounded-bottom">
                           <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${flowerName}</p>
                           <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${flowerSeason}</p>
