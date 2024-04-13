@@ -24,9 +24,12 @@ main {
 
 header {
   min-height: 40px !important;
-  margin-bottom: 30px !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
+}
+
+.firstheader {
+  margin-bottom: 30px !important;
 }
 
 main h1 {
@@ -65,6 +68,18 @@ outline: none !important;
 .about:hover {
   color: rgb(10, 197, 10) !important;
 }
+
+.home {
+  font-size: 20px !important;
+  align-self: center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  outline: none !important;
+  }
+  
+  .home:hover {
+    color: rgb(10, 197, 10) !important;
+  }
 
 /* Main Section */
 
@@ -152,7 +167,7 @@ footer h1 {
 }
 
 .card-img-top {
-  width: inherit !important;
+  width: 200px !important;
   height: 200px !important;
 }
 
@@ -170,3 +185,32 @@ footer h1 {
   background: green;
   }
 }
+
+/* second.html */
+
+#secondBackground {
+  background-image: url("images/resultsImages/stateFlowers/oklahoma_state_flower.jpg");
+  max-width: 100%;
+  height: auto;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pageBackground {
+  height: 80vh !important;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.secondMain {
+  width: 80%;
+}
+
+.secondPageImg {
+  max-width: 400px !important;
+  max-height: 400px !important;
+}
+
+
+
