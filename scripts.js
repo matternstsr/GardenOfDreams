@@ -61,9 +61,9 @@ $(document).ready(function() {
                   <div class="card">
                     <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
                     <div class="card-body cardColor text-white rounded-bottom">
-                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${stateFlower}</p>
-                      <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>${commonName}</p>
-                      <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>${scientificName}</p>
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>State Flower: ${stateFlower}</p>
+                      <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Common Name: ${commonName}</p>
+                      <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Scientific Name: ${scientificName}</p>
                     </div>
                   </div>
                 </div>
@@ -85,9 +85,9 @@ $(document).ready(function() {
                       <div class="card">
                         <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
                         <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${flowerName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${flowerSeason}</p>
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${flowerName}</p>
+                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${flowerSeason}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
                         </div>
                       </div>
                     </div>
@@ -111,9 +111,9 @@ $(document).ready(function() {
                       <div class="card">
                         <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
                         <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${treeName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${treeSeason}</p>
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${treeName}</p>
+                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${treeSeason}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
                         </div>
                       </div>
                     </div>
@@ -137,9 +137,9 @@ $(document).ready(function() {
                       <div class="card">
                         <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
                         <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${cropName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Season: ${cropSeason}</p>
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Water Needed: ${cropWaterNeeded}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${cropName}</p>
+                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${cropSeason}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${cropWaterNeeded}</p>
                         </div>
                       </div>
                     </div>
@@ -162,8 +162,8 @@ $(document).ready(function() {
                       <div class="card">
                         <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
                         <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet">&#8226;</span>Name: ${weedName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet">&#8226;</span>Description: ${weedDescription}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${weedName}</p>
+                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Description: ${weedDescription}</p>
                         </div>
                       </div>
                     </div>

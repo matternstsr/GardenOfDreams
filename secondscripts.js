@@ -10,33 +10,68 @@ $(document).ready(function() {
   // console.log(category);
 
   fetch('onestate.json')
-  .then(response => response.json())
-  .then(data => {
-      const stateData = data.states[stateName];
-      const categoryData = stateData[category];
+    .then(response => response.json())
+    .then(data => {
+        const stateData = data.states[stateName];
+        const categoryData = stateData[category];
+        const capitalStateName = stateName.charAt(0).toUpperCase() + stateName.slice(1).toLowerCase();
+        const capitalCategory = category.charAt(0).toUpperCase() + category.slice(1).toLowerCase();
 
-      if (categoryData) {
-        Object.keys(categoryData).forEach(plant => {
-          if (plant === plantName) {
-            const plantData = categoryData[plant];
-            const imageURL = plantData.image;
-            
-            let secondPageInfo =
-                '<div class="row">' +
-                '<div class="col-auto">' +
-                `<img class="secondPageImg p-4" src="images/resultsImages/${category}/${imageURL}" alt="${plant}">` +
-                '</div>' +
-                '<div class="col-8">' +
-                '<p class="pb-2 pt-4 pl-2 text-white">Additional information here</p>' +
-                '</div>' +
-                '</div>';
+        if (categoryData) {
+            if (category === "stateFlower") {
+                const imageURL = stateData.image;
 
-            $(pageBackground).append(secondPageInfo);
-          }
-        });
-      }
-  })
-  .catch(error => {
-      console.error('Error fetching JSON data:', error);
-  });
+                let secondPageInfo =`
+                      <div class="row">
+                        <div class="col-auto">' +
+                          <img class="secondPageImg p-4" src="images/${imageURL}" alt="${plantName}"> 
+                        </div> 
+                        <div class="col-8"> 
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State: ${capitalStateName}</p>  
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State Flower: ${plantName}</p>  
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State Plant: ${stateData.statePlant}</p>  
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State Tree: ${stateData.stateTree}</p>  
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Common Crops: ${stateData.stateCrop.join(', ').replace(/,/g, ', ')}</p>  
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Common Flowers: ${stateData.commonFlowers.join(', ').replace(/,/g, ', ')}</p>  
+                          <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Gardening Facts for ${capitalStateName}: ${stateData.gardeningFacts}</p>
+                        </div> 
+                      </div> 
+                    `;
+
+                $(pageBackground).append(secondPageInfo);
+                $(secondBackground).css('background-image', `url('images/${imageURL}')`);
+            } else {
+                Object.keys(categoryData).forEach(plant => {
+                    if (plant === plantName) {
+                        const plantData = categoryData[plant];
+                        const imageURL = plantData.image;
+
+                        let secondPageInfo =`
+                          <div class="row">
+                            <div class="col-auto">' +
+                            <img class="secondPageImg p-4" src="images/resultsImages/${category}/${imageURL}" alt="${plant}"> 
+                            </div> 
+                            <div class="col-8"> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State: ${capitalStateName}</p>
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Name: ${plantName}</p>
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Category: ${capitalCategory}</p> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Season: ${plantData.Season}</p> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Soil Type: ${plantData.SoilType}</p> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Water Needs: ${plantData.WaterNeeded}</p> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Native: ${plantData.Native} native to ${capitalStateName}</p> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Desciption: ${plantData.Description}</p> 
+                            </div> 
+                          </div> 
+                        `;
+
+                        $(pageBackground).append(secondPageInfo);
+                        $(secondBackground).css('background-image', `url('images/resultsImages/${category}/${imageURL}')`);
+                    }
+                });
+            }
+        }
+    })
+    .catch(error => {
+        console.error('Error fetching JSON data:', error);
+    });
 });

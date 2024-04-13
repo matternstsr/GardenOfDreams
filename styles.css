@@ -159,7 +159,7 @@ footer h1 {
   font-size: 12px;
 }
 
-/* Test */
+/* Cards */
 
 .card {
   width: 200px !important;
@@ -189,7 +189,6 @@ footer h1 {
 /* second.html */
 
 #secondBackground {
-  background-image: url("images/resultsImages/stateFlowers/oklahoma_state_flower.jpg");
   max-width: 100%;
   height: auto;
   background-position-x: center;
@@ -201,6 +200,9 @@ footer h1 {
   height: 80vh !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.8);
+  overflow: auto !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .secondMain {
@@ -208,8 +210,8 @@ footer h1 {
 }
 
 .secondPageImg {
-  max-width: 400px !important;
-  max-height: 400px !important;
+  width: 300px !important;
+  height: 300px !important;
 }
 
 
