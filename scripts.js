@@ -56,7 +56,7 @@ $(document).ready(function() {
             const imageSrc = `images/${stateData.image}`;
           
             let plantCard = `
-              <a class="${state_name}" href="second.html">
+              <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                   <div class="card">
                     <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
@@ -80,7 +80,7 @@ $(document).ready(function() {
                 const flowerImage = flower.image;
           
                 plantCard += `
-                  <a class="${state_name}" href="second.html">
+                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
                         <img src="images/resultsImages/wildflowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
@@ -106,7 +106,7 @@ $(document).ready(function() {
                 const treeImage = tree.image;
           
                 plantCard += `
-                  <a class="${state_name}" href="second.html">
+                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
                         <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
@@ -132,7 +132,7 @@ $(document).ready(function() {
                 const cropImage = crop.image;
   
                 plantCard += `
-                  <a class="${state_name}" href="second.html">
+                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
                         <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
@@ -157,7 +157,7 @@ $(document).ready(function() {
                 const weedImage = weed.image;
   
                 plantCard += `
-                  <a class="${state_name}" href="second.html">
+                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
                         <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
@@ -221,32 +221,39 @@ $(document).ready(function() {
       })
       .catch(error => console.error('Error fetching data:', error));
   
-  //Cards
+// States Carousel
   
-  // States Carousel
-  
-    function startCarousel() {
-      $('#plantCarousel').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        centerMode: false,
-        infinite: false,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 576,
-            settings: {
-              slidesToShow: 1
-            }
+  function startCarousel() {
+    $('#plantCarousel').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      centerMode: false,
+      infinite: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2
           }
-        ] 
-      });
-    }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ] 
+    });
+  }
+
+  $(document).on('click', '.card-link', function() {
+    
+    const stateName = $(this).data('state-name');
+    const plantName = $(this).data('plant-name');
+
+    console.log(stateName);
+    console.log(plantName);
   });
+});

@@ -197,7 +197,7 @@ footer h1 {
   background-repeat: no-repeat;
 }
 
-.pageBackground {
+#pageBackground {
   height: 80vh !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.8);
