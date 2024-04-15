@@ -187,6 +187,7 @@ footer h1 {
   overflow: auto !important;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none !important;
 }
 
 .card-link {
