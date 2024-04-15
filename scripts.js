@@ -84,7 +84,7 @@ $(document).ready(function() {
                       <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
                       <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
-                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${flowerName}</p>
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Flower: ${flowerName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${flowerSeason}</p>
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
                       </div>
@@ -109,7 +109,7 @@ $(document).ready(function() {
                       <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
                       <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
-                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${treeName}</p>
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Tree: ${treeName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${treeSeason}</p>
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
                       </div>
@@ -134,7 +134,7 @@ $(document).ready(function() {
                         <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
                         <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">Learn More</a>
                         <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${cropName}</p>
+                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Crop: ${cropName}</p>
                           <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${cropSeason}</p>
                           <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${cropWaterNeeded}</p>
                         </div>
@@ -158,7 +158,7 @@ $(document).ready(function() {
                       <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
                       <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
-                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${weedName}</p>
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Weed: ${weedName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Description: ${weedDescription}</p>
                       </div>
                     </div>
