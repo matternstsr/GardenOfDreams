@@ -95,7 +95,7 @@
           "Native": "it is not",
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
-          "image": "v.jpg"
+          "image": "Soybeans.jpg"
         },
         "Peanuts": {
           "Description": "Peanuts, also known as groundnuts, are nutritious legumes grown for their edible seeds.",
@@ -6958,9 +6958,7 @@
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Mechanical Removal"],
           "image": "Kudzu.jpg"
-        }
-      },
-      "pests": {
+        },
         "Matt Ernst": {
           "Description": "Nerdy programmer, whose mere presence can debug your day with a single line of code. He's the master of typos and the conqueror of bugs, armed with a keyboard, Beware for his wit is as sharp as his syntax",
           "ControlMethods": ["Caffine", "Tylenol", "Old School Video Games"],
@@ -6975,7 +6973,9 @@
           "Description": "The front-end maestro, whose coding finesse is as slick as a well-designed website. With a keen eye for UI/UX and a penchant for pixel-perfect layouts, Lee crafts digital experiences that make users swoon like they've stumbled upon a hidden easter egg. When he's not fine-tuning CSS or mastering the art of responsive design, you can find him lost in a world of browser tabs, each one a portal to his next coding conquest. Just be sure to keep him away from Internet Explorer—his disdain for outdated browsers rivals that of a dragon guarding its hoard of treasure!",
           "ControlMethods": ["SASS/SCSS", "Flexbox/Grid", "Browser DevTools"],
           "image": "Lee.jpg"
-        },
+        }
+      },
+      "pests": {
         "Aphids": {
           "Description": "Aphids are small insects that feed on plant sap, causing damage to leaves, shoots, and flowers in Oklahoma's gardens and landscapes.",
           "ControlMethods": ["Insecticides", "Beneficial Insects"],
