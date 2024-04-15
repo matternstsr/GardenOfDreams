@@ -17,7 +17,7 @@ main {
   background-position-x: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: background-image 0.5s ease;
+  transition: background-image 0.5s ease-in-out;
 }
 
 /* Header Section */
@@ -88,7 +88,6 @@ outline: none !important;
 .dropdown button {
   width: 15% !important;
   min-width: 225px !important;
-  margin-bottom: 210px !important;
 }
 
 .dropdown-menu {
@@ -111,6 +110,16 @@ outline: none !important;
 
 .dropdown-item:hover {
   background: green !important;
+}
+
+.dropdownMargin1 {
+  margin-bottom: 50px !important;
+  transition: margin-bottom 0.5s ease-in-out;
+}
+
+.dropdownMargin2 {
+  margin-bottom: 240px !important;
+  transition: margin-bottom 0.5s ease-in-out;
 }
 
   /* Carousel */
@@ -163,7 +172,7 @@ footer h1 {
 
 .card {
   width: 200px !important;
-  height: 400px !important;
+  height: 430px !important;
 }
 
 .card-img-top {
@@ -173,27 +182,40 @@ footer h1 {
 
 .cardColor {
   width: inherit;
-  height: 200px;
+  height: 230px;
   background: black;
   overflow: auto !important;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-.card:hover {
-  .cardColor {
-  background: green;
-  }
+.card-link {
+  color: rgb(10, 197, 10) !important;
+  background-color: black;
+  transition: color 1s, background-color 1s;
+  text-decoration: none; 
 }
+
+.card-link:hover {
+  color: white !important;
+  background-color: rgb(10, 197, 10) !important;
+}
+
 
 @media screen and (max-width: 576px) {
 
   .plants_carousel button.slick-next.slick-arrow {
     right: 0px;
+    z-index: 2;
   }
   
   .plants_carousel button.slick-prev.slick-arrow {
     left: 0px;
+    z-index: 2;
+  }
+
+  .ddSmall {
+    margin-bottom: 100px !important;
   }
 }
 

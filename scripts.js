@@ -56,16 +56,15 @@ $(document).ready(function() {
             const imageSrc = `images/${stateData.image}`;
           
             let plantCard = `
-              <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+              <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                 <div class="card">
-                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">
                   <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
+                  <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">Learn More</a>
                   <div class="card-body cardColor text-white rounded-bottom">
                     <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>State Flower: ${stateFlower}</p>
                     <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Common Name: ${commonName}</p>
                     <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Scientific Name: ${scientificName}</p>
                   </div>
-                  </a>
                 </div>
               </div>
             `;
@@ -80,16 +79,15 @@ $(document).ready(function() {
                 const flowerImage = flower.image;
           
                 plantCard += `
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                     <div class="card">
-                      <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">
                       <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
+                      <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${flowerName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${flowerSeason}</p>
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
                       </div>
-                      </a>
                     </div>
                   </div>
                 `;
@@ -106,16 +104,15 @@ $(document).ready(function() {
                 const treeImage = tree.image;
           
                 plantCard += `
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                     <div class="card">
-                      <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">
                       <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
+                      <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${treeName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${treeSeason}</p>
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
                       </div>
-                      </a>
                     </div>
                   </div>
                 `;
@@ -132,16 +129,15 @@ $(document).ready(function() {
                 const cropImage = crop.image;
   
                 plantCard += `
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                    <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
-                        <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">
                         <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
+                        <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">Learn More</a>
                         <div class="card-body cardColor text-white rounded-bottom">
                           <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${cropName}</p>
                           <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${cropSeason}</p>
                           <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${cropWaterNeeded}</p>
                         </div>
-                        </a>
                       </div>
                     </div>
                 `;
@@ -157,15 +153,14 @@ $(document).ready(function() {
                 const weedImage = weed.image;
   
                 plantCard += `
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                  <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                     <div class="card">
-                      <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">
                       <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
+                      <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${weedName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Description: ${weedDescription}</p>
                       </div>
-                      </a>
                     </div>
                   </div>
                 `;
@@ -256,4 +251,15 @@ $(document).ready(function() {
     console.log(stateName);
     console.log(plantName);
   });
+
+  $(document).ready(function () {
+    $('.dropdown').on('show.bs.dropdown', function () {
+      $('#dropdownMenuButton').addClass('dropdownMargin2').removeClass('dropdownMargin1');
+    });
+  
+    $('.dropdown').on('hide.bs.dropdown', function () {
+      $('#dropdownMenuButton').addClass('dropdownMargin1').removeClass('dropdownMargin2');
+    });
+  });
+
 });
