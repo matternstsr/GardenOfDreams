@@ -421,7 +421,64 @@
           "image": "Western_Black_Widow.jpg"
         }
       },
-      "crops": {},
+      "crops": {
+        "Citrus fruits": {
+            "Description": "Citrus fruits such as oranges, lemons, and grapefruits are grown in Arizona's warmer regions, benefiting from the state's abundant sunshine.",
+            "Season": "Varies",
+            "Native": "They are not native to Arizona but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Citrus_Fruits.jpg"
+        },
+        "Cotton": {
+            "Description": "Cotton is a major cash crop in Arizona, cultivated for its fibers, which are used in textile production.",
+            "Season": "April to October",
+            "Native": "It is not native to Arizona but is widely grown in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Cotton.jpg"
+        },
+        "Alfalfa": {
+            "Description": "Alfalfa is a key crop in Arizona, primarily used for livestock feed due to its high protein content and digestibility.",
+            "Season": "Varies",
+            "Native": "It is not native to Arizona but is commonly grown throughout the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Alfalfa.jpg"
+        },
+        "Lettuce and leafy greens": {
+            "Description": "Lettuce and other leafy greens are grown in Arizona, particularly during the cooler months when temperatures are more favorable for their cultivation.",
+            "Season": "October to March",
+            "Native": "They are not native to Arizona but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Lettuce_and_Leafy_Greens.jpg"
+        },
+        "Melons": {
+            "Description": "Melons, including watermelons and cantaloupes, are grown in Arizona's warmer regions, benefiting from the state's hot, sunny climate.",
+            "Season": "May to September",
+            "Native": "They are not native to Arizona but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Melons.jpg"
+        },
+        "Pistachios and pecans": {
+            "Description": "Pistachios and pecans are among the nuts grown in Arizona, with pistachio orchards found in the drier regions and pecan groves in areas with access to water.",
+            "Season": "Varies",
+            "Native": "They are not native to Arizona but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Pistachios_and_Pecans.jpg"
+        },
+        "Date palms": {
+            "Description": "Date palms are cultivated in Arizona's desert regions, where they thrive in the hot, arid climate and produce sweet dates.",
+            "Season": "Varies",
+            "Native": "They are not native to Arizona but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Low to Moderate",
+            "image": "Date_Palms.jpg"
+        }
+    },
       "flowers": {
         "Mexican Gold Poppy": {
           "Description": "Mexican gold poppies, also known as California poppies, are cheerful wildflowers with bright orange blooms that cover desert landscapes in spring.",
