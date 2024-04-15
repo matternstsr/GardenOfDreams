@@ -4530,56 +4530,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Low to Moderate",
           "image": "Mountain_Mahogany.jpg"
-        },
-        "commonFlowers": {
-          "Indian Paintbrush": {
-            "Description": "Indian paintbrush is a wildflower with brightly colored bracts that range from red to orange, adding splashes of color to Nevada's landscapes.",
-            "Season": "April to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "indian_paintbrush.jpg"
-          },
-          "Golden Columbine": {
-            "Description": "Golden columbine is a native wildflower with yellow, bell-shaped flowers that attract hummingbirds and butterflies to Nevada's gardens and natural areas.",
-            "Season": "April to July",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "golden_columbine.jpg"
-          },
-          "Prickly Pear Cactus": {
-            "Description": "Prickly pear cactus is a succulent plant with flattened stems and vibrant yellow flowers, well-adapted to Nevada's dry, desert environments.",
-            "Season": "May to July",
-            "Native": "it is",
-            "SoilType": "Sandy or rocky soil",
-            "WaterNeeded": "Low",
-            "image": "prickly_pear_cactus.jpg"
-          },
-          "Nevada Blue Sage": {
-            "Description": "Nevada blue sage is a drought-tolerant perennial with aromatic gray-green foliage and vibrant blue flowers, attracting pollinators to Nevada's landscapes.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "nevada_blue_sage.jpg"
-          },
-          "Desert Marigold": {
-            "Description": "Desert marigold is a native wildflower with bright yellow, daisy-like blooms that add color to Nevada's desert landscapes from spring to fall.",
-            "Season": "March to November",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "desert_marigold.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -5073,56 +5023,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Douglas_Fir.jpg"
-        },
-        "commonFlowers": {
-          "Indian Paintbrush": {
-            "Description": "Indian paintbrush is a native wildflower with showy red or orange bracts that bloom in spring and summer, adding color to New Mexico's grasslands and desert landscapes.",
-            "Season": "April to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "indian_paintbrush.jpg"
-          },
-          "Desert Marigold": {
-            "Description": "Desert marigold is a drought-tolerant perennial with bright yellow flowers that bloom from spring to fall, decorating New Mexico's arid landscapes with cheerful color.",
-            "Season": "March to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low",
-            "image": "desert_marigold.jpg"
-          },
-          "Globe Mallow": {
-            "Description": "Globe mallow is a native shrub with vibrant orange flowers that attract pollinators and thrive in New Mexico's arid environments, adding beauty to desert gardens and landscapes.",
-            "Season": "April to September",
-            "Native": "it is",
-            "SoilType": "Sandy, well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "globe_mallow.jpg"
-          },
-          "Blanketflower": {
-            "Description": "Blanketflower is a native wildflower with red and yellow daisy-like blooms that blanket New Mexico's meadows and roadsides in summer and fall, attracting pollinators and adding color to the landscape.",
-            "Season": "June to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "blanketflower.jpg"
-          },
-          "Mexican Hat": {
-            "Description": "Mexican hat is a native wildflower with distinctive red and yellow blooms resembling sombreros, brightening New Mexico's grasslands and roadsides in summer and fall.",
-            "Season": "June to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "mexican_hat.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -5202,14 +5102,6 @@
           "SoilType": "N/A",
           "WaterNeeded": "N/A",
           "image": "Maple_Syrup.jpg"
-        },
-        "Dairy Products": {
-          "Description": "Dairy farming is an important agricultural industry in New York, with dairy products such as milk, cheese, and yogurt produced on farms throughout the state.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Dairy_Products.jpg"
         }
       },
       "flowers": {
@@ -5286,56 +5178,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Eastern_White_Pine.jpg"
-        },
-        "commonFlowers": {
-          "Lilac": {
-            "Description": "Lilacs are deciduous shrubs or small trees known for their fragrant clusters of purple, pink, or white flowers that bloom in spring, symbolizing the arrival of warmer weather in New York.",
-            "Season": "April to May",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "lilac.jpg"
-          },
-          "Daisy": {
-            "Description": "Daisies are herbaceous perennials with white, yellow, or pink petals surrounding a central disk, blooming from spring to fall and attracting pollinators to New York's gardens and meadows.",
-            "Season": "April to October",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "daisy.jpg"
-          },
-          "Tulip": {
-            "Description": "Tulips are bulbous perennials with cup-shaped flowers in a variety of colors, blooming in spring and often planted in mass displays in parks and gardens throughout New York.",
-            "Season": "April to May",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "tulip.jpg"
-          },
-          "Sunflower": {
-            "Description": "Sunflowers are annual plants with large, yellow flower heads that follow the movement of the sun, blooming in summer and adding cheer to New York's landscapes and gardens.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "sunflower.jpg"
-          },
-          "Pansy": {
-            "Description": "Pansies are colorful annual or biennial flowers with distinctive 'faces', blooming in spring and fall and providing cool-season color to New York's gardens and containers.",
-            "Season": "Spring and fall",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "pansy.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -5498,56 +5340,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Fraser_Fir.jpg"
-        },
-        "commonFlowers": {
-          "Rhododendron": {
-            "Description": "Rhododendrons are evergreen shrubs with showy clusters of flowers in various colors, blooming in spring and adding beauty to North Carolina's landscapes.",
-            "Season": "April to May",
-            "Native": "it is not",
-            "SoilType": "Acidic, well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "rhododendron.jpg"
-          },
-          "Mountain Laurel": {
-            "Description": "Mountain laurel is a native evergreen shrub with clusters of pink or white flowers that bloom in late spring, providing nectar for bees and butterflies in North Carolina.",
-            "Season": "May to June",
-            "Native": "it is",
-            "SoilType": "Acidic, well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "mountain_laurel.jpg"
-          },
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are wildflowers known for their daisy-like blooms and hardy nature.",
-            "Season": "June to September",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Butterfly Weed": {
-            "Description": "Butterfly weed, a type of milkweed native to North Carolina, is a favorite among gardeners for its bright orange flowers and ability to attract butterflies.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "butterfly_weed.jpg"
-          },
-          "Coreopsis": {
-            "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in North Carolina's sunny gardens.",
-            "Season": "May to July",
-            "Native": "it is not",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "coreopsis.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -5710,56 +5502,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Low to Moderate",
           "image": "Ponderosa_Pine.jpg"
-        },
-        "commonFlowers": {
-          "Sunflower": {
-            "Description": "Sunflowers are iconic flowers with large, bright yellow heads that follow the sun's movement, symbolizing happiness and vitality in North Dakota's fields.",
-            "Season": "July to September",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "sunflower.jpg"
-          },
-          "Purple Coneflower": {
-            "Description": "Purple coneflowers are native wildflowers with distinctive pink-purple petals and spiky orange-brown centers, attracting pollinators to North Dakota's prairies.",
-            "Season": "June to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "purple_coneflower.jpg"
-          },
-          "Prairie Smoke": {
-            "Description": "Prairie smoke is a native perennial with unique pinkish-purple flowers that resemble wispy smoke, adding beauty to North Dakota's prairies in spring.",
-            "Season": "May to June",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "prairie_smoke.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod is a native wildflower with bright yellow clusters of flowers that bloom in late summer, providing nectar for bees and butterflies in North Dakota's grasslands.",
-            "Season": "July to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "Pasque Flower": {
-            "Description": "Pasque flowers are early spring bloomers with purple or white petals and fern-like foliage, often found in North Dakota's dry prairies and grasslands.",
-            "Season": "April to May",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "pasque_flower.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -5921,56 +5663,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Sugar_Maple.jpg"
-        },
-        "commonFlowers": {
-          "Buckeye": {
-            "Description": "The buckeye is a flowering shrub or small tree with clusters of tubular flowers and distinctive seeds, named for its resemblance to the eye of a deer or buck, and is a symbol of Ohio's natural heritage.",
-            "Season": "April to June",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "buckeye.jpg"
-          },
-          "Trillium": {
-            "Description": "Trilliums are spring-blooming wildflowers with three-petaled flowers and mottled leaves, commonly found in Ohio's woodlands and forests, where they serve as indicators of healthy ecosystems.",
-            "Season": "April to May",
-            "Native": "it is",
-            "SoilType": "Moist, well-drained soil",
-            "WaterNeeded": "Moderate to High",
-            "image": "trillium.jpg"
-          },
-          "Violets": {
-            "Description": "Violets are small, delicate flowers with heart-shaped leaves and colorful blooms, growing abundantly in Ohio's gardens, woodlands, and meadows, where they provide early spring nectar for pollinators.",
-            "Season": "March to May",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "violets.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod is a native wildflower with bright yellow clusters of flowers that bloom in late summer, providing nectar for bees and butterflies in Ohio's grasslands and meadows.",
-            "Season": "July to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are wildflowers with daisy-like yellow-orange petals and dark centers, commonly seen in Ohio's fields, roadsides, and gardens, where they attract pollinators and add color to the landscape.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -6023,6 +5715,11 @@
           "ControlMethods": ["Herbicides", "Mechanical Removal"],
           "image": "Kudzu.jpg"
         },
+        "Lee West": {
+          "Description": "The front-end maestro, whose coding finesse is as slick as a well-designed website. With a keen eye for UI/UX and a penchant for pixel-perfect layouts, Lee crafts digital experiences that make users swoon like they've stumbled upon a hidden easter egg. When he's not fine-tuning CSS or mastering the art of responsive design, you can find him lost in a world of browser tabs, each one a portal to his next coding conquest. Just be sure to keep him away from Internet Explorer—his disdain for outdated browsers rivals that of a dragon guarding its hoard of treasure!",
+          "ControlMethods": ["SASS/SCSS", "Flexbox/Grid", "Browser DevTools"],
+          "image": "Lee.jpg"
+        },
         "Matt Ernst": {
           "Description": "Nerdy programmer, whose mere presence can debug your day with a single line of code. He's the master of typos and the conqueror of bugs, armed with a keyboard, Beware for his wit is as sharp as his syntax",
           "ControlMethods": ["Caffine", "Tylenol", "Old School Video Games"],
@@ -6032,11 +5729,6 @@
           "Description": "A coding wizard with a heart as vast as Hyrule and a mind sharper than the Master Sword. When he's not busy battling bugs, you can find him on an epic quest through the land of Zelda, where he's the hero of his own adventure. Don't be fooled by his laid-back demeanor; beneath that triforce smile lies a programming powerhouse, armed with lines of code instead of arrows. Just make sure to speak his language—mentioning Zelda lore might just unlock the secret to unleashing his coding genius!",
           "ControlMethods": ["Rupees", "Heart Containers", "Master Sword", "Video Games"],
           "image": "Travis.jpg"
-        },
-        "Lee West": {
-          "Description": "The front-end maestro, whose coding finesse is as slick as a well-designed website. With a keen eye for UI/UX and a penchant for pixel-perfect layouts, Lee crafts digital experiences that make users swoon like they've stumbled upon a hidden easter egg. When he's not fine-tuning CSS or mastering the art of responsive design, you can find him lost in a world of browser tabs, each one a portal to his next coding conquest. Just be sure to keep him away from Internet Explorer—his disdain for outdated browsers rivals that of a dragon guarding its hoard of treasure!",
-          "ControlMethods": ["SASS/SCSS", "Flexbox/Grid", "Browser DevTools"],
-          "image": "Lee.jpg"
         }
       },
       
@@ -6211,14 +5903,6 @@
       },
       
       "crops": {
-        "Nursery and Greenhouse Products": {
-          "Description": "Nursery and greenhouse products include a wide variety of ornamental plants, shrubs, and trees grown for landscaping, gardening, and decorative purposes in Oregon.",
-          "Season": "Year-round",
-          "Native": "N/A",
-          "SoilType": "Varies by plant species",
-          "WaterNeeded": "Varies by plant species",
-          "image": "Nursery_Greenhouse.jpg"
-        },
         "Hay": {
           "Description": "Hay is grass, legumes, or other herbaceous plants that have been cut, dried, and stored for use as animal fodder, supporting Oregon's livestock industry and providing feed for cattle, horses, and other livestock.",
           "Season": "N/A",
@@ -6234,14 +5918,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "High",
           "image": "Mint.jpg"
-        },
-        "Cattle and Calves": {
-          "Description": "Cattle and calves are raised throughout Oregon, with ranching playing a significant role in the state's rural economy and agricultural heritage.",
-          "Season": "N/A",
-          "Native": "N/A",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Cattle.jpg"
         }
       },
       "flowers": {
@@ -6389,14 +6065,6 @@
           "WaterNeeded": "Moderate",
           "image": "Apples.jpg"
         },
-        "Dairy Products": {
-          "Description": "Dairy farming is a major industry in Pennsylvania, with the state ranking among the top milk-producing states in the country and supporting a wide range of dairy products, including milk, cheese, and yogurt.",
-          "Season": "Year-round",
-          "Native": "N/A",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Dairy_Products.jpg"
-        },
         "Christmas Trees": {
           "Description": "Christmas tree production is prominent in Pennsylvania, with many tree farms offering choose-and-cut options for families during the holiday season, contributing to the state's festive traditions.",
           "Season": "Year-round (for cultivation)",
@@ -6535,38 +6203,22 @@
       },
       
       "crops": {
-        "Nursery and Greenhouse Products": {
-          "Description": "Nursery and greenhouse products are important to Rhode Island's economy, with the state's nurseries producing a variety of plants for landscaping, gardening, and ornamental purposes.",
-          "Season": "Year-round",
-          "Native": "N/A",
-          "SoilType": "Varies by plant",
-          "WaterNeeded": "Varies by plant",
-          "image": "Nursery_and_Greenhouse_Products.jpg"
-        },
-        "Vegetables": {
-          "Description": "Vegetable farming is prominent in Rhode Island, with growers cultivating a range of crops such as tomatoes, lettuce, sweet corn, and pumpkins for local consumption and distribution to nearby markets.",
-          "Season": "Spring to Fall",
-          "Native": "N/A",
+        "Apples": {
+          "Description": "Apples are grown in Rhode Island for fresh consumption, cider production, and baking, with orchards scattered throughout the state.",
+          "Season": "September to October",
+          "Native": "They are not native to Rhode Island but are successfully cultivated in the state.",
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Moderate",
-          "image": "Vegetables.jpg"
-        },
-        "Dairy Products": {
-          "Description": "Dairy farming has a long history in Rhode Island, with dairy products such as milk, cheese, and yogurt being produced by local farms and enjoyed by residents and visitors alike.",
-          "Season": "Year-round",
-          "Native": "N/A",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Dairy_Products.jpg"
-        },
-        "Seafood": {
-          "Description": "Rhode Island's coastal location provides abundant seafood resources, with fishing and aquaculture contributing to the state's culinary traditions and supporting commercial and recreational fisheries.",
-          "Season": "Year-round",
-          "Native": "N/A",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Seafood.jpg"
-        }
+          "image": "Apples.jpg"
+      },
+      "Sweet Corn": {
+          "Description": "Sweet corn is a popular summer crop in Rhode Island, prized for its sweet flavor and enjoyed fresh, grilled, or steamed.",
+          "Season": "July to September",
+          "Native": "It is not native to Rhode Island but is successfully cultivated in the state.",
+          "SoilType": "Well-drained soil",
+          "WaterNeeded": "Moderate",
+          "image": "Sweet_Corn.jpg"
+      }
       },
       "flowers": {
         "Rhode Island Red": {
@@ -6704,14 +6356,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Peaches.jpg"
-        },
-        "Poultry": {
-          "Description": "Poultry farming is a significant industry in South Carolina, with broilers, turkeys, and eggs being among the top agricultural commodities produced in the state.",
-          "Season": "Year-round",
-          "Native": "N/A",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Poultry.jpg"
         },
         "Cotton": {
           "Description": "Cotton has historically been an important crop in South Carolina, with the state's farmers cultivating cotton for its fiber, which is used in textiles, clothing, and other industrial products.",
@@ -7506,14 +7150,6 @@
       },
       
       "crops": {
-        "Dairy Products": {
-          "Description": "Dairy farming is a cornerstone of Vermont's agricultural economy, with the state known for its high-quality milk, cheese, yogurt, and other dairy products produced by small family farms.",
-          "Season": "Year-round",
-          "Native": "they are not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Dairy_Products.jpg"
-        },
         "Maple Syrup": {
           "Description": "Maple syrup production is a significant industry in Vermont, with the state leading the nation in maple syrup production and hosting annual maple festivals and events celebrating this sweet tradition.",
           "Season": "Late winter to early spring",
