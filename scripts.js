@@ -192,6 +192,7 @@ $(document).ready(function() {
                 }
   
                 generateCards(dropdownState);
+                $('.slick-slider').slick('slickGoTo', 0);
                 currentState = dropdownState;
                 document.getElementById('plants_carousel').classList.remove('hidden');
                 document.getElementById('plants_carousel').style.display = 'flex';
