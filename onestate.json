@@ -4544,56 +4544,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate to High",
           "image": "Southern_Magnolia.jpg"
-        },
-        "commonFlowers": {
-          "Azaleas": {
-            "Description": "Azaleas are flowering shrubs prized for their colorful blooms and ornamental value.",
-            "Season": "March to May",
-            "Native": "it is",
-            "SoilType": "Acidic, well-drained soil",
-            "WaterNeeded": "High",
-            "image": "azalea.jpg"
-          },
-          "Coreopsis": {
-            "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Mississippi's sunny gardens.",
-            "Season": "May to July",
-            "Native": "it is not",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "coreopsis.jpg"
-          },
-          "Tickseed": {
-            "Description": "Tickseed, also known as coreopsis, is a native wildflower in Mississippi, valued for its bright blooms and ability to attract pollinators to gardens and natural areas.",
-            "Season": "May to July",
-            "Native": "it is",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "tickseed.jpg"
-          },
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are native wildflowers in Mississippi, with their cheerful yellow blooms brightening roadsides, meadows, and prairies throughout the state, providing food for pollinators and seeds for birds and wildlife.",
-            "Season": "June to September",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod, a native wildflower, is often wrongly blamed for causing hay fever. Its pollen is too heavy to be wind-dispersed and is primarily pollinated by insects.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -7113,56 +7063,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Sugar_Maple.jpg"
-        },
-        "commonFlowers": {
-          "Indian Blanket": {
-            "Description": "Indian blanket is a native wildflower with red, yellow, and orange daisy-like flowers that bloom in summer, providing nectar for butterflies and other pollinators in Oklahoma's prairies and roadsides.",
-            "Season": "June to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "indian_blanket.jpg"
-          },
-          "Purple Coneflower": {
-            "Description": "Purple coneflower is a native perennial with purple daisy-like flowers and spiky orange-brown centers, attracting bees, butterflies, and other pollinators to gardens and natural areas in Oklahoma.",
-            "Season": "June to September",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "purple_coneflower.jpg"
-          },
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are wildflowers with daisy-like yellow-orange petals and dark centers, commonly seen in Oklahoma's fields, roadsides, and gardens, where they attract pollinators and add color to the landscape.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Bluebonnet": {
-            "Description": "Bluebonnets are wildflowers with blue, pink, or white pea-like flowers that bloom in spring, covering Oklahoma's fields and meadows with vibrant colors and attracting bees and butterflies.",
-            "Season": "March to May",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "bluebonnet.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod is a native wildflower with bright yellow clusters of flowers that bloom in late summer, providing nectar for bees and butterflies in Oklahoma's grasslands and meadows.",
-            "Season": "July to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
