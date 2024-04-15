@@ -56,18 +56,18 @@ $(document).ready(function() {
             const imageSrc = `images/${stateData.image}`;
           
             let plantCard = `
-              <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
-                  <div class="card">
-                    <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
-                    <div class="card-body cardColor text-white rounded-bottom">
-                      <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>State Flower: ${stateFlower}</p>
-                      <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Common Name: ${commonName}</p>
-                      <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Scientific Name: ${scientificName}</p>
-                    </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                <div class="card">
+                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">
+                  <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
+                  <div class="card-body cardColor text-white rounded-bottom">
+                    <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>State Flower: ${stateFlower}</p>
+                    <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Common Name: ${commonName}</p>
+                    <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Scientific Name: ${scientificName}</p>
                   </div>
+                  </a>
                 </div>
-              </a>
+              </div>
             `;
   
             if (stateData.flowers) {
@@ -80,18 +80,18 @@ $(document).ready(function() {
                 const flowerImage = flower.image;
           
                 plantCard += `
-                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
-                      <div class="card">
-                        <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
-                        <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${flowerName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${flowerSeason}</p>
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
-                        </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                    <div class="card">
+                      <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">
+                      <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
+                      <div class="card-body cardColor text-white rounded-bottom">
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${flowerName}</p>
+                        <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${flowerSeason}</p>
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${flowerWaterNeeded}</p>
                       </div>
+                      </a>
                     </div>
-                  </a>
+                  </div>
                 `;
               });
             }
@@ -106,18 +106,18 @@ $(document).ready(function() {
                 const treeImage = tree.image;
           
                 plantCard += `
-                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
-                      <div class="card">
-                        <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
-                        <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${treeName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${treeSeason}</p>
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
-                        </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                    <div class="card">
+                      <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">
+                      <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
+                      <div class="card-body cardColor text-white rounded-bottom">
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${treeName}</p>
+                        <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${treeSeason}</p>
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${treeWaterNeeded}</p>
                       </div>
+                      </a>
                     </div>
-                  </a>
+                  </div>
                 `;
               });
             }
@@ -132,18 +132,18 @@ $(document).ready(function() {
                 const cropImage = crop.image;
   
                 plantCard += `
-                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
+                        <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">
                         <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
                         <div class="card-body cardColor text-white rounded-bottom">
                           <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${cropName}</p>
                           <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${cropSeason}</p>
                           <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Water Needed: ${cropWaterNeeded}</p>
                         </div>
+                        </a>
                       </div>
                     </div>
-                  </a>
                 `;
               });
             }
@@ -157,17 +157,17 @@ $(document).ready(function() {
                 const weedImage = weed.image;
   
                 plantCard += `
-                  <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
-                      <div class="card">
-                        <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
-                        <div class="card-body cardColor text-white rounded-bottom">
-                          <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${weedName}</p>
-                          <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Description: ${weedDescription}</p>
-                        </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
+                    <div class="card">
+                      <a class="${state_name} card-link" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">
+                      <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
+                      <div class="card-body cardColor text-white rounded-bottom">
+                        <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Name: ${weedName}</p>
+                        <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Description: ${weedDescription}</p>
                       </div>
+                      </a>
                     </div>
-                  </a>
+                  </div>
                 `;
               });
             }

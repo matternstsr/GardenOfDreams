@@ -186,6 +186,17 @@ footer h1 {
   }
 }
 
+@media screen and (max-width: 576px) {
+
+  .plants_carousel button.slick-next.slick-arrow {
+    right: 0px;
+  }
+  
+  .plants_carousel button.slick-prev.slick-arrow {
+    left: 0px;
+  }
+}
+
 /* second.html */
 
 #secondBackground {
@@ -213,6 +224,3 @@ footer h1 {
   width: 300px !important;
   height: 300px !important;
 }
-
-
-

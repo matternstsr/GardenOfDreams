@@ -22,11 +22,11 @@ $(document).ready(function() {
                 const imageURL = stateData.image;
 
                 let secondPageInfo =`
-                      <div class="row">
-                        <div class="col-auto">' +
+                      <div class="row justify-content-center">
+                        <div class="col-auto">
                           <img class="secondPageImg p-4" src="images/${imageURL}" alt="${plantName}"> 
                         </div> 
-                        <div class="col-8"> 
+                        <div class="col-md-8"> 
                           <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State: ${capitalStateName}</p>  
                           <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State Flower: ${plantName}</p>  
                           <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State Plant: ${stateData.statePlant}</p>  
@@ -40,6 +40,32 @@ $(document).ready(function() {
 
                 $(pageBackground).append(secondPageInfo);
                 $(secondBackground).css('background-image', `url('images/${imageURL}')`);
+            } else if (category === "weeds") {
+                Object.keys(categoryData).forEach(plant => {
+                  if (plant === plantName) {
+                      const plantData = categoryData[plant];
+                      const imageURL = plantData.image;
+
+                      let secondPageInfo =`
+                        <div class="row justify-content-center">
+                          <div class="col-auto">
+                              <img class="secondPageImg p-4" src="images/resultsImages/${category}/${imageURL}" alt="${plant}"> 
+                          </div> 
+                          <div class="col-md-8">
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State: ${capitalStateName}</p>
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Name: ${plantName}</p>
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Category: ${capitalCategory}</p> 
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>How to control: ${plantData.ControlMethods}</p>
+                              <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Desciption: ${plantData.Description}</p> 
+                          </div> 
+                        </div>
+                        `;
+
+                        $(pageBackground).append(secondPageInfo);
+                        $(secondBackground).css('background-image', `url('images/resultsImages/${category}/${imageURL}')`);
+                    }
+                });
+
             } else {
                 Object.keys(categoryData).forEach(plant => {
                     if (plant === plantName) {
@@ -47,11 +73,11 @@ $(document).ready(function() {
                         const imageURL = plantData.image;
 
                         let secondPageInfo =`
-                          <div class="row">
-                            <div class="col-auto">' +
+                          <div class="row justify-content-center">
+                            <div class="col-auto">
                             <img class="secondPageImg p-4" src="images/resultsImages/${category}/${imageURL}" alt="${plant}"> 
                             </div> 
-                            <div class="col-8"> 
+                            <div class="col-md-8"> 
                               <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>State: ${capitalStateName}</p>
                               <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Name: ${plantName}</p>
                               <p class="pb-2 pt-4 pl-2 text-white"><span class="bullet pr-2">&#8226;</span>Category: ${capitalCategory}</p> 
