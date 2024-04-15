@@ -58,28 +58,6 @@
           "image": "Bermudagrass.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald Ash Borers are invasive beetles that infest and kill ash trees.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald Ash Borer.jpg"
-        },
-        "Kudzu Bug": {
-          "Description": "Kudzu Bugs are stink bugs that feed on kudzu and soybean plants, causing crop damage.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Kudzu Bug.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese Beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese Beetle.jpg"
-        },
-        "Southern Pine Beetle": {
-          "Description": "Southern Pine Beetles are bark beetles that attack and kill pine trees, causing significant damage to forests.",
-          "ControlMethods": ["Sanitation", "Chemical Control"],
-          "image": "Southern Pine Beetle.jpg"
-        }
-      },
       "crops": {
         "Cotton": {
           "Description": "Cotton is a major cash crop grown for its fluffy fibers, which are used in textile production.",
@@ -245,28 +223,6 @@
           "image": "Japanese_Knotweed.jpg"
         }
       },
-      "pests": {
-        "Spruce Bark Beetle": {
-          "Description": "Spruce bark beetles are native pests of spruce trees, but outbreaks can occur and cause significant damage to forests, especially during warm, dry conditions.",
-          "ControlMethods": ["Sanitation", "Chemical Control"],
-          "image": "Spruce_Bark_Beetle.jpg"
-        },
-        "Cabbage White Butterfly": {
-          "Description": "Cabbage white butterflies are common pests of cabbage and other cruciferous vegetables, laying eggs that hatch into destructive caterpillars.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Cabbage_White_Butterfly.jpg"
-        },
-        "Cutworms": {
-          "Description": "Cutworms are moth larvae that feed on the stems of young plants, often cutting them off at ground level and causing significant damage to gardens.",
-          "ControlMethods": ["Cultural Practices", "Insecticides"],
-          "image": "Cutworms.jpg"
-        },
-        "Alaska Yellow Jacket": {
-          "Description": "Alaska yellow jackets are aggressive wasps that can become a nuisance in late summer and fall, especially around picnics and outdoor gatherings.",
-          "ControlMethods": ["Traps", "Insecticides"],
-          "image": "Alaska_Yellow_Jacket.jpg"
-        }
-      },
       "crops": {},
       "flowers": {
         "Fireweed": {
@@ -397,28 +353,6 @@
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Biological Control"],
           "image": "Yellow_Starthistle.jpg"
-        }
-      },
-      "pests": {
-        "Arizona Bark Scorpion": {
-          "Description": "Arizona bark scorpions are venomous arachnids found throughout the state, especially in urban areas, where they may enter homes and pose a risk to humans.",
-          "ControlMethods": ["Seal Entry Points", "Professional Pest Control"],
-          "image": "Arizona_Bark_Scorpion.jpg"
-        },
-        "Citrus Psyllid": {
-          "Description": "Citrus psyllids are small insects that feed on citrus trees and can transmit a bacterium that causes huanglongbing disease, a serious threat to citrus production.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Citrus_Psyllid.jpg"
-        },
-        "Gila Monster": {
-          "Description": "Gila monsters are venomous lizards found in Arizona's desert regions, where they feed on small animals and occasionally enter yards and gardens.",
-          "ControlMethods": ["Avoidance", "Professional Wildlife Removal"],
-          "image": "Gila_Monster.jpg"
-        },
-        "Western Black Widow": {
-          "Description": "Western black widows are venomous spiders found in Arizona's urban and rural areas, where they spin irregular webs in dark, sheltered locations.",
-          "ControlMethods": ["Seal Entry Points", "Professional Pest Control"],
-          "image": "Western_Black_Widow.jpg"
         }
       },
       "crops": {
@@ -609,28 +543,7 @@
           "image": "Pokeweed.jpg"
         }
       },
-      "pests": {
-        "Armyworm": {
-          "Description": "Armyworms are caterpillars that feed on a wide range of crops, including corn, wheat, and soybeans, causing significant damage to agricultural production.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Armyworm.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on leaves, flowers, and fruit, damaging a wide range of plants, including ornamentals and crops.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Fire Ants": {
-          "Description": "Fire ants are aggressive insects that build large mounds in lawns and gardens, delivering painful stings to humans and animals.",
-          "ControlMethods": ["Baits", "Insecticides"],
-          "image": "Fire_Ants.jpg"
-        },
-        "Whiteflies": {
-          "Description": "Whiteflies are tiny insects that feed on the sap of plants, causing yellowing, wilting, and reduced growth, particularly in greenhouse crops.",
-          "ControlMethods": ["Insecticidal Soap", "Biological Control"],
-          "image": "Whiteflies.jpg"
-        }
-      },
+      
       "crops": {
         "Rice": {
           "Description": "Rice is a staple food crop grown in flooded fields, particularly in eastern Arkansas, where the flat, fertile land is well-suited to rice production.",
@@ -804,28 +717,7 @@
           "image": "French_Broom.jpg"
         }
       },
-      "pests": {
-        "Giant African Snail": {
-          "Description": "Giant African snails are invasive pests that feed on a wide range of plants, including crops, ornamentals, and native species, causing damage to agriculture and ecosystems.",
-          "ControlMethods": ["Manual Removal", "Traps", "Biological Control"],
-          "image": "Giant_African_Snail.jpg"
-        },
-        "Glassy-winged Sharpshooter": {
-          "Description": "Glassy-winged sharpshooters are insect pests that feed on the sap of plants, transmitting diseases like Pierce's disease to grapevines and other crops.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Glassy-winged_Sharpshooter.jpg"
-        },
-        "Asian Citrus Psyllid": {
-          "Description": "Asian citrus psyllids are insect pests that feed on citrus trees, transmitting a bacterium that causes Huanglongbing disease, also known as citrus greening.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Citrus_Psyllid.jpg"
-        },
-        "Bagrada Bug": {
-          "Description": "Bagrada bugs are invasive pests that feed on a wide range of plants, including cruciferous vegetables like cabbage and broccoli, causing damage to crops.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Bagrada_Bug.jpg"
-        }
-      },
+      
       "crops": {
         "Almonds": {
           "Description": "Almonds are nutritious nuts grown on small deciduous trees, primarily in California's Central Valley, which has a Mediterranean climate ideal for almond production.",
@@ -998,28 +890,7 @@
           "image": "Leafy_Spurge.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals, fruits, and vegetables, causing significant damage to crops and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Cabbage Aphid": {
-          "Description": "Cabbage aphids are insect pests that feed on cruciferous vegetables like cabbage, broccoli, and kale, causing stunted growth and reducing yields.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Cabbage_Aphid.jpg"
-        },
-        "Colorado Potato Beetle": {
-          "Description": "Colorado potato beetles are major pests of potato plants, feeding on foliage and causing defoliation, which reduces yield and quality.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Colorado_Potato_Beetle.jpg"
-        },
-        "Grasshoppers": {
-          "Description": "Grasshoppers are common pests in Colorado that feed on a wide range of plants, including crops, grasses, and ornamentals, causing significant damage to agriculture and landscapes.",
-          "ControlMethods": ["Insecticides", "Natural Predators"],
-          "image": "Grasshoppers.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn, or maize, is a staple cereal crop grown for its edible kernels, which are used for human food, animal feed, and industrial purposes.",
@@ -1192,29 +1063,48 @@
           "image": "Purple_Loosestrife.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, causing significant damage to urban and forested landscapes.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
+      "crops": {
+        "Tobacco": {
+            "Description": "Tobacco is an important cash crop in Connecticut, grown primarily in the Connecticut River Valley for use in cigars, cigarettes, and other tobacco products.",
+            "Season": "May to September",
+            "Native": "It is not native to Connecticut but is widely cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Tobacco.jpg"
         },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are destructive pests that defoliate trees, particularly oaks and other hardwood species, leading to widespread tree mortality and ecosystem disruption.",
-          "ControlMethods": ["Insecticides", "Bt Sprays"],
-          "image": "Gypsy_Moth.jpg"
+        "Apples": {
+            "Description": "Apples are a popular fruit crop in Connecticut, grown in orchards throughout the state for fresh consumption, cider production, and baking.",
+            "Season": "September to October",
+            "Native": "They are not native to Connecticut but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Apples.jpg"
         },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals, fruits, and vegetables, causing significant damage to crops and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
+        "Peaches": {
+            "Description": "Peaches are grown in Connecticut for their juicy, flavorful fruits, which are harvested in late summer and early fall.",
+            "Season": "July to September",
+            "Native": "They are not native to Connecticut but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Peaches.jpg"
         },
-        "Deer Tick": {
-          "Description": "Deer ticks are vectors of Lyme disease, a bacterial infection transmitted to humans through tick bites, posing a health risk to residents and outdoor enthusiasts in Connecticut.",
-          "ControlMethods": ["Tick Control Products", "Personal Protection Measures"],
-          "image": "Deer_Tick.jpg"
+        "Strawberries": {
+            "Description": "Strawberries are cultivated in Connecticut for their sweet, succulent berries, which are harvested in late spring and early summer.",
+            "Season": "June to July",
+            "Native": "They are not native to Connecticut but are successfully cultivated in the state.",
+            "SoilType": "Well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Strawberries.jpg"
+        },
+        "Blueberries": {
+            "Description": "Blueberries are a popular fruit crop in Connecticut, prized for their sweet, tangy flavor and health benefits.",
+            "Season": "July to August",
+            "Native": "They are not native to Connecticut but are successfully cultivated in the state.",
+            "SoilType": "Acidic, well-drained soil",
+            "WaterNeeded": "Moderate",
+            "image": "Blueberries.jpg"
         }
       },
-      "crops": {},
       "flowers": {
         "Rose": {
           "Description": "Roses are classic flowering plants prized for their beauty and fragrance, with a wide range of colors, forms, and sizes available for gardeners in Connecticut.",
@@ -1345,28 +1235,7 @@
           "image": "Purple_Loosestrife.jpg"
         }
       },
-      "pests": {
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests that feed on a wide range of plants, including fruits, vegetables, and ornamentals, causing damage to crops and landscapes.",
-          "ControlMethods": ["Insecticides", "Exclusion"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, causing significant damage to urban and forested landscapes.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals, fruits, and vegetables, causing significant damage to crops and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on a variety of plants, including grapevines, fruit trees, and ornamentals, causing damage to crops and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        }
-      },
+
       "crops": {
         "Peaches": {
           "Description": "Peaches are delicious stone fruits grown for their sweet, juicy flesh, with Delaware being known for its flavorful peaches harvested in the summer months.",
@@ -1532,28 +1401,7 @@
           "image": "Japanese_Climbing_Fern.jpg"
         }
       },
-      "pests": {
-        "Citrus Greening Disease": {
-          "Description": "Citrus greening disease, also known as huanglongbing, is a devastating bacterial disease that affects citrus trees, causing decline and eventual death, posing a serious threat to Florida's citrus industry.",
-          "ControlMethods": ["Vector Control", "Cultural Practices"],
-          "image": "Citrus_Greening_Disease.jpg"
-        },
-        "Asian Citrus Psyllid": {
-          "Description": "Asian citrus psyllids are small insects that vector citrus greening disease, feeding on citrus leaves and transmitting the bacteria that cause the disease, posing a significant threat to Florida's citrus industry.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Citrus_Psyllid.jpg"
-        },
-        "Whitefly": {
-          "Description": "Whiteflies are tiny insects that feed on plant sap, causing damage to a wide range of crops and ornamental plants in Florida, including citrus, vegetables, and ornamentals.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Whitefly.jpg"
-        },
-        "Fungus Gnats": {
-          "Description": "Fungus gnats are small flies that feed on decaying organic matter and fungus, often infesting potting soil and causing damage to young plants and seedlings in Florida's gardens.",
-          "ControlMethods": ["Biological Control", "Cultural Practices"],
-          "image": "Fungus_Gnats.jpg"
-        }
-      },
+      
       "crops": {
         "Citrus Fruits": {
           "Description": "Citrus fruits, including oranges, grapefruits, and tangerines, are iconic crops of Florida, grown for their juicy flesh and aromatic peels, with the state being one of the leading producers of citrus in the United States.",
@@ -1719,28 +1567,7 @@
           "image": "Chinese_Privet.jpg"
         }
       },
-      "pests": {
-        "Whitefly": {
-          "Description": "Whiteflies are tiny insects that feed on plant sap, causing damage to a wide range of crops and ornamental plants in Georgia, including vegetables, citrus, and ornamentals.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Whitefly.jpg"
-        },
-        "Fire Ants": {
-          "Description": "Fire ants are aggressive stinging ants that build large mounds in Georgia's lawns, gardens, and landscapes, posing a nuisance and health risk to humans and animals.",
-          "ControlMethods": ["Baits", "Insecticides"],
-          "image": "Fire_Ants.jpg"
-        },
-        "Tomato Hornworm": {
-          "Description": "Tomato hornworms are large caterpillars that feed on tomato plants and other solanaceous crops in Georgia, causing defoliation and damage to fruits.",
-          "ControlMethods": ["Handpicking", "Bt (Bacillus thuringiensis)"],
-          "image": "Tomato_Hornworm.jpg"
-        },
-        "Squash Vine Borer": {
-          "Description": "Squash vine borers are moth larvae that bore into squash and pumpkin stems, causing wilting and death of plants in Georgia's vegetable gardens.",
-          "ControlMethods": ["Cultural Practices", "Insecticides"],
-          "image": "Squash_Vine_Borer.jpg"
-        }
-      },
+      
       "crops": {
         "Peanuts": {
           "Description": "Peanuts, also known as groundnuts, are nutritious legumes grown for their edible seeds, with Georgia being one of the top peanut-producing states in the United States.",
@@ -1842,14 +1669,6 @@
           "WaterNeeded": "Moderate to High",
           "image": "Pecan.jpg"
         },
-        "Dogwood": {
-          "Description": "Dogwoods are native trees or shrubs known for their showy white or pink blossoms in early spring, with the flowering dogwood being the state tree of Georgia.",
-          "Season": "Spring",
-          "Native": "it is",
-          "SoilType": "Moist, well-drained soil",
-          "WaterNeeded": "Moderate",
-          "image": "Dogwood.jpg"
-        },
         "Magnolia": {
           "Description": "Magnolias are iconic trees or shrubs known for their large, fragrant flowers and glossy evergreen leaves, with several species cultivated in Georgia's gardens and landscapes.",
           "Season": "Spring to Summer",
@@ -1921,28 +1740,6 @@
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Mechanical Removal"],
           "image": "Australian_Tree_Fern.jpg"
-        }
-      },
-      "pests": {
-        "Coqui Frog": {
-          "Description": "Coqui frogs are invasive amphibians that reproduce rapidly, disrupting Hawaii's ecosystems and creating noise pollution with their loud mating calls.",
-          "ControlMethods": ["Habitat Modification", "Mechanical Removal"],
-          "image": "Coqui_Frog.jpg"
-        },
-        "Coffee Berry Borer": {
-          "Description": "Coffee berry borers are destructive pests that infest coffee plants, reducing yields and impacting Hawaii's coffee industry.",
-          "ControlMethods": ["Biological Control", "Cultural Practices"],
-          "image": "Coffee_Berry_Borer.jpg"
-        },
-        "African Snails": {
-          "Description": "African snails are invasive gastropods that damage crops, gardens, and natural habitats in Hawaii, posing a threat to agriculture and native species.",
-          "ControlMethods": ["Manual Removal", "Baits"],
-          "image": "African_Snails.jpg"
-        },
-        "Pineapple Mealybug": {
-          "Description": "Pineapple mealybugs are pests that feed on pineapple plants, causing damage to fruit quality and reducing yields in Hawaii's pineapple fields.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Pineapple_Mealybug.jpg"
         }
       },
       "crops": {
@@ -2113,28 +1910,6 @@
           "Native": "it is not",
           "ControlMethods": ["Herbicides", "Biological Control"],
           "image": "Russian_Knapweed.jpg"
-        }
-      },
-      "pests": {
-        "Colorado Potato Beetle": {
-          "Description": "Colorado potato beetles are destructive pests that feed on potato plants, reducing yields and causing economic losses for Idaho's potato growers.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Colorado_Potato_Beetle.jpg"
-        },
-        "Western Corn Rootworm": {
-          "Description": "Western corn rootworms are pests that feed on corn roots, causing stunted growth and reduced yields in Idaho's corn fields.",
-          "ControlMethods": ["Crop Rotation", "Insecticides"],
-          "image": "Western_Corn_Rootworm.jpg"
-        },
-        "Grasshoppers": {
-          "Description": "Grasshoppers are pests that feed on a wide range of crops, including alfalfa, wheat, and barley, causing defoliation and yield losses in Idaho's agricultural fields.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Grasshoppers.jpg"
-        },
-        "Codling Moth": {
-          "Description": "Codling moths are pests that infest apple and pear trees, damaging fruit and reducing yields in Idaho's orchards.",
-          "ControlMethods": ["Pheromone Traps", "Insecticides"],
-          "image": "Codling_Moth.jpg"
         }
       },
       "crops": {
@@ -2314,28 +2089,7 @@
           "image": "Palmer_Amaranth.jpg"
         }
       },
-      "pests": {
-        "JapaneseBeetle": {
-          "Description": "Japanese beetles are destructive pests in Illinois, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Corn Earworm": {
-          "Description": "Corn earworms are pests that infest corn, tomatoes, and other crops in Illinois, causing damage to ears, fruits, and kernels, reducing crop quality and yields.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees in Illinois, causing widespread mortality and economic losses in urban and forested areas.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests in Illinois, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn, or maize, is a major crop in Illinois, grown for human consumption, animal feed, and industrial uses, with the state's fertile soil and temperate climate supporting successful corn cultivation.",
@@ -2512,28 +2266,7 @@
           "image": "Palmer_Amaranth.jpg"
         }
       },
-      "pests": {
-        "JapaneseBeetle": {
-          "Description": "Japanese beetles are destructive pests in Indiana, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Corn Earworm": {
-          "Description": "Corn earworms are pests that infest corn, tomatoes, and other crops in Indiana, causing damage to ears, fruits, and kernels, reducing crop quality and yields.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees in Indiana, causing widespread mortality and economic losses in urban and forested areas.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests in Indiana, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn, or maize, is a major crop in Indiana, grown for human consumption, animal feed, and industrial uses, with the state's fertile soil and temperate climate supporting successful corn cultivation.",
@@ -2709,28 +2442,7 @@
           "image": "Common_Lambsquarters.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests in Iowa, feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Corn Earworm": {
-          "Description": "Corn earworms are pests that infest corn, tomatoes, and other crops in Iowa, causing damage to ears, fruits, and kernels, reducing crop quality and yields.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees in Iowa, causing widespread mortality and economic losses in urban and forested areas.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Soybean Aphid": {
-          "Description": "Soybean aphids are pests that infest soybean plants in Iowa, feeding on sap and reducing yields, particularly during periods of high population growth, requiring timely management to minimize damage.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Soybean_Aphid.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn, or maize, is a major crop in Iowa, grown for human consumption, animal feed, and industrial uses, with the state's fertile soil and favorable climate supporting high yields of this staple crop.",
@@ -2906,28 +2618,7 @@
           "image": "Horseweed.jpg"
         }
       },
-      "pests": {
-        "Corn Earworm": {
-          "Description": "Corn earworms are pests that infest corn, tomatoes, and other crops in Kansas, causing damage to ears, fruits, and kernels, reducing crop quality and yields.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Aphids": {
-          "Description": "Aphids are common pests in Kansas that infest a wide range of plants, feeding on sap and causing stunted growth, distorted leaves, and reduced yields, requiring timely management to prevent damage.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Aphids.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests in Kansas that feed on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Wireworms": {
-          "Description": "Wireworms are soil-dwelling pests in Kansas that feed on plant roots, seeds, and tubers, causing damage to crops such as corn, potatoes, and carrots, requiring integrated management strategies to minimize losses.",
-          "ControlMethods": ["Crop Rotation", "Seed Treatments"],
-          "image": "Wireworms.jpg"
-        }
-      },
+      
       "crops": {
         "Wheat": {
           "Description": "Wheat is a major cereal grain crop in Kansas, grown for human consumption, livestock feed, and industrial uses, with varieties such as hard red winter wheat and hard white wheat adapted to the state's climate and soil conditions.",
@@ -3103,28 +2794,7 @@
           "image": "Kudzu.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests in Kentucky that feed on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees in Kentucky, causing significant damage to urban and forested landscapes, requiring monitoring and management to protect susceptible trees.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Squash Vine Borer": {
-          "Description": "Squash vine borers are pests in Kentucky that infest squash, pumpkins, and other cucurbit crops, causing damage to stems and reducing yields, requiring preventive measures and control strategies to manage infestations.",
-          "ControlMethods": ["Cultural Practices", "Biological Control"],
-          "image": "Squash_Vine_Borer.jpg"
-        },
-        "Stink Bugs": {
-          "Description": "Stink bugs are agricultural pests in Kentucky that feed on a wide range of crops, including soybeans, corn, and fruits, causing damage to fruits, seeds, and foliage, requiring integrated pest management strategies to minimize losses.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Stink_Bugs.jpg"
-        }
-      },
+      
       "crops": {
         "Tobacco": {
           "Description": "Tobacco is a major cash crop in Kentucky, grown for its leaves, which are used for smoking, chewing, and manufacturing tobacco products, with varieties such as burley and dark tobacco cultivated in the state.",
@@ -3300,28 +2970,7 @@
           "image": "Alligatorweed.jpg"
         }
       },
-      "pests": {
-        "Formosan Subterranean Termite": {
-          "Description": "Formosan subterranean termites are destructive pests in Louisiana, known for their ability to infest buildings, trees, and other wooden structures, causing extensive damage and economic losses.",
-          "ControlMethods": ["Termiticides", "Physical Barriers"],
-          "image": "Formosan_Subterranean_Termite.jpg"
-        },
-        "Fire Ants": {
-          "Description": "Fire ants are aggressive pests in Louisiana, known for their painful stings, large mound nests, and ecological impacts on native fauna, requiring management to minimize human and environmental harm.",
-          "ControlMethods": ["Baits", "Insecticides", "Biological Control"],
-          "image": "Fire_Ants.jpg"
-        },
-        "Asian Citrus Psyllid": {
-          "Description": "Asian citrus psyllids are pests in Louisiana that transmit citrus greening disease, a serious threat to citrus production, causing decline and death of infected trees, requiring monitoring and management to prevent spread and protect citrus crops.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Asian_Citrus_Psyllid.jpg"
-        },
-        "Cottony Cushion Scale": {
-          "Description": "Cottony cushion scales are pests in Louisiana that infest citrus trees, ornamental plants, and agricultural crops, causing damage to foliage, fruits, and twigs, requiring management to prevent economic losses and maintain plant health.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Cottony_Cushion_Scale.jpg"
-        }
-      },
+      
       "crops": {
         "Sugarcane": {
           "Description": "Sugarcane is a major cash crop in Louisiana, grown for its tall, fibrous stalks, which are processed into sugar, molasses, and ethanol, contributing to the state's economy and cultural heritage.",
@@ -3500,28 +3149,7 @@
           "image": "Japanese_Barberry.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a threat to Maine's forests, urban trees, and timber industry, requiring monitoring and management to slow their spread and protect ash resources.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Brown-tail Moth": {
-          "Description": "Brown-tail moths are pests in Maine, known for their irritating hairs, which can cause skin rashes and respiratory problems in humans, requiring management to reduce populations and minimize health risks.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Brown-tail_Moth.jpg"
-        },
-        "Winter Moth": {
-          "Description": "Winter moths are pests in Maine, known for defoliating trees and shrubs in early spring, causing damage to forest and landscape plants, requiring management to reduce populations and protect vegetation.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Winter_Moth.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are invasive pests in Maine, known for defoliating trees and causing widespread damage to forests, urban landscapes, and recreational areas, requiring monitoring and management to prevent outbreaks and protect forest health.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Gypsy_Moth.jpg"
-        }
-      },
+      
       "crops": {
         "Blueberries": {
           "Description": "Blueberries are a major agricultural crop in Maine, with both wild and cultivated varieties grown for fresh consumption, processing, and value-added products, contributing to the state's economy and culinary culture.",
@@ -3704,28 +3332,7 @@
           "image": "Chinese_Privet.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a threat to Maryland's forests, urban trees, and timber industry, requiring monitoring and management to slow their spread and protect ash resources.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive pests in Maryland, known for feeding on a wide range of host plants, including fruit trees and ornamentals, posing a threat to agricultural crops and ecosystems, requiring management to prevent establishment and spread.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Spotted_Lanternfly.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests in Maryland, known for feeding on a variety of crops, fruits, and ornamental plants, causing economic damage to agricultural production and impacting residential areas, requiring management to reduce populations and protect crops.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests in Maryland, known for feeding on a wide range of plants, including ornamentals, fruits, and vegetables, causing defoliation and aesthetic damage, requiring management to protect landscapes and agricultural crops.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn, or maize, is an important crop in Maryland, cultivated for food, livestock feed, ethanol production, and other industrial uses, contributing to the state's agricultural economy and food supply.",
@@ -3898,28 +3505,7 @@
           "image": "Japanese_Barberry.jpg"
         }
       },
-      "pests": {
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are destructive pests in Massachusetts, known for defoliating trees and causing widespread damage to forests, urban landscapes, and ornamental trees, requiring management to reduce populations and protect tree health.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a threat to Massachusetts' forests, urban trees, and timber industry, requiring monitoring and management to slow their spread and protect ash resources.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Winter Moth": {
-          "Description": "Winter moths are invasive pests in Massachusetts, known for defoliating trees and shrubs in the spring, causing damage to ornamental and fruit trees, requiring management to reduce populations and protect tree health.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Winter_Moth.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are invasive pests in Massachusetts, known for attacking and killing a variety of hardwood trees, including maples, birches, and willows, posing a threat to forests, urban landscapes, and shade trees, requiring management to prevent establishment and spread.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Cranberries": {
           "Description": "Cranberries are an important crop in Massachusetts, grown in wetland areas known as cranberry bogs, with varieties such as Stevens, Early Black, and Howes being cultivated for fresh fruit, juice, sauce, and dried cranberries, contributing to the state's agricultural economy and cultural heritage.",
@@ -4095,28 +3681,7 @@
           "image": "Common_Reed.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a threat to Michigan's forests, urban trees, and timber industry, requiring monitoring and management to slow their spread and protect ash resources.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are invasive pests in Michigan, known for attacking and killing a variety of hardwood trees, including maples, birches, and willows, posing a threat to forests, urban landscapes, and shade trees, requiring management to prevent establishment and spread.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are destructive pests in Michigan, known for defoliating trees and causing widespread damage to forests, urban landscapes, and ornamental trees, requiring management to reduce populations and protect tree health.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests in Michigan, known for feeding on a wide range of fruit and vegetable crops, causing damage to plants and reducing yields, requiring management to minimize economic losses and protect agricultural production.",
-          "ControlMethods": ["Insecticides", "Physical Control"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        }
-      },
+      
       "crops": {
         "Apples": {
           "Description": "Apples are a major fruit crop in Michigan, grown in orchards throughout the state for fresh consumption, processing, and cider production, with cultivars such as Honeycrisp, Gala, and Fuji being popular choices, contributing to the state's agricultural economy and culinary heritage.",
@@ -4291,28 +3856,7 @@
           "image": "Purple_Loosestrife.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a threat to Minnesota's forests, urban trees, and timber industry, requiring monitoring and management to slow their spread and protect ash resources.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are invasive pests in Minnesota, known for attacking and killing a variety of hardwood trees, including maples, birches, and willows, posing a threat to forests, urban landscapes, and shade trees, requiring management to prevent establishment and spread.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are destructive pests in Minnesota, known for defoliating trees and causing widespread damage to forests, urban landscapes, and ornamental trees, requiring management to reduce populations and protect tree health.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests in Minnesota, known for feeding on a wide range of fruit and vegetable crops, causing damage to plants and reducing yields, requiring management to minimize economic losses and protect agricultural production.",
-          "ControlMethods": ["Insecticides", "Exclusion"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn is a staple cereal crop grown in Minnesota for human consumption, livestock feed, and industrial uses, with varieties such as dent corn and sweet corn being cultivated in the state's fertile soils and favorable climate, contributing to the state's agricultural economy and food supply.",
@@ -4487,28 +4031,7 @@
           "image": "Bermudagrass.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald Ash Borers are invasive beetles that infest and kill ash trees.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald Ash Borer.jpg"
-        },
-        "Kudzu Bug": {
-          "Description": "Kudzu Bugs are stink bugs that feed on kudzu and soybean plants, causing crop damage.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Kudzu Bug.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese Beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese Beetle.jpg"
-        },
-        "Southern Pine Beetle": {
-          "Description": "Southern Pine Beetles are bark beetles that attack and kill pine trees, causing significant damage to forests.",
-          "ControlMethods": ["Sanitation", "Chemical Control"],
-          "image": "Southern Pine Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Cotton": {
           "Description": "Cotton is a major cash crop grown for its fluffy fibers, which are used in textile production.",
@@ -4656,28 +4179,7 @@
           "image": "Musk_Thistle.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese Beetles are destructive pests that feed on a wide range of plants, causing damage to leaves, flowers, and fruits.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Soybean Aphid": {
-          "Description": "Soybean Aphids are small insects that can infest soybean plants, reducing yields and causing economic losses for farmers.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Soybean_Aphid.jpg"
-        },
-        "Corn Earworm": {
-          "Description": "Corn Earworms are caterpillars that feed on corn ears, causing damage to kernels and reducing crop quality.",
-          "ControlMethods": ["Bt Corn", "Insecticides"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Deer": {
-          "Description": "Deer can be a significant pest in Missouri gardens and landscapes, feeding on crops, ornamental plants, and young trees.",
-          "ControlMethods": ["Fencing", "Repellents"],
-          "image": "Deer.jpg"
-        }
-      },
+      
       "crops": {
         "Soybeans": {
           "Description": "Soybeans are legumes cultivated for their high protein content and various industrial uses.",
@@ -4872,28 +4374,7 @@
           "image": "Musk_Thistle.jpg"
         }
       },
-      "pests": {
-        "Corn Earworm": {
-          "Description": "Corn Earworms are caterpillars that feed on corn ears, causing damage to kernels and reducing crop quality.",
-          "ControlMethods": ["Bt Corn", "Insecticides"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese Beetles are destructive pests that feed on a wide range of plants, causing damage to leaves, flowers, and fruits.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Aphids": {
-          "Description": "Aphids are small insects that can infest a variety of plants, sucking sap from leaves and causing curling, distortion, and yellowing.",
-          "ControlMethods": ["Insecticidal Soap", "Horticultural Oil"],
-          "image": "Aphids.jpg"
-        },
-        "Grasshoppers": {
-          "Description": "Grasshoppers are herbivorous insects that can damage crops and gardens by feeding on foliage and flowers, particularly during outbreaks.",
-          "ControlMethods": ["Biological Control", "Insecticides"],
-          "image": "Grasshoppers.jpg"
-        }
-      },
+      
       "crops": {
         "Corn": {
           "Description": "Corn, or maize, is a staple cereal crop used for food, animal feed, and industrial purposes.",
@@ -5088,28 +4569,7 @@
           "image": "Bull_Thistle.jpg"
         }
       },
-      "pests": {
-        "Armyworms": {
-          "Description": "Armyworms are caterpillars that feed on a variety of crops, including corn, wheat, and alfalfa, causing significant damage to foliage and reducing yields.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Armyworms.jpg"
-        },
-        "Cutworms": {
-          "Description": "Cutworms are moth larvae that feed on the stems of young plants, cutting them off at ground level and causing damage to a wide range of crops in Nevada's gardens and fields.",
-          "ControlMethods": ["Cultural Practices", "Biological Control"],
-          "image": "Cutworms.jpg"
-        },
-        "Leafhoppers": {
-          "Description": "Leafhoppers are small insects that feed on plant sap, causing stippling, yellowing, and curling of leaves, as well as transmitting diseases to crops in Nevada.",
-          "ControlMethods": ["Insecticides", "Row Covers"],
-          "image": "Leafhoppers.jpg"
-        },
-        "Spider Mites": {
-          "Description": "Spider mites are tiny arachnids that feed on plant juices, causing stippling, webbing, and leaf damage in Nevada's gardens and landscapes.",
-          "ControlMethods": ["Insecticidal Soap", "Horticultural Oil"],
-          "image": "Spider_Mites.jpg"
-        }
-      },
+      
       "crops": {
         "Hay": {
           "Description": "Hay is grass, legumes, or other herbaceous plants that have been cut and dried for use as animal fodder, particularly for grazing livestock.",
@@ -5328,28 +4788,7 @@
           "image": "Common_Buckthorn.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a significant threat to New Hampshire's forests and urban tree canopy.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Hemlock Woolly Adelgid": {
-          "Description": "Hemlock woolly adelgids are tiny, aphid-like insects that feed on hemlock trees, causing decline and mortality in these important forest species in New Hampshire.",
-          "ControlMethods": ["Insecticides", "Horticultural Oil"],
-          "image": "Hemlock_Woolly_Adelgid.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are invasive pests that defoliate trees, including oak and aspen, threatening forest health and biodiversity in New Hampshire.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Brown-tail Moth": {
-          "Description": "Brown-tail moths are invasive pests that defoliate trees and cause skin irritation in humans due to their toxic hairs, posing health and economic concerns in New Hampshire.",
-          "ControlMethods": ["Insecticides", "Mechanical Removal"],
-          "image": "Brown-tail_Moth.jpg"
-        }
-      },
+      
       "crops": {
         "Apples": {
           "Description": "Apples are a popular fruit crop grown in New Hampshire's orchards, with varieties such as McIntosh, Cortland, and Honeycrisp thriving in the state's climate.",
@@ -5569,28 +5008,7 @@
           "image": "Mile_a_Minute_Weed.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a significant threat to New Jersey's forests and urban tree canopy.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on a wide range of plants, including grapes, fruit trees, and ornamentals, posing a threat to New Jersey's agricultural and horticultural industries.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests that feed on a variety of crops, fruits, and ornamental plants, causing economic damage to agriculture and nuisance problems for homeowners in New Jersey.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are destructive pests that infest and kill a wide range of hardwood trees, including maple, birch, and poplar, threatening New Jersey's forests and urban green spaces.",
-          "ControlMethods": ["Tree Removal", "Insecticides"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Cranberries": {
           "Description": "Cranberries are a tart, red fruit harvested from low-lying vines in New Jersey's wetlands, used in sauces, juices, and baked goods.",
@@ -5802,28 +5220,7 @@
           "image": "Spotted_Knapweed.jpg"
         }
       },
-      "pests": {
-        "Bark Beetles": {
-          "Description": "Bark beetles are native insects that can become destructive pests when populations increase, attacking weakened or stressed trees in New Mexico's forests and urban areas.",
-          "ControlMethods": ["Thinning", "Prescribed Burns"],
-          "image": "Bark_Beetles.jpg"
-        },
-        "Western Tent Caterpillar": {
-          "Description": "Western tent caterpillars are native pests that defoliate trees and shrubs in New Mexico's forests and urban landscapes, causing aesthetic damage and stress to host plants.",
-          "ControlMethods": ["Manual Removal", "Biological Control"],
-          "image": "Western_Tent_Caterpillar.jpg"
-        },
-        "Pecan Weevil": {
-          "Description": "Pecan weevils are native insects that infest pecan nuts, reducing yields and causing economic losses for pecan growers in New Mexico.",
-          "ControlMethods": ["Traps", "Insecticides"],
-          "image": "Pecan_Weevil.jpg"
-        },
-        "Aphids": {
-          "Description": "Aphids are common garden pests that feed on a wide range of plants, including vegetables, ornamentals, and fruit trees, causing damage to foliage and transmitting plant diseases.",
-          "ControlMethods": ["Insecticidal Soap", "Horticultural Oils"],
-          "image": "Aphids.jpg"
-        }
-      },
+      
       "crops": {
         "Chile Peppers": {
           "Description": "Chile peppers, including varieties like Hatch and Anaheim, are a staple ingredient in New Mexican cuisine, prized for their spicy flavor and versatility in salsas, sauces, and dishes.",
@@ -6036,28 +5433,7 @@
           "image": "Purple_Loosestrife.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, posing a threat to New York's forests and urban treescape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are invasive pests that attack and kill a variety of hardwood trees, including maples, in New York's forests and urban areas.",
-          "ControlMethods": ["Tree Removal", "Insecticides"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees and plants, including grapes and fruit trees, threatening agriculture and ecosystems in New York.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests that feed on a wide range of plants, including fruits and vegetables, causing economic losses for growers in New York.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        }
-      },
+      
       "crops": {
         "Apples": {
           "Description": "Apples are a major fruit crop in New York, with varieties such as McIntosh, Empire, and Red Delicious grown in orchards across the state for fresh consumption and processing.",
@@ -6269,28 +5645,7 @@
           "image": "Giant_Hogweed.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening North Carolina's forests and urban treescape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees and plants, including grapes and fruit trees, posing a threat to agriculture and ecosystems in North Carolina.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are invasive pests that attack and kill a variety of hardwood trees, including maples, in North Carolina's forests and urban areas.",
-          "ControlMethods": ["Tree Removal", "Insecticides"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are invasive pests that feed on a wide range of plants, including fruits and vegetables, causing economic losses for growers in North Carolina.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        }
-      },
+      
       "crops": {
         "Tobacco": {
           "Description": "Tobacco is an important cash crop in North Carolina, with the state ranking among the top producers in the nation.",
@@ -6502,28 +5857,7 @@
           "image": "Houndstongue.jpg"
         }
       },
-      "pests": {
-        "Grasshoppers": {
-          "Description": "Grasshoppers are common pests in North Dakota's agricultural fields and rangelands, feeding on crops and forage grasses, especially during dry years.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Grasshoppers.jpg"
-        },
-        "Wheat Stem Sawfly": {
-          "Description": "Wheat stem sawflies are pests of wheat crops in North Dakota, causing damage by laying eggs inside wheat stems, leading to lodging and reduced yields.",
-          "ControlMethods": ["Cultural Practices", "Chemical Control"],
-          "image": "Wheat_Stem_Sawfly.jpg"
-        },
-        "Aphids": {
-          "Description": "Aphids are common pests of many crops in North Dakota, feeding on plant sap and transmitting plant diseases, which can reduce yields and quality.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Aphids.jpg"
-        },
-        "Cereal Leaf Beetles": {
-          "Description": "Cereal leaf beetles are pests of cereal crops like wheat and barley in North Dakota, causing damage by feeding on leaves and reducing photosynthetic activity.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Cereal_Leaf_Beetles.jpg"
-        }
-      },
+      
       "crops": {
         "Wheat": {
           "Description": "Wheat is a major cereal crop grown for its grain, which is used for human consumption and livestock feed, making it a staple of North Dakota's agriculture.",
@@ -6734,28 +6068,7 @@
           "image": "Canada_Thistle.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Ohio's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Ohio's urban and forested areas, where ash trees are a common component of the landscape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Asian Longhorned Beetle": {
-          "Description": "Asian longhorned beetles are destructive pests that attack and kill a variety of hardwood trees, including maples and birches, posing a threat to Ohio's forests and urban green spaces.",
-          "ControlMethods": ["Quarantine", "Tree Removal"],
-          "image": "Asian_Longhorned_Beetle.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees, vines, and crops, causing damage to plants and potentially spreading plant diseases in Ohio's agricultural and natural areas.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        }
-      },
+      
       "crops": {
         "Soybeans": {
           "Description": "Soybeans are legumes cultivated for their high protein content and various industrial uses, including animal feed, cooking oil, and biofuel production, making them a vital crop in Ohio's agricultural economy.",
@@ -6982,28 +6295,7 @@
           "image": "Lee.jpg"
         }
       },
-      "pests": {
-        "Aphids": {
-          "Description": "Aphids are small insects that feed on plant sap, causing damage to leaves, shoots, and flowers in Oklahoma's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Beneficial Insects"],
-          "image": "Aphids.jpg"
-        },
-        "Spider Mites": {
-          "Description": "Spider mites are tiny pests that suck plant juices, causing stippling, yellowing, and webbing on leaves in Oklahoma's gardens and greenhouses.",
-          "ControlMethods": ["Insecticides", "Predatory Mites"],
-          "image": "Spider_Mites.jpg"
-        },
-        "Cutworms": {
-          "Description": "Cutworms are caterpillars that feed on young seedlings and tender plant stems, causing damage to crops and ornamental plants in Oklahoma's gardens and fields.",
-          "ControlMethods": ["Cultural Practices", "Insecticides"],
-          "image": "Cutworms.jpg"
-        },
-        "Japanese Beetles": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Oklahoma's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetles.jpg"
-        }
-      },
+      
       "crops": {
         "Wheat": {
           "Description": "Wheat is a cereal grain cultivated for its nutritious seeds, used to make flour for bread, pasta, and other food products, with Oklahoma being a major producer in the United States.",
@@ -7173,28 +6465,7 @@
           "image": "Japanese_Knotweed.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Oregon's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Spider Mites": {
-          "Description": "Spider mites are common pests that feed on the sap of plants, causing damage to leaves and reducing plant vigor in Oregon's gardens and agricultural crops.",
-          "ControlMethods": ["Insecticidal Soaps", "Horticultural Oils"],
-          "image": "Spider_Mites.jpg"
-        },
-        "Aphids": {
-          "Description": "Aphids are small, soft-bodied insects that can reproduce rapidly and feed on the sap of plants, causing distortion of leaves and spreading plant diseases in Oregon's gardens and landscapes.",
-          "ControlMethods": ["Insecticidal Soaps", "Horticultural Oils"],
-          "image": "Aphids.jpg"
-        },
-        "Slugs": {
-          "Description": "Slugs are common garden pests that feed on a wide variety of plants, including vegetables, ornamentals, and seedlings, causing damage to leaves and fruit in Oregon's gardens.",
-          "ControlMethods": ["Slug Baits", "Handpicking"],
-          "image": "Slugs.jpg"
-        }
-      },
+      
       "crops": {
         "Nursery and Greenhouse Products": {
           "Description": "Nursery and greenhouse products include a wide variety of ornamental plants, shrubs, and trees grown for landscaping, gardening, and decorative purposes in Oregon.",
@@ -7356,28 +6627,7 @@
           "image": "Japanese_Stiltgrass.jpg"
         }
       },
-      "pests": {
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on the sap of trees and grapevines, causing damage to plants and potentially spreading plant diseases in Pennsylvania's agricultural and natural areas.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Pennsylvania's urban and forested areas, where ash trees are a common component of the landscape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are agricultural pests that feed on a wide variety of crops, fruits, and ornamental plants, causing damage to Pennsylvania's agricultural crops and landscapes.",
-          "ControlMethods": ["Insecticides", "Physical Exclusion"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        },
-        "Spotted Wing Drosophila": {
-          "Description": "Spotted wing drosophila are fruit flies that infest and damage soft-skinned fruits such as berries and cherries, posing a threat to Pennsylvania's fruit crops and requiring careful monitoring and management.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Spotted_Wing_Drosophila.jpg"
-        }
-      },
+      
       "crops": {
         "Mushrooms": {
           "Description": "Mushrooms are fungi cultivated for culinary and medicinal purposes, with Pennsylvania being a leading producer of button mushrooms, portobellos, and other varieties for both domestic and international markets.",
@@ -7539,28 +6789,7 @@
           "image": "Common_Reed.jpg"
         }
       },
-      "pests": {
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are agricultural pests that feed on a wide range of fruits, vegetables, and ornamental plants, causing damage to crops and gardens in Rhode Island.",
-          "ControlMethods": ["Insecticides", "Physical Exclusion"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Rhode Island's urban and forested areas, where ash trees are a common component of the landscape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are defoliating insects that can cause widespread damage to trees and forests in Rhode Island, particularly oaks and other hardwood species.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Rhode Island's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Nursery and Greenhouse Products": {
           "Description": "Nursery and greenhouse products are important to Rhode Island's economy, with the state's nurseries producing a variety of plants for landscaping, gardening, and ornamental purposes.",
@@ -7722,28 +6951,7 @@
           "image": "Chinese_Privet.jpg"
         }
       },
-      "pests": {
-        "Fire Ants": {
-          "Description": "Fire ants are aggressive stinging ants that can form large colonies in South Carolina's lawns, fields, and natural areas, posing a threat to humans, pets, and wildlife.",
-          "ControlMethods": ["Baits", "Insecticides"],
-          "image": "Fire_Ants.jpg"
-        },
-        "Asian Citrus Psyllid": {
-          "Description": "Asian citrus psyllids are small insects that feed on citrus trees, spreading a bacterial disease known as citrus greening, which can devastate citrus crops in South Carolina.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Citrus_Psyllid.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening South Carolina's urban and forested areas, where ash trees are valued for their shade and beauty.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees, vines, and crops, causing damage to plants and potentially spreading plant diseases in South Carolina's agricultural and natural areas.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        }
-      },
+      
       "crops": {
         "Peaches": {
           "Description": "Peaches are an important crop in South Carolina, with the state's orchards producing a variety of peach cultivars, including clingstone and freestone varieties, for fresh consumption and processing.",
@@ -7905,28 +7113,7 @@
           "image": "Field_Bindweed.jpg"
         }
       },
-      "pests": {
-        "Grasshoppers": {
-          "Description": "Grasshoppers are common pests in South Dakota's agricultural areas, feeding on crops and grasses and causing significant damage to yields and forage quality.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Grasshoppers.jpg"
-        },
-        "Corn Rootworm": {
-          "Description": "Corn rootworms are destructive pests that feed on corn roots, reducing plant vigor and yield potential in South Dakota's cornfields, leading to economic losses for farmers.",
-          "ControlMethods": ["Insecticides", "Crop Rotation"],
-          "image": "Corn_Rootworm.jpg"
-        },
-        "Wheat Stem Sawfly": {
-          "Description": "Wheat stem sawflies are insect pests that feed on wheat stems, causing lodging and yield losses in South Dakota's wheat fields, particularly in areas with continuous wheat production.",
-          "ControlMethods": ["Insecticides", "Cultural Control"],
-          "image": "Wheat_Stem_Sawfly.jpg"
-        },
-        "Soybean Aphid": {
-          "Description": "Soybean aphids are small insects that feed on soybean plants, reducing yield potential and quality in South Dakota's soybean fields, particularly during periods of high infestation.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Soybean_Aphid.jpg"
-        }
-      },
+      
       "crops": {
         "Wheat": {
           "Description": "Wheat is one of the top crops in South Dakota, with the state's farmers producing hard red spring wheat, durum wheat, and other varieties for flour production and livestock feed.",
@@ -8088,28 +7275,7 @@
           "image": "Cogongrass.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Tennessee's urban and forested areas, where ash trees are an important component of the landscape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Southern Pine Beetle": {
-          "Description": "Southern pine beetles are destructive pests that attack and kill pine trees, including commercially valuable species, posing a threat to Tennessee's forests and timber industry.",
-          "ControlMethods": ["Pheromone Traps", "Thinning"],
-          "image": "Southern_Pine_Beetle.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Tennessee's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Hemlock Woolly Adelgid": {
-          "Description": "Hemlock woolly adelgids are small insects that infest and kill hemlock trees, particularly the eastern hemlock, impacting Tennessee's forests and natural areas, where hemlocks are valued for their ecological and aesthetic qualities.",
-          "ControlMethods": ["Insecticides", "Predatory Beetles"],
-          "image": "Hemlock_Woolly_Adelgid.jpg"
-        }
-      },
+      
       "crops": {
         "Cotton": {
           "Description": "Cotton is an important crop in Tennessee, with the state ranking among the top producers in the United States, supporting both the textile industry and the economy.",
@@ -8271,28 +7437,7 @@
           "image": "Johnsongrass.jpg"
         }
       },
-      "pests": {
-        "Cotton Bollworm": {
-          "Description": "Cotton bollworms are destructive pests that feed on cotton bolls, causing damage to the crop and reducing yields in Texas's cotton fields, where they are a major concern for farmers.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Cotton_Bollworm.jpg"
-        },
-        "Sugarcane Aphid": {
-          "Description": "Sugarcane aphids are invasive pests that infest and damage sorghum plants, reducing yields and quality in Texas's sorghum fields, where they are a growing threat to the crop.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Sugarcane_Aphid.jpg"
-        },
-        "Corn Earworm": {
-          "Description": "Corn earworms are pests that feed on corn ears and other crops, causing damage to the kernels and reducing yields in Texas's cornfields, where they are controlled through insecticides and crop management practices.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Corn_Earworm.jpg"
-        },
-        "Armyworm": {
-          "Description": "Armyworms are destructive pests that can devastate grass pastures, forage crops, and small grains in Texas, where they migrate in large numbers and consume vegetation voraciously.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Armyworm.jpg"
-        }
-      },
+      
       "crops": {
         "Cotton": {
           "Description": "Cotton is a major crop in Texas, with the state ranking among the top producers in the United States, supporting the textile industry and the economy.",
@@ -8454,28 +7599,7 @@
           "image": "Canada_Thistle.jpg"
         }
       },
-      "pests": {
-        "Utah Corn Rootworm": {
-          "Description": "Utah corn rootworms are pests that feed on corn roots, causing damage to the crop and reducing yields in Utah's cornfields, where they are controlled through crop rotation, insecticides, and other management practices.",
-          "ControlMethods": ["Crop Rotation", "Insecticides"],
-          "image": "Corn_Rootworm.jpg"
-        },
-        "Alfalfa Weevil": {
-          "Description": "Alfalfa weevils are destructive pests that feed on alfalfa foliage, causing damage to the crop and reducing yields in Utah's alfalfa fields, where they are controlled through insecticides and cultural practices.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Alfalfa_Weevil.jpg"
-        },
-        "Grasshoppers": {
-          "Description": "Grasshoppers are common pests in Utah's agricultural and rangeland areas, where they feed on a variety of crops, forage grasses, and native vegetation, causing damage to plants and reducing yields.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Grasshoppers.jpg"
-        },
-        "Codling Moth": {
-          "Description": "Codling moths are pests that infest apple and pear trees, causing damage to fruit and reducing yields in Utah's orchards, where they are controlled through insecticides, pheromone traps, and cultural practices.",
-          "ControlMethods": ["Insecticides", "Pheromone Traps"],
-          "image": "Codling_Moth.jpg"
-        }
-      },
+      
       "crops": {
         "Hay": {
           "Description": "Hay is an important crop in Utah, supporting the state's livestock industry and providing feed for cattle, horses, and other livestock.",
@@ -8636,28 +7760,7 @@
           "image": "Common_Buckthorn.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Vermont's forests, where ash trees are important components of the ecosystem and valued for their timber.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Hemlock Woolly Adelgid": {
-          "Description": "Hemlock woolly adelgids are invasive insects that feed on hemlock trees, causing decline and mortality in Vermont's hemlock forests, which are important for wildlife habitat and water quality.",
-          "ControlMethods": ["Insecticides", "Predatory Beetles"],
-          "image": "Hemlock_Woolly_Adelgid.jpg"
-        },
-        "Apple Maggot": {
-          "Description": "Apple maggots are pests that infest apple trees, causing damage to fruit and reducing yields in Vermont's orchards, where they are controlled through insecticides, traps, and cultural practices.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Apple_Maggot.jpg"
-        },
-        "Cabbage Worm": {
-          "Description": "Cabbage worms are pests that feed on brassica crops, including cabbage, broccoli, and kale, causing damage to leaves and reducing yields in Vermont's vegetable gardens, where they are controlled through insecticides and row covers.",
-          "ControlMethods": ["Insecticides", "Row Covers"],
-          "image": "Cabbage_Worm.jpg"
-        }
-      },
+      
       "crops": {
         "Dairy Products": {
           "Description": "Dairy farming is a cornerstone of Vermont's agricultural economy, with the state known for its high-quality milk, cheese, yogurt, and other dairy products produced by small family farms.",
@@ -8809,28 +7912,7 @@
           "image": "Tree_of_Heaven.jpg"
         }
       },
-      "pests": {
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Virginia's forests and urban landscapes, where ash trees are valued for their timber and aesthetic qualities.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees and plants, including grapes and fruit trees, causing damage to crops and disrupting ecosystems in Virginia.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        },
-        "Brown Marmorated Stink Bug": {
-          "Description": "Brown marmorated stink bugs are agricultural pests that feed on a variety of crops, including fruits, vegetables, and ornamental plants, causing damage to crops and reducing yields in Virginia's farms and gardens.",
-          "ControlMethods": ["Insecticides", "Physical Exclusion"],
-          "image": "Brown_Marmorated_Stink_Bug.jpg"
-        },
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Virginia's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        }
-      },
+      
       "crops": {
         "Tobacco": {
           "Description": "Tobacco has historically been an important crop in Virginia, with the state's Piedmont region known for its tobacco cultivation and the role it played in Virginia's economy.",
@@ -8990,28 +8072,7 @@
           "image": "Canada_Thistle.jpg"
         }
       },
-      "pests": {
-        "Apple Maggot": {
-          "Description": "Apple maggots are fruit flies that infest apples and other fruit trees, causing damage to fruit and reducing yields in Washington's orchards and home gardens.",
-          "ControlMethods": ["Traps", "Insecticides"],
-          "image": "Apple_Maggot.jpg"
-        },
-        "Pear Psylla": {
-          "Description": "Pear psylla are small insects that feed on pear trees, causing damage to leaves and fruit and reducing yields in Washington's orchards and home gardens.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Pear_Psylla.jpg"
-        },
-        "Spotted Wing Drosophila": {
-          "Description": "Spotted wing drosophila are fruit flies that infest soft-skinned fruit such as berries and cherries, causing damage to fruit and reducing yields in Washington's orchards and home gardens.",
-          "ControlMethods": ["Traps", "Insecticides"],
-          "image": "Spotted_Wing_Drosophila.jpg"
-        },
-        "Western Cherry Fruit Fly": {
-          "Description": "Western cherry fruit flies are insects that infest cherries, causing damage to fruit and reducing yields in Washington's orchards and home gardens.",
-          "ControlMethods": ["Traps", "Insecticides"],
-          "image": "Western_Cherry_Fruit_Fly.jpg"
-        }
-      },
+      
       "crops": {
         "Apples": {
           "Description": "Apples are a significant crop in Washington, particularly in the Yakima Valley and Wenatchee area, where orchards produce a variety of apple cultivars for fresh consumption, cider production, and export.",
@@ -9171,28 +8232,7 @@
           "image": "Garlic_Mustard.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in West Virginia's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening West Virginia's urban and forested areas, where ash trees are a common component of the landscape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are destructive pests that defoliate trees, including oak, birch, and poplar, in West Virginia's forests, where they can cause significant damage to forest ecosystems and timber resources.",
-          "ControlMethods": ["Bacillus thuringiensis", "Insecticides"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees, vines, and crops, causing damage to plants and potentially spreading plant diseases in West Virginia's agricultural and natural areas.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        }
-      },
+      
       "crops": {
         "Apples": {
           "Description": "Apples are a significant crop in West Virginia, particularly in the Eastern Panhandle and along the Ohio River, where orchards produce a variety of fruit cultivars for fresh consumption and processing.",
@@ -9352,28 +8392,7 @@
           "image": "Japanese_Knotweed.jpg"
         }
       },
-      "pests": {
-        "Japanese Beetle": {
-          "Description": "Japanese beetles are destructive pests that feed on a wide range of plants, including ornamentals and crops, causing damage to leaves, flowers, and fruits in Wisconsin's gardens and landscapes.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Japanese_Beetle.jpg"
-        },
-        "Emerald Ash Borer": {
-          "Description": "Emerald ash borers are invasive beetles that infest and kill ash trees, threatening Wisconsin's urban and forested areas, where ash trees are a common component of the landscape.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Emerald_Ash_Borer.jpg"
-        },
-        "Gypsy Moth": {
-          "Description": "Gypsy moths are destructive pests that defoliate trees, including oak, birch, and poplar, in Wisconsin's forests, where they can cause significant damage to forest ecosystems and timber resources.",
-          "ControlMethods": ["Bacillus thuringiensis", "Insecticides"],
-          "image": "Gypsy_Moth.jpg"
-        },
-        "Spotted Lanternfly": {
-          "Description": "Spotted lanternflies are invasive insects that feed on sap from a variety of trees, vines, and crops, causing damage to plants and potentially spreading plant diseases in Wisconsin's agricultural and natural areas.",
-          "ControlMethods": ["Insecticides", "Traps"],
-          "image": "Spotted_Lanternfly.jpg"
-        }
-      },
+      
       "crops": {
         "Cranberries": {
           "Description": "Cranberries are a significant fruit crop in Wisconsin, with the state being one of the leading producers of cranberries in the United States, particularly in the central and northern regions.",
@@ -9532,28 +8551,7 @@
           "image": "Yellow_Starthistle.jpg"
         }
       },
-      "pests": {
-        "Grasshoppers": {
-          "Description": "Grasshoppers are destructive pests that feed on a wide range of plants, including crops and ornamentals, causing significant damage to vegetation in Wyoming's gardens, agricultural fields, and natural areas.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Grasshoppers.jpg"
-        },
-        "Mountain Pine Beetle": {
-          "Description": "Mountain pine beetles are native bark beetles that infest and kill pine trees, including lodgepole, ponderosa, and limber pines, in Wyoming's forests, where they can cause widespread tree mortality during outbreaks.",
-          "ControlMethods": ["Preventative Treatments", "Selective Logging"],
-          "image": "Mountain_Pine_Beetle.jpg"
-        },
-        "Western Corn Rootworm": {
-          "Description": "Western corn rootworms are destructive pests that feed on corn roots, reducing plant vigor and yield in Wyoming's agricultural fields, where they can cause significant economic losses to corn growers.",
-          "ControlMethods": ["Crop Rotation", "Insecticides"],
-          "image": "Western_Corn_Rootworm.jpg"
-        },
-        "Alfalfa Weevil": {
-          "Description": "Alfalfa weevils are destructive pests that feed on alfalfa leaves, reducing forage quality and yield in Wyoming's alfalfa fields, where they can cause economic losses to hay producers and livestock growers.",
-          "ControlMethods": ["Insecticides", "Cultural Practices"],
-          "image": "Alfalfa_Weevil.jpg"
-        }
-      },
+      
       "crops": {
         "Barley": {
           "Description": "Barley is a cereal grain cultivated for food, animal feed, and brewing, with Wyoming being a significant producer due to its adaptability to the state's semiarid climate and short growing season.",
@@ -9690,18 +8688,7 @@
           "image": "Lantana.jpg"
         }
       },
-      "pests": {
-        "Coconut Rhinoceros Beetle": {
-          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to American Samoa's coconut industry and ecosystems.",
-          "ControlMethods": ["Traps", "Biological Control"],
-          "image": "Coconut_Rhinoceros_Beetle.jpg"
-        },
-        "Little Fire Ant": {
-          "Description": "Little fire ants are invasive insects with painful stings that infest gardens, homes, and natural areas in American Samoa, where they disrupt ecosystems and pose a threat to human health and biodiversity.",
-          "ControlMethods": ["Baits", "Chemical Treatments"],
-          "image": "Little_Fire_Ant.jpg"
-        }
-      },
+      
       "flowers": {
         "Fale le Vavau": {
           "Description": "Fale le vavau is a native flowering plant with clusters of small, white flowers that bloom year-round in American Samoa, adding beauty and fragrance to the territory's landscapes.",
@@ -9772,18 +8759,7 @@
           "image": "Skunkvine.jpg"
         }
       },
-      "pests": {
-        "Coconut Rhinoceros Beetle": {
-          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to Guam's coconut industry and ecosystems.",
-          "ControlMethods": ["Traps", "Biological Control"],
-          "image": "Coconut_Rhinoceros_Beetle.jpg"
-        },
-        "Brown Tree Snake": {
-          "Description": "Brown tree snakes are invasive predators that prey on native birds and reptiles in Guam, where they have caused significant declines in native species populations and disrupted ecosystems.",
-          "ControlMethods": ["Traps", "Barrier Fencing"],
-          "image": "Brown_Tree_Snake.jpg"
-        }
-      },
+      
       "flowers": {
         "Plumeria": {
           "Description": "Plumeria is a tropical flowering tree with fragrant, colorful flowers that are used in leis and other traditional ceremonies in Guam, symbolizing beauty, love, and friendship.",
@@ -9869,18 +8845,7 @@
           "image": "Cogon_Grass.jpg"
         }
       },
-      "pests": {
-        "Coconut Rhinoceros Beetle": {
-          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to the Mariana Islands' coconut industry and ecosystems.",
-          "ControlMethods": ["Traps", "Biological Control"],
-          "image": "Coconut_Rhinoceros_Beetle.jpg"
-        },
-        "Brown Tree Snake": {
-          "Description": "Brown tree snakes are invasive predators that prey on native birds and reptiles in the Mariana Islands, where they have caused significant declines in native species populations and disrupted ecosystems.",
-          "ControlMethods": ["Traps", "Barrier Fencing"],
-          "image": "Brown_Tree_Snake.jpg"
-        }
-      },
+      
       "flowers": {
         "Hibiscus": {
           "Description": "Hibiscus is a genus of flowering plants with showy flowers in various colors, commonly grown in gardens and landscapes throughout the Mariana Islands, where they add beauty and tropical flair.",
@@ -9959,18 +8924,7 @@
           "image": "Brazilian_Pepper.jpg"
         }
       },
-      "pests": {
-        "Asian Citrus Psyllid": {
-          "Description": "Asian citrus psyllids are invasive insects that feed on citrus trees, spreading a bacterial disease called citrus greening or Huanglongbing, which poses a threat to Puerto Rico's citrus industry and ecosystems.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Citrus_Psyllid.jpg"
-        },
-        "Little Fire Ant": {
-          "Description": "Little fire ants are invasive insects with painful stings that infest gardens, homes, and natural areas in Puerto Rico, where they disrupt ecosystems and pose a threat to human health and biodiversity.",
-          "ControlMethods": ["Baits", "Chemical Treatments"],
-          "image": "Little_Fire_Ant.jpg"
-        }
-      },
+      
       "flowers": {
         "Poinciana": {
           "Description": "Poinciana is a genus of flowering trees with showy, red or orange flowers that bloom in the spring, commonly grown in gardens and landscapes throughout Puerto Rico, where they add color and beauty.",
@@ -10056,18 +9010,7 @@
           "image": "Brazilian_Pepper.jpg"
         }
       },
-      "pests": {
-        "Asian Citrus Psyllid": {
-          "Description": "Asian citrus psyllids are invasive insects that feed on citrus trees, spreading a bacterial disease called citrus greening or Huanglongbing, which poses a threat to the U.S. Virgin Islands' citrus industry and ecosystems.",
-          "ControlMethods": ["Insecticides", "Biological Control"],
-          "image": "Asian_Citrus_Psyllid.jpg"
-        },
-        "Coconut Rhinoceros Beetle": {
-          "Description": "Coconut rhinoceros beetles are destructive pests that feed on coconut palms, causing damage to leaves, stems, and fruits, and posing a threat to the U.S. Virgin Islands' coconut industry and ecosystems.",
-          "ControlMethods": ["Traps", "Biological Control"],
-          "image": "Coconut_Rhinoceros_Beetle.jpg"
-        }
-      },
+      
       "flowers": {
         "Bougainvillea": {
           "Description": "Bougainvillea is a genus of flowering plants with papery bracts in vibrant colors, commonly grown as ornamental shrubs in the U.S. Virgin Islands, where they add color and beauty to gardens and landscapes.",
