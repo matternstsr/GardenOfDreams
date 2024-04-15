@@ -3182,14 +3182,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Maple_Syrup.jpg"
-        },
-        "Broiler Chickens": {
-          "Description": "Broiler chickens are raised in Maine for meat production, with poultry farms providing a source of protein for consumers and contributing to the state's agricultural economy and food system.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Broiler_Chickens.jpg"
         }
       },
       "flowers": {
@@ -3365,14 +3357,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Hay.jpg"
-        },
-        "Broiler Chickens": {
-          "Description": "Broiler chickens are raised in Maryland for meat production, with poultry farms contributing to the state's agricultural economy and providing a source of protein for consumers, supporting Maryland's food system and rural communities.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Broiler_Chickens.jpg"
         }
       },
       "flowers": {
@@ -4056,22 +4040,6 @@
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
           "image": "Corn.jpg"
-        },
-        "Poultry": {
-          "Description": "Poultry farming is an important sector of agriculture in Mississippi, with broiler chickens being the leading livestock commodity in the state, contributing significantly to the economy and providing jobs in rural communities.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Poultry.jpg"
-        },
-        "Catfish": {
-          "Description": "Catfish farming is a major aquaculture industry in Mississippi, with the state ranking as one of the top producers of farm-raised catfish in the United States, contributing to the state's economy and providing a source of high-quality seafood.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Catfish.jpg"
         }
       },
       "flowers": {
@@ -4196,30 +4164,6 @@
           "SoilType": "Well-drained loam",
           "WaterNeeded": "Moderate",
           "image": "Corn.jpg"
-        },
-        "Cattle and Calves": {
-          "Description": "Cattle and calves are important livestock commodities in Missouri, with beef cattle farming being a significant sector of agriculture in the state, providing meat, dairy, and other products.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Cattle_and_Calves.jpg"
-        },
-        "Hogs": {
-          "Description": "Hogs, or pigs, are raised for their meat, with pork production being an important part of Missouri's agricultural industry, providing meat products for consumers and contributing to the state's economy.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Hogs.jpg"
-        },
-        "Turkeys": {
-          "Description": "Turkeys are raised for their meat, with turkey production being a significant part of Missouri's poultry industry, providing meat products for consumers and contributing to the state's economy.",
-          "Season": "Year-round",
-          "Native": "it is not",
-          "SoilType": "N/A",
-          "WaterNeeded": "N/A",
-          "image": "Turkeys.jpg"
         }
       },
       "flowers": {
@@ -4272,56 +4216,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "Moderate to High",
           "image": "Flowering_Dogwood.jpg"
-        },
-        "commonFlowers": {
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are native wildflowers in Missouri, with their cheerful yellow blooms brightening roadsides, meadows, and prairies throughout the state, providing food for pollinators and seeds for birds and wildlife.",
-            "Season": "June to September",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Purple Coneflower": {
-            "Description": "Purple Coneflowers are native wildflowers in Missouri, with their striking pink-purple blooms attracting pollinators and adding color to gardens and natural areas throughout the state.",
-            "Season": "June to September",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "purple_coneflower.jpg"
-          },
-          "Coreopsis": {
-            "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Missouri's sunny gardens.",
-            "Season": "May to July",
-            "Native": "it is not",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "coreopsis.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod, a native wildflower, is often wrongly blamed for causing hay fever. Its pollen is too heavy to be wind-dispersed and is primarily pollinated by insects.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "Tickseed": {
-            "Description": "Tickseed, also known as coreopsis, is a native wildflower in Missouri, valued for its bright blooms and ability to attract pollinators to gardens and natural areas.",
-            "Season": "May to July",
-            "Native": "it is",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "tickseed.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -4467,56 +4361,6 @@
           "SoilType": "Moist, well-drained soil",
           "WaterNeeded": "High",
           "image": "Eastern_Cottonwood.jpg"
-        },
-        "commonFlowers": {
-          "Sunflower": {
-            "Description": "Sunflowers are iconic flowers known for their large, bright yellow blooms and edible seeds, with Nebraska being a leading producer of sunflower crops.",
-            "Season": "July to September",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Moderate",
-            "image": "sunflower.jpg"
-          },
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are native wildflowers in Nebraska, with their cheerful yellow blooms brightening roadsides, meadows, and prairies throughout the state, providing food for pollinators and seeds for birds and wildlife.",
-            "Season": "June to September",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Purple Coneflower": {
-            "Description": "Purple Coneflowers are native wildflowers in Nebraska, with their striking pink-purple blooms attracting pollinators and adding color to gardens and natural areas throughout the state.",
-            "Season": "June to September",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "purple_coneflower.jpg"
-          },
-          "Blanketflower": {
-            "Description": "Blanketflowers, also known as gaillardias, are native wildflowers in Nebraska, with their vibrant red and yellow blooms adding color to prairies, roadsides, and gardens throughout the state.",
-            "Season": "June to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "blanketflower.jpg"
-          },
-          "Coreopsis": {
-            "Description": "Coreopsis, also known as tickseed, is a low-maintenance perennial that blooms profusely in Nebraska's sunny gardens.",
-            "Season": "May to July",
-            "Native": "it is not",
-            "SoilType": "Well-drained loam",
-            "WaterNeeded": "Moderate",
-            "image": "coreopsis.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -4905,56 +4749,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Red_Oak.jpg"
-        },
-        "commonFlowers": {
-          "Rhododendron": {
-            "Description": "Rhododendrons are flowering shrubs with clusters of colorful blooms that brighten New Hampshire's landscapes in spring and early summer.",
-            "Season": "May to June",
-            "Native": "it is",
-            "SoilType": "Acidic, well-drained soil",
-            "WaterNeeded": "High",
-            "image": "rhododendron.jpg"
-          },
-          "Trillium": {
-            "Description": "Trilliums are woodland wildflowers with three-petaled blooms that emerge in spring, adding beauty to New Hampshire's forests.",
-            "Season": "April to May",
-            "Native": "it is",
-            "SoilType": "Rich, moist soil",
-            "WaterNeeded": "Moderate",
-            "image": "trillium.jpg"
-          },
-          "Wild Columbine": {
-            "Description": "Wild columbine is a native wildflower with nodding, bell-shaped flowers that attract hummingbirds and butterflies to New Hampshire's gardens and natural areas.",
-            "Season": "May to July",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "wild_columbine.jpg"
-          },
-          "Wood Lily": {
-            "Description": "Wood lilies are native wildflowers with showy, orange blooms that brighten New Hampshire's woodlands and meadows in summer.",
-            "Season": "June to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "wood_lily.jpg"
-          },
-          "Indian Pipe": {
-            "Description": "Indian pipe, also known as ghost plant or corpse plant, is a unique wildflower with white, waxy stems and flowers that lack chlorophyll, growing in shaded forests throughout New Hampshire.",
-            "Season": "June to August",
-            "Native": "it is",
-            "SoilType": "Rich, moist soil",
-            "WaterNeeded": "Moderate",
-            "image": "indian_pipe.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
@@ -5117,56 +4911,6 @@
           "SoilType": "Well-drained soil",
           "WaterNeeded": "Moderate",
           "image": "Sugar_Maple.jpg"
-        },
-        "commonFlowers": {
-          "Black-eyed Susan": {
-            "Description": "Black-eyed Susans are native wildflowers with daisy-like blooms that brighten New Jersey's meadows, roadsides, and gardens in summer and fall.",
-            "Season": "July to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "black_eyed_susan.jpg"
-          },
-          "Common Milkweed": {
-            "Description": "Common milkweed is a native perennial plant that provides food for monarch butterfly caterpillars and attracts pollinators to New Jersey's gardens and natural areas.",
-            "Season": "June to August",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "common_milkweed.jpg"
-          },
-          "Goldenrod": {
-            "Description": "Goldenrod is a native wildflower with bright yellow blooms that add color to New Jersey's fields, meadows, and roadsides in late summer and fall.",
-            "Season": "August to October",
-            "Native": "it is",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "goldenrod.jpg"
-          },
-          "Butterfly Weed": {
-            "Description": "Butterfly weed, a type of milkweed native to New Jersey, is a favorite among gardeners for its vibrant orange flowers and ability to attract butterflies and other pollinators.",
-            "Season": "June to August",
-            "Native": "it is not",
-            "SoilType": "Well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "butterfly_weed.jpg"
-          },
-          "Lupine": {
-            "Description": "Lupines are native wildflowers with tall spikes of colorful blooms that thrive in New Jersey's sandy soils, providing food for pollinators and adding beauty to coastal landscapes.",
-            "Season": "May to July",
-            "Native": "it is",
-            "SoilType": "Sandy, well-drained soil",
-            "WaterNeeded": "Low to Moderate",
-            "image": "lupine.jpg"
-          },
-          "NewFlower": {
-            "Description": "Description of the new flower.",
-            "Season": "Season when the flower blooms.",
-            "Native": "Whether it is native to the area or not.",
-            "SoilType": "Preferred soil type for the flower.",
-            "WaterNeeded": "Water requirements of the flower.",
-            "image": "NewFlower.jpg"
-          }
         }
       }
     },
