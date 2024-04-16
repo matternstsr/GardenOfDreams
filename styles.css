@@ -265,9 +265,10 @@ footer h1 {
   height: 300px !important;
 }
 
+/* Login Form */
+
 .login-form {
   margin-top: 50px;
-  
 }
 
 .login-form input {
@@ -293,6 +294,10 @@ footer h1 {
   background-color: green !important;
 }
 
+.loginButton:hover {
+  opacity: 75% !important;
+}
+
 #username {
   color: white;
   background-color: black;
@@ -305,4 +310,18 @@ footer h1 {
 
 #displayCookieBtn {
   opacity: 0;
+}
+
+#loginModal {
+  margin-left: 0px !important;
+  font-size: 30px;
+}
+
+input::placeholder {
+  color: white !important;
+  opacity: 80% !important;
+}
+
+.login-modal-content {
+  background: black !important;
 }
