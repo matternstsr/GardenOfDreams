@@ -23,7 +23,15 @@ function eraseCookie(name) {
   document.cookie = name + '=; Max-Age=-99999999;';  
 }
 
+  // Handle logout button click
+  $(".logout").click(function() {
+    eraseCookie("username"); // Clear username cookie
+    $(".greeting").hide(); // Hide greeting section
+    $(".login-form").show(); // Show login form
+    $(".logout").hide(); // Hide logout button
+    document.getElementById("cookieData").style.display = "none";
 
+  });
 
 
 
