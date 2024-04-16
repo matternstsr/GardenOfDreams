@@ -265,3 +265,45 @@ footer h1 {
   width: 300px !important;
   height: 300px !important;
 }
+
+.login-form {
+  margin-top: 50px;
+  
+}
+
+.login-form input {
+  margin-bottom: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+}
+
+.greeting {
+  color: white !important;
+}
+
+.logout {
+  font-size: 20px !important;
+  align-self: left;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  outline: none !important;
+  visibility: Vis;
+}
+
+.btn {
+  background-color: green !important;
+}
+
+#username {
+  color: white;
+  background-color: black;
+}
+
+#password {
+  color: white;
+  background-color: black;
+}
+
+#displayCookieBtn {
+  opacity: 0;
+}
