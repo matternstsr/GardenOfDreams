@@ -342,17 +342,3 @@ cookieDataDiv.textContent = "Username: " + username;
 cookieDataDiv.textContent = "No username cookie found.";
 }
 });
-
-// Add event listener to the button
-document.getElementById("displayCookieBtn").addEventListener("click", function() {
-// Get the cookie data
-var username = getCookie("username");
-
-// Display the cookie data if it exists
-if (username) {
-document.getElementById("cookieData").textContent = "Username: " + username;
-document.getElementById("cookieData").style.display = "block"; // Show the cookie data
-} else {
-alert("No username cookie found.");
-}
-});
