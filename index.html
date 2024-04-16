@@ -50,7 +50,7 @@
       <header class="d-flex justify-content-end">
         <div class="headerContainer container d-flex row justify-content-end pr-3">
           <button class="login text-left text-white font-weight-bold">Login</button>
-          <button class="about text-right text-white font-weight-bold pl-3">About</button>
+          <button class="about text-right text-white font-weight-bold pl-3" data-toggle="modal" data-target="#aboutModal">About</button>
         </div>
       </header>
 
@@ -100,5 +100,45 @@
         </div>
       </footer>
     </div>
+
+    <div class="modal pt-5" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered mx-auto text-white" role="document">
+        <div class="modal-content text-center font-weight-bold">
+          <div class="modal-header">
+            <h1 class="modal-title mx-auto font-weight-bold pt-4 pb-3" id="aboutModalLabel">Garden of Dreams</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class="text-white" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="pt-4 pb-2">Create the garden of your dreams</p>
+            <p class="pt-3 pb-5">Choose your state and start exploring various plants and gardening tips to make your dream garden a reality.</p>
+          </div>
+
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-12">
+                <p class="font-weight-bold mb-3 justify-content-center">View ReadMe</p>
+                <a href="https://github.com/TravisAdamson/GardenOfDreams/blob/main/README.md" target="_blank" class="text-white d-block mb-4"><span class="bullet pr-2">&#8226;</span>Readme</a>
+              </div>
+              <div class="col-12">
+                <p class="font-weight-bold mb-3 justify-content-center">Visit our GitHubs</p>
+                <a href="https://github.com/LeeWest89" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Lee's GitHub</a>
+                <a href="https://github.com/matternstsr" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Matt's GitHub</a>
+                <a href="https://github.com/TravisAdamson" target="_blank" class="text-white d-block mb-4"><span class="bullet pr-2">&#8226;</span>Travis's GitHub</a>
+              </div>
+              <div class="col-12">
+                <p class="font-weight-bold mb-3 justify-content-center">Checkout our LinkedIns</p>
+                <a href="https://www.linkedin.com/in/lee-a-west/" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Lee's LinkedIn</a>
+                <a href="https://www.linkedin.com/in/matthew-d-ernst/" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Matt's LinkedIn</a>
+                <a href="https://www.linkedin.com/in/travis-adamson/" target="_blank" class="text-white d-block mb-5"><span class="bullet pr-2">&#8226;</span>Travis's LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

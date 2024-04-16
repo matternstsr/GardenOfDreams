@@ -201,6 +201,25 @@ footer h1 {
   background-color: rgb(10, 197, 10) !important;
 }
 
+/* Form */
+
+.modal-header h1 {
+  margin-left: 88px !important;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.modal-footer {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.modal-footer a:hover {
+  color: rgb(10, 197, 10) !important;
+  text-decoration: none; 
+}
 
 @media screen and (max-width: 576px) {
 
