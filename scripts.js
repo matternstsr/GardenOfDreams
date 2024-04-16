@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 
 // Add event listener to the button
@@ -25,33 +23,6 @@ function eraseCookie(name) {
   document.cookie = name + '=; Max-Age=-99999999;';  
 }
 
-$(document).ready(function () {
-  // Hide the greeting section and logout button by default
-  $(".greeting").hide();
-  $(".logout").hide();
-
-  
-  // Handle form submission
-  $("#loginForm").submit(function (event) {
-    event.preventDefault(); // Prevent form from submitting
-
-    // Get username from form input
-    var username = $("#username").val();
-
-    // Clear input fields
-    $("#username").val('');
-    $("#password").val('');
-
-    // Display greeting message
-    $("#greetingUsername").text(username);
-    $(".greeting").show(); // Show the greeting section
-    $(".login-form").hide(); // Hide the login form
-    $(".logout").show(); // Show the logout button
-
-    // Store username in cookie
-    document.cookie = "username=" + username + "; expires=Fri, 31 Dec 9999 23:59:59 GMT"; // Set cookie expiration date far in the future
-  });
-
   // Handle logout button click
   $(".logout").click(function() {
     eraseCookie("username"); // Clear username cookie
@@ -61,36 +32,6 @@ $(document).ready(function () {
     document.getElementById("cookieData").style.display = "none";
 
   });
-
-  // Check if user is already logged in
-  if (getCookie("username")) {
-    var username = getCookie("username");
-    $("#greetingUsername").text(username);
-    $(".greeting").show(); // Show the greeting section
-    $(".login-form").hide(); // Hide the login form
-    $(".logout").show(); // Show the logout button
-  }
-});
-
-
-
-// Function to get a cookie value by name
-function getCookie(name) {
-var nameEQ = name + "=";
-var cookies = document.cookie.split(';');
-for(var i = 0; i < cookies.length; i++) {
-var cookie = cookies[i];
-while (cookie.charAt(0) == ' ') {
-  cookie = cookie.substring(1, cookie.length);
-}
-if (cookie.indexOf(nameEQ) == 0) {
-  return decodeURIComponent(cookie.substring(nameEQ.length, cookie.length));
-}
-}
-return null;
-}
-
-
 
 
 
@@ -358,3 +299,77 @@ return null;
   });
 
 });
+
+$(document).ready(function () {
+  // Hide the greeting section and logout button by default
+  $(".greeting").hide();
+  $(".logout").hide();
+
+  // Handle form submission
+  $("#loginForm").submit(function (event) {
+      event.preventDefault(); // Prevent form from submitting
+
+      // Get username from form input
+      var username = $("#username").val();
+
+      // Clear input fields
+      $("#username").val('');
+      $("#password").val('');
+
+      // Display greeting message
+      $("#greetingUsername").text(username);
+      $(".greeting").show(); // Show the greeting section
+      $(".login-form").hide(); // Hide the login form
+      $(".logout").show(); // Show the logout button
+      $(".login").hide();
+
+      // Store username in cookie
+      document.cookie = "username=" + username + "; expires=Fri, 31 Dec 9999 23:59:59 GMT"; // Set cookie expiration date far in the future
+      console.log(document.cookie);
+  });
+
+  // Handle logout button click
+  $(".logout").click(function() {
+    eraseCookie("username"); // Clear username cookie
+    $(".greeting").hide(); // Hide greeting section
+    $(".login").show(); // Show login form
+    $(".logout").hide(); // Hide logout button
+    $(".login-form").show();
+});
+
+  // Check if user is already logged in
+  if (getCookie("username")) {
+      var username = getCookie("username");
+      $("#greetingUsername").text(username);
+      $(".greeting").show(); // Show the greeting section
+      $(".login-form").hide(); // Hide the login form
+      $(".logout").show(); // Show the logout button
+      $(".login").hide();
+  }
+
+  // Close modal when login button inside the modal form is clicked
+  $("#loginForm button[type='submit']").click(function () {
+      $("#loginModal").modal("hide");
+  });
+});
+
+// Function to delete a cookie by name
+function eraseCookie(name) {   
+  document.cookie = name + '=; Max-Age=-99999999; path=/';  
+}
+
+// Function to get a cookie value by name
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var cookies = document.cookie.split(';');
+  for(var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+      while (cookie.charAt(0) == ' ') {
+          cookie = cookie.substring(1, cookie.length);
+      }
+      if (cookie.indexOf(nameEQ) == 0) {
+          return decodeURIComponent(cookie.substring(nameEQ.length, cookie.length));
+      }
+  }
+  return null;
+}
