@@ -36,12 +36,10 @@
   
     .greeting {
       color: gold;
-      text-align: center; /* Center align the text */
-      flex-grow: 20; /* Allow the container to grow and occupy the available space */
     }
     .logout {
       font-size: 20px !important;
-      align-self: center;
+      align-self: left;
       background: rgb(0, 0, 0);
       background: rgba(0, 0, 0, 0);
       outline: none !important;
@@ -53,18 +51,17 @@
 <body>
   <div id="backgroundPic">
     <header class="d-flex justify-content-end">
+      <div class="greeting text-left mt-3 mx-auto">
+                <!-- Greeting message -->
+        <h2>Hello <span id="greetingUsername"></span>!</h2>
+      </div>
       <div class="headerContainer container d-flex row justify-content-end pr-3">
-        <!-- Existing "Login" and "About" buttons -->
-        <!-- Greeting message -->
-        <div class="greeting text-center mt-3">
-          <h2>Hello <span id="greetingUsername"></span>!</h2>
-        </div>
           <form id="loginForm" class="login-form">
             <div class="form-group">
-              <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
+              <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autocomplete="username">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password" required autocomplete="current-password">
             </div>
             <button type="submit" class="btn btn-primary btn-block">Login</button>
           </form>
