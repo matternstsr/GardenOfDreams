@@ -20,11 +20,16 @@ document.getElementById("displayCookieBtn").addEventListener("click", function()
   }
 });
 
+// Function to delete a cookie by name
+function eraseCookie(name) {   
+  document.cookie = name + '=; Max-Age=-99999999;';  
+}
 
 $(document).ready(function () {
   // Hide the greeting section and logout button by default
   $(".greeting").hide();
   $(".logout").hide();
+
   
   // Handle form submission
   $("#loginForm").submit(function (event) {
@@ -53,6 +58,8 @@ $(document).ready(function () {
     $(".greeting").hide(); // Hide greeting section
     $(".login-form").show(); // Show login form
     $(".logout").hide(); // Hide logout button
+    document.getElementById("cookieData").style.display = "none";
+
   });
 
   // Check if user is already logged in
@@ -85,10 +92,7 @@ return null;
 
 
 
-// Function to delete a cookie by name
-function eraseCookie(name) {   
-  document.cookie = name + '=; Max-Age=-99999999;';  
-}
+
 
   // Background
   
