@@ -23,7 +23,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="scripts.js"></script>
+  <script src="login.js"></script>
   
 </head>
 <body>
@@ -36,17 +36,9 @@
         <div id="cookieData" style="display: none;"></div> <!-- Initially hide the cookie data -->        
       </div>
       <div class="headerContainer container d-flex row justify-content-end pr-3">
-          <form id="loginForm" class="login-form">
-            <div class="form-group">
-              <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autocomplete="username">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="password" name="password" placeholder="Password" required autocomplete="current-password">
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Login</button>
-          </form>
-          <button class="about text-right text-white font-weight-bold pl-3" data-toggle="modal" data-target="#aboutModal">About</button>
-          <button class="logout text-right text-white font-weight-bold pl-3" style="display: block;">Logout</button>
+        <button class="login text-right text-white font-weight-bold pl-3" data-toggle="modal" data-target="#loginModal">Login</button>
+        <button class="about text-right text-white font-weight-bold pl-3" data-toggle="modal" data-target="#aboutModal">About</button>
+        <button class="logout text-right text-white font-weight-bold pl-3" style="display: block;">Logout</button>
       </div>
     </header>
     <main>
@@ -128,6 +120,32 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+   <!-- Login Modal -->
+   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="loginForm" class="login-form">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="loginModalLabel">Login</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autocomplete="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required autocomplete="current-password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </div>
+            </form>
+        </div>
     </div>
   </div>
 </body>

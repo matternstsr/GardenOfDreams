@@ -1,5 +1,32 @@
 $(document).ready(function() {
 
+// Add event listener to the button
+document.getElementById("displayCookieBtn").addEventListener("click", function() {
+  console.log("Button clicked"); // Add this console log to check if the button click event is triggered
+
+  // Get the cookie data
+  var username = getCookie("username");
+
+  // Display the cookie data if it exists
+  if (username) {
+      console.log("Username cookie found:", username); // Add this console log to check if the username cookie is retrieved successfully
+      document.getElementById("cookieData").textContent = "Username: " + username;
+      document.getElementById("cookieData").style.display = "block"; // Show the cookie data
+  } else {
+      console.log("No username cookie found."); // Add this console log to check if no username cookie is found
+      alert("No username cookie found.");
+  }
+});
+
+// Function to delete a cookie by name
+function eraseCookie(name) {   
+  document.cookie = name + '=; Max-Age=-99999999;';  
+}
+
+
+
+
+
   // Background
   
     const backgroundImages = [
