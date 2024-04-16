@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garden of Dreams - Login</title>
+  <!-- Custom and Font Styles  -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <!-- Slick.js -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="login.js"></script>
+  
+</head>
+<body>
+  <div id="backgroundPic">
+    <header class="d-flex justify-content-end">
+      <div class="greeting text-left mx-auto d-flex align-items-center">
+                <!-- Greeting message -->
+        <h2 class="greeting">Hello <span id="greetingUsername"></span>!</h2>
+        <button id="displayCookieBtn" class="btn btn-primary">Display Cookie Data</button>
+        <div id="cookieData" style="display: none;"></div> <!-- Initially hide the cookie data -->        
+      </div>
+      <div class="headerContainer container d-flex row justify-content-end pr-3">
+        <button class="about text-right text-white font-weight-bold" data-toggle="modal" data-target="#aboutModal">About</button>
+        <button class="login text-right text-white font-weight-bold pl-3" data-toggle="modal" data-target="#loginModal">Login</button>
+        <button class="logout text-right text-white font-weight-bold pl-3" style="display: none;">Logout</button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1 class="text-center text-white font-weight-bold mx-auto mb-4">Garden of Dreams</h1>
+        <p class="hook_text text-center text-white font-weight-bold mx-auto">Create the garden of your dreams</p>
+        <p class="hook_text text-center text-white font-weight-bold mx-auto">Choose your state</p>
+        <div class="dropdown d-flex justify-content-center">
+          <button class="ddSmall btn btn-secondary dropdown-toggle rounded-top bg-success border border-dark mt-5" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">States</button>
+          <div class="dropdown-menu rounded bg-dark" id="ddMenu" aria-labelledby="dropdownMenuButton">
+          </div>
+        </div>
+      </section>
+      <section class="plants_carousel justify-content-center align-items-center flex-column mb-5 hidden" id="plants_carousel">
+        <div class="container rounded">
+          <div class="stateName text-center text-white font-weight-bold pb-3">State Name</div>
+
+          <div class="plantCarousel row align-items-center mx-auto mb-5" id="plantCarousel">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container mx-auto align">
+        <div class="container">
+          <div class="row justify-content-center justify-content-sm-between pb-3 pb-sm-5 pt-3 mx-3">
+            <div class="col-sm-auto text-center">
+              <div class="footer_title">
+                <h1 class="text-white font-weight-bold pb-3">Garden of Dreams</h1>
+              </div>
+            </div>
+            <div class="col-sm-auto text-center">
+              <div class="social_line">
+                <div class="social">
+                  <a href="#"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+                  <a href="#"><img src="images/twitter.svg" alt="Twitter Icon"></a>
+                  <a href="#"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="established text-white text-center pb-3">established 2024</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modal for About -->
+  <div class="modal pt-5" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered mx-auto text-white" role="document">
+      <div class="modal-content text-center font-weight-bold">
+        <div class="modal-header">
+          <h1 class="modal-title mx-auto font-weight-bold pt-4 pb-3" id="aboutModalLabel">Garden of Dreams</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="text-white" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="pt-4 pb-2">Create the garden of your dreams</p>
+          <p class="pt-3 pb-5">Choose your state and start exploring various plants and gardening tips to make your dream garden a reality.</p>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-12">
+              <p class="font-weight-bold mb-3 justify-content-center">View ReadMe</p>
+              <a href="https://github.com/TravisAdamson/GardenOfDreams/blob/main/README.md" target="_blank" class="text-white d-block mb-4"><span class="bullet pr-2">&#8226;</span>Readme</a>
+            </div>
+            <div class="col-12">
+              <p class="font-weight-bold mb-3 justify-content-center">Visit our GitHubs</p>
+              <a href="https://github.com/LeeWest89" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Lee's GitHub</a>
+              <a href="https://github.com/matternstsr" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Matt's GitHub</a>
+              <a href="https://github.com/TravisAdamson" target="_blank" class="text-white d-block mb-4"><span class="bullet pr-2">&#8226;</span>Travis's GitHub</a>
+            </div>
+            <div class="col-12">
+              <p class="font-weight-bold mb-3 justify-content-center">Checkout our LinkedIns</p>
+              <a href="https://www.linkedin.com/in/lee-a-west/" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Lee's LinkedIn</a>
+              <a href="https://www.linkedin.com/in/matthew-d-ernst/" target="_blank" class="text-white d-block"><span class="bullet pr-2">&#8226;</span>Matt's LinkedIn</a>
+              <a href="https://www.linkedin.com/in/travis-adamson/" target="_blank" class="text-white d-block mb-5"><span class="bullet pr-2">&#8226;</span>Travis's LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="loginForm" class="login-form">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="loginModalLabel">Login</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autocomplete="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required autocomplete="current-password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
