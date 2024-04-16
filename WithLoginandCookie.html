@@ -54,6 +54,8 @@
       <div class="greeting text-left mt-3 mx-auto">
                 <!-- Greeting message -->
         <h2>Hello <span id="greetingUsername"></span>!</h2>
+        <button id="displayCookieBtn" class="btn btn-primary">Display Cookie Data</button>
+        <div id="cookieData" style="display: none;"></div> <!-- Initially hide the cookie data -->        
       </div>
       <div class="headerContainer container d-flex row justify-content-end pr-3">
           <form id="loginForm" class="login-form">
@@ -216,6 +218,51 @@
       }
       return null;
     }
+
+    // Function to get a cookie value by name
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var cookies = document.cookie.split(';');
+  for(var i = 0; i < cookies.length; i++) {
+    var cookie = cookies[i];
+    while (cookie.charAt(0) == ' ') {
+      cookie = cookie.substring(1, cookie.length);
+    }
+    if (cookie.indexOf(nameEQ) == 0) {
+      return decodeURIComponent(cookie.substring(nameEQ.length, cookie.length));
+    }
+  }
+  return null;
+}
+// Add event listener to the button
+document.getElementById("displayCookieBtn").addEventListener("click", function() {
+  // Get the cookie data
+  var username = getCookie("username");
+  
+  // Display the cookie data
+  var cookieDataDiv = document.getElementById("cookieData");
+  if (username) {
+    cookieDataDiv.textContent = "Username: " + username;
+  } else {
+    cookieDataDiv.textContent = "No username cookie found.";
+  }
+});
+
+// Add event listener to the button
+document.getElementById("displayCookieBtn").addEventListener("click", function() {
+  // Get the cookie data
+  var username = getCookie("username");
+  
+  // Display the cookie data if it exists
+  if (username) {
+    document.getElementById("cookieData").textContent = "Username: " + username;
+    document.getElementById("cookieData").style.display = "block"; // Show the cookie data
+  } else {
+    alert("No username cookie found.");
+  }
+});
+
+
   </script>
 </body>
 </html>
