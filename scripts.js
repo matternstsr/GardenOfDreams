@@ -59,7 +59,7 @@ $(document).ready(function() {
               <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                 <div class="card">
                   <img src="${imageSrc}" class="card-img-top" alt="Video thumbnail"/>
-                  <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">Learn More</a>
+                  <a class="card-link text-center font-weight-bold pt-2 pb-2" target="_blank" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(stateFlower)}&category=stateFlower" data-state-name="${stateName}" data-plant-name="${stateFlower}">Learn More</a>
                   <div class="card-body cardColor text-white rounded-bottom">
                     <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>State Flower: ${stateFlower}</p>
                     <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Common Name: ${commonName}</p>
@@ -82,7 +82,7 @@ $(document).ready(function() {
                   <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                     <div class="card">
                       <img src="images/resultsImages/flowers/${flowerImage}" class="card-img-top" alt="${flowerName}"/>
-                      <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">Learn More</a>
+                      <a class="card-link text-center font-weight-bold pt-2 pb-2" target="_blank" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(flowerName)}&category=flowers" data-state-name="${stateName}" data-plant-name="${flowerName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Flower: ${flowerName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${flowerSeason}</p>
@@ -107,7 +107,7 @@ $(document).ready(function() {
                   <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                     <div class="card">
                       <img src="images/resultsImages/trees/${treeImage}" class="card-img-top" alt="${treeName}"/>
-                      <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">Learn More</a>
+                      <a class="card-link text-center font-weight-bold pt-2 pb-2" target="_blank" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(treeName)}&category=trees" data-state-name="${stateName}" data-plant-name="${treeName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Tree: ${treeName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${treeSeason}</p>
@@ -132,7 +132,7 @@ $(document).ready(function() {
                     <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                       <div class="card">
                         <img src="images/resultsImages/crops/${cropImage}" class="card-img-top" alt="${cropName}"/>
-                        <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">Learn More</a>
+                        <a class="card-link text-center font-weight-bold pt-2 pb-2" target="_blank" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(cropName)}&category=crops" data-state-name="${stateName}" data-plant-name="${cropName}">Learn More</a>
                         <div class="card-body cardColor text-white rounded-bottom">
                           <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Crop: ${cropName}</p>
                           <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Season: ${cropSeason}</p>
@@ -156,7 +156,7 @@ $(document).ready(function() {
                   <div class="${state_name} col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">
                     <div class="card">
                       <img src="images/resultsImages/weeds/${weedImage}" class="card-img-top" alt="${weedName}"/>
-                      <a class="card-link text-center font-weight-bold pt-2 pb-2" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">Learn More</a>
+                      <a class="card-link text-center font-weight-bold pt-2 pb-2" target="_blank" href="second.html?state=${encodeURIComponent(stateName)}&plant=${encodeURIComponent(weedName)}&category=weeds" data-state-name="${stateName}" data-plant-name="${weedName}">Learn More</a>
                       <div class="card-body cardColor text-white rounded-bottom">
                         <p class="pb-2 pt-2 pl-2"><span class="bullet pr-2">&#8226;</span>Weed: ${weedName}</p>
                         <p class="pb-2 pt-3 pl-2"><span class="bullet pr-2">&#8226;</span>Description: ${weedDescription}</p>
