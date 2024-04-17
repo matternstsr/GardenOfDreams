@@ -1,15 +1,15 @@
 # Garden of Dreams
-
-![Main Screen](images/readmeImages/Main_Screen.jpg)
+![Main Screen](images/readmeImages/DEMOGIF.gif)
 
 Welcome to Garden of Dreams, where you can explore the diverse flora of different states and cultivate the garden of your dreams! Whether you're a gardening enthusiast, nature lover, or simply curious about the botanical wonders of the United States, our website offers a wealth of information and inspiration to fuel your passion for plants.
 
 ## About
+![Main Screen](images/readmeImages/Main_Screen.jpg)
 
 Garden of Dreams is a comprehensive online resource dedicated to showcasing the rich botanical heritage of each state in the U.S. From state flowers to native trees, crops to common weeds, our website provides detailed insights into the plant life that thrives across the nation. Whether you're interested in learning about gardening tips, identifying local flora, or simply appreciating the beauty of nature, Garden of Dreams has something for everyone.
 
 ## Features
-
+![Main Screen](images/readmeImages/JSONGIF.gif)
 - **State-Specific Information**: Explore the unique plant life of each state, including its state flower, tree, and notable crops.
 - **Comprehensive Plant Profiles**: Dive deep into the characteristics, growing conditions, and cultural significance of various plants, from wildflowers to agricultural staples.
 - **Educational Resources**: Learn about gardening techniques, plant care tips, and environmental conservation efforts to help you cultivate a thriving garden while preserving natural ecosystems.
