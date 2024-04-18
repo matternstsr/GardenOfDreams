@@ -207,6 +207,10 @@ function eraseCookie(name) {
               startCarousel();
               carouselStarted = true;
             }
+
+            if (carouselStarted === true) {
+              $('#dropdownMenuButton').removeClass('dropdownMargin3');
+            }
             console.log('After if:', carouselStarted);
             
             $(plantCarousel).slick('slickAdd', plantCard);
