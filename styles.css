@@ -6,7 +6,7 @@
 }
 
 main {
-  height: 80vh !important;
+  min-height: 542px !important;
 }
 
 /* Background Images Main Page */
