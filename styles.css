@@ -5,6 +5,9 @@
   border: 0 !important;
 }
 
+main {
+  height: 80vh !important;
+}
 
 /* Background Images Main Page */
 
