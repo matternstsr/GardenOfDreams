@@ -1,12 +1,19 @@
 # Garden of Dreams
 ![Main Screen](images/readmeImages/DEMOGIF.gif)
 
-Welcome to Garden of Dreams, where you can explore the diverse flora of different states and cultivate the garden of your dreams! Whether you're a gardening enthusiast, nature lover, or simply curious about the botanical wonders of the United States, our website offers a wealth of information and inspiration to fuel your passion for plants.
+Welcome to **Garden of Dreams**, where you can explore the diverse flora of different states and cultivate the garden of your dreams! Whether you’re a gardening enthusiast, nature lover, or simply curious about the botanical wonders of the United States, our website offers a wealth of information and inspiration to fuel your passion for plants.
+
+## About the Developer
+Hello! I'm [Matthew Ernst](https://matternst.com/), a passionate software developer with a love for creating interactive applications. You can also find me on [Twitter](https://x.com/MatthewErn46471)  or check out my work in my [Portfolio Project repository](https://github.com/matternstsr).
 
 ## About
 ![Main Screen](images/readmeImages/Main_Screen.jpg)
 
 Garden of Dreams is a comprehensive online resource dedicated to showcasing the rich botanical heritage of each state in the U.S. From state flowers to native trees, crops to common weeds, our website provides detailed insights into the plant life that thrives across the nation. Whether you're interested in learning about gardening tips, identifying local flora, or simply appreciating the beauty of nature, Garden of Dreams has something for everyone.
+
+## Challenges Faced
+
+During development, one of the key challenges was ensuring that the website was both informative and visually appealing. We had to balance a wealth of information with an engaging user interface. Another challenge was sourcing high-quality images that truly represented the beauty of the plants we featured.
 
 ## Features
 ![Main Screen](images/readmeImages/JSONGIF.gif)
